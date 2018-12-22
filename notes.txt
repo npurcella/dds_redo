@@ -1,0 +1,5 @@
+- using PHP server, PHP Server 2.4.6 extension, click on the blue icon at the top right of the UI (wanted to use PHP in order to include header and footer easily on every page).
+- using SASS extension, Live Sass Compiler 3.0.0, click on 'Watch Sass' at the bottom.
+- created repo on github, opened GitHub Desktop after creating an empty repo, then changed source directory (from c:/Nancy/Git to current one), and uploaded files. Pro-tip: empty files do not upload!
+- added normalize.scss, including it in the index
+- selected google font Raleway
