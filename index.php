@@ -4,20 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <title>Desert Dawg Sports</title>
     <link rel="stylesheet" href="css/normalize.css"> 
     <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
     <?php include('header.php'); ?>
-    <h2>hello there!</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit necessitatibus eum vel consequuntur rerum, asperiores doloribus explicabo eaque error veritatis magnam esse eveniet minus ipsam assumenda, quis ad hic? Quas tenetur corrupti cum maiores soluta nihil ea ut! Magni cumque corporis tempora expedita tenetur enim dolorum possimus nostrum delectus a.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam tempora, non sed ut dicta ea, deleniti delectus ullam, optio modi corrupti? Aliquid ipsum veniam voluptate neque aliquam quas delectus possimus hic earum quidem! Minus nemo sed reiciendis fuga! Possimus modi provident, nulla, unde quia, quis pariatur laboriosam maxime molestias consequatur optio aperiam culpa similique. Omnis cupiditate laboriosam eum vitae impedit perspiciatis necessitatibus perferendis debitis? Commodi obcaecati rerum blanditiis dignissimos ducimus quam nemo eius porro perspiciatis quaerat nostrum consectetur, ad cupiditate harum culpa laboriosam, sint dolore voluptas! Ullam quidem unde aliquid omnis! Dolorem rerum eveniet sapiente et. Ducimus quidem officiis necessitatibus officia facilis minima, ullam, inventore aspernatur perspiciatis porro veritatis in perferendis cumque voluptate animi nisi velit repellendus nihil voluptatum rerum, tempora cum rem ipsam. Adipisci eum deserunt, laboriosam veritatis hic cumque eveniet commodi excepturi eligendi quae magnam velit ducimus ipsa minus possimus voluptatum? Cum ipsa quae aperiam, dignissimos explicabo unde. A culpa doloremque similique iste ullam ducimus excepturi rem minima at. Dolore, saepe deserunt. Ab animi a hic corporis est commodi dolores voluptas laudantium, voluptatibus explicabo natus ratione ipsa perspiciatis magni dolorum sit? Exercitationem fugit velit expedita praesentium delectus beatae? Esse sint placeat ipsum sequi et molestiae repudiandae, corrupti iste doloremque molestias explicabo eveniet quod commodi repellendus quibusdam? Sed vitae beatae voluptate temporibus explicabo illo error est veritatis exercitationem suscipit ea quisquam tempore similique, nemo aspernatur rem sint harum tempora, eligendi eius? Ipsam enim aspernatur nam blanditiis! Laboriosam, accusamus? Necessitatibus eligendi, fugiat est ullam reprehenderit perspiciatis doloremque mollitia aliquid voluptatum aliquam maiores, accusantium quam eum, tempora atque deserunt recusandae delectus voluptates possimus? Nobis quas earum totam omnis? Debitis possimus similique nobis hic. Ad cum, quam architecto enim laborum reiciendis ut dolorem omnis assumenda officia ullam sequi. Voluptatem dolores maxime rem debitis, sunt dolore sint cum quam modi eum repellat minima officiis vero laborum enim illum praesentium voluptatibus! Vero consectetur porro, voluptatum deleniti nihil ullam minus dolores ex sed adipisci provident cumque. Veritatis aliquid cupiditate dolorum minima officiis eaque magni! Veritatis a in amet maxime consequatur, quae ipsam, consequuntur molestias ut, veniam quaerat facilis illum quam incidunt. Repellat, incidunt nemo asperiores repellendus placeat expedita officia magni excepturi ullam exercitationem veritatis officiis tenetur odit animi culpa, vel odio pariatur quas maiores aliquam veniam! Exercitationem veritatis quasi qui ipsum aliquid, quis aut ipsa, eos, dicta tempore dolore incidunt reiciendis. Eveniet consequatur voluptatum hic modi sint! Sapiente impedit quod eligendi amet rem blanditiis reiciendis, quibusdam ipsum veritatis. Dicta quaerat vero deserunt perferendis fugit enim et veniam facilis natus ad exercitationem atque amet ipsum eveniet, aspernatur illum repudiandae eos maiores voluptatem totam odit eum nihil quam? Reprehenderit velit, sed consequatur voluptas modi quasi esse quod veniam natus ratione alias impedit ducimus animi. Voluptatum est maxime facilis sapiente dolore earum at accusamus iste voluptates illum excepturi cumque atque, autem dolor nemo repellat harum numquam voluptatem, libero sit ullam, nam assumenda distinctio? Modi a tenetur reprehenderit accusantium dolores non minima, ab, eius, deserunt atque earum voluptate eveniet aut quibusdam tempora id! Aliquid aut totam eaque, numquam itaque laborum vero! Laboriosam nisi culpa perspiciatis? Dicta, placeat culpa veniam laudantium labore ut totam doloribus atque vel repudiandae, molestias velit? Praesentium maiores numquam consequuntur consequatur dicta amet sequi illum perspiciatis soluta necessitatibus! Quidem eos aspernatur porro commodi exercitationem ut architecto iure ratione, omnis facere ea. Minus quasi enim voluptate voluptatibus explicabo beatae officia earum aliquid quas iure, illum magni modi sed adipisci, numquam voluptates pariatur molestiae itaque ad! Maiores totam blanditiis laudantium temporibus quod sint ducimus beatae veritatis. Ut velit, earum sit repudiandae adipisci aliquid ducimus eum mollitia nemo perferendis? Facilis assumenda est perferendis, qui consequatur, adipisci ut commodi dolorem quaerat mollitia officia accusamus ex id magni quam eum tempore laborum error! Architecto, autem iusto. Harum corporis illo sequi at commodi asperiores ut consequatur veritatis minima voluptatem rem incidunt itaque necessitatibus, placeat totam autem assumenda saepe magnam eum nesciunt corrupti ipsum maxime! Neque deserunt placeat earum saepe sit minima ullam voluptatibus maxime distinctio quibusdam accusamus eligendi voluptates facere perferendis quisquam repellendus eos culpa, enim commodi beatae rerum. Distinctio consequuntur eos, amet impedit eius facere eveniet dolores quo labore dicta accusantium in rerum laborum, blanditiis similique? Ipsa cum numquam tenetur natus in omnis error reiciendis nesciunt vitae inventore quam temporibus voluptatem sequi, beatae quas facilis. Ex tempore deleniti placeat perspiciatis cum, illum aut quasi similique repudiandae ut, odit, pariatur dicta tenetur debitis! Modi nihil qui dolorem eos iste illo autem officia, natus, perspiciatis fugit dolorum voluptates pariatur id rem quasi. Debitis consequatur eaque sit tenetur repellat fugiat id cum doloremque cupiditate, ipsum aspernatur, possimus, rerum architecto illum hic deleniti dicta pariatur officia? Amet laboriosam accusantium aliquid expedita? Veniam, ratione aspernatur doloremque obcaecati assumenda dignissimos error ut eius numquam. Dolore inventore minus deleniti non? Qui vero vitae veritatis quia, possimus corrupti soluta cumque neque et incidunt eum fugiat suscipit blanditiis dolores delectus quidem debitis nam cupiditate dignissimos ducimus impedit. Dolorem unde iusto ratione nesciunt voluptatum, eos aliquid quisquam officiis, ex totam deserunt ipsa illo, perferendis doloremque eveniet repudiandae recusandae eligendi temporibus delectus! Quidem labore in tempora adipisci earum id assumenda, molestias sequi ipsam minus corporis sed facere. Repellat praesentium magni quibusdam cumque consequatur qui voluptatem provident dignissimos aliquid quis ab earum vel labore dolorum corporis mollitia similique fugit optio explicabo, quaerat illo exercitationem necessitatibus quod? Eaque porro, fugiat commodi alias labore modi quas? Nulla nam deleniti officia autem mollitia odio exercitationem placeat amet perferendis optio sed, quibusdam fugit, doloribus ad veritatis veniam reiciendis nobis reprehenderit in voluptas! Blanditiis rerum at aliquam temporibus ab, id magnam iure sunt quae recusandae explicabo autem doloribus iusto unde illo, nisi magni laudantium obcaecati amet esse animi ex. Assumenda fugiat blanditiis quae magni modi natus reprehenderit labore quos consequuntur vero perspiciatis laboriosam ab corporis animi, odit voluptas nesciunt facilis porro dolorum. Harum odio ipsam amet, numquam et accusamus quas eius aspernatur corporis consequuntur laborum quasi. Rem iure ab eveniet nisi? Totam fuga mollitia iure dolorem praesentium corporis? Neque vel veritatis modi quod excepturi animi cumque? Provident maxime perferendis temporibus vel ad facere. Repudiandae, voluptatum possimus. Praesentium, magnam.</p>
+    <div class="container">
+        <section id="hero">
+            <h1>Upcoming Events</h1> <!--put a small icon of sponsor next to each -->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit necessitatibus eum vel consequuntur rerum, asperiores doloribus explicabo eaque error veritatis magnam esse eveniet minus ipsam assumenda, quis ad hic? Quas tenetur corrupti cum maiores soluta nihil ea ut! Magni cumque corporis tempora expedita tenetur enim dolorum possimus nostrum delectus a.</p>
+            <h2>Become a Member</h2>
+            <p>links to forms</p>
+            <p>(maybe a slideshow)</p>
+        </section>
+        <section id="about">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque maiores officiis vel labore ex fugiat amet debitis reprehenderit. Aliquam accusantium laboriosam adipisci quos nostrum quae, minima ratione, officia vero facilis reprehenderit hic totam molestiae itaque aliquid temporibus odio in? Animi, nisi! Tempora ex obcaecati, error nulla nobis placeat cum ipsum?</p>
+        </section>
+        <section id="agility">
+            <h1>Agility</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque maiores officiis vel labore ex fugiat amet debitis reprehenderit. Aliquam accusantium laboriosam adipisci quos nostrum quae, minima ratione, officia vero facilis reprehenderit hic totam molestiae itaque aliquid temporibus odio in? Animi, nisi! Tempora ex obcaecati, error nulla nobis placeat cum ipsum?</p>
+
+        </section>
+        <section id="freestyle">
+            <h1>Freestyle</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque maiores officiis vel labore ex fugiat amet debitis reprehenderit. Aliquam accusantium laboriosam adipisci quos nostrum quae, minima ratione, officia vero facilis reprehenderit hic totam molestiae itaque aliquid temporibus odio in? Animi, nisi! Tempora ex obcaecati, error nulla nobis placeat cum ipsum?</p>
+
+        </section>
+        <section id="friends">
+            <h1>Friends</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque maiores officiis vel labore ex fugiat amet debitis reprehenderit. Aliquam accusantium laboriosam adipisci quos nostrum quae, minima ratione, officia vero facilis reprehenderit hic totam molestiae itaque aliquid temporibus odio in? Animi, nisi! Tempora ex obcaecati, error nulla nobis placeat cum ipsum?</p>
+
+        </section>
+        <section id="gallery">
+            <h1>Gallery</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque maiores officiis vel labore ex fugiat amet debitis reprehenderit. Aliquam accusantium laboriosam adipisci quos nostrum quae, minima ratione, officia vero facilis reprehenderit hic totam molestiae itaque aliquid temporibus odio in? Animi, nisi! Tempora ex obcaecati, error nulla nobis placeat cum ipsum?</p>
+        </section>
+        <section id="calendar">
+            <h1>Calendar</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque maiores officiis vel labore ex fugiat amet debitis reprehenderit. Aliquam accusantium laboriosam adipisci quos nostrum quae, minima ratione, officia vero facilis reprehenderit hic totam molestiae itaque aliquid temporibus odio in? Animi, nisi! Tempora ex obcaecati, error nulla nobis placeat cum ipsum?</p>
+        </section>
+    </div>
     <?php include('footer.php'); ?>
+
     <script>
+        // go to top button (mobile only)
+        function goToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }      
+        // hamburger menu
         $('.menu-toggle').click(function() {
             $('.site-nav').toggleClass('site-nav--open', 500);
             $(this).toggleClass('open');
+        });        
+        $(document).ready(function() {
+            // scroll to section
+            var scrollLink = $('.scroll');
+            scrollLink.click(function(e) {
+                e.preventDefault();
+                $('body, html').animate({
+                    scrollTop: $(this.hash).offset().top - 70
+                }, 1000);
+            });
+            // hightlight active link
+            $(window).scroll(function() {
+                var scrollbarLocation = $(this).scrollTop();
+                scrollLink.each(function() {
+                    var sectionOffset = $(this.hash).offset().top - 90;
+                    if(sectionOffset <= scrollbarLocation) {
+                        $(this).parent().addClass('active');
+                        $(this).parent().siblings().removeClass('active');
+                    }
+                });
+            });         
+            // set home highlighted
+            document.getElementById("hero").focus();      
         });
     </script>    
 </body>

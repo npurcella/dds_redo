@@ -6,10 +6,27 @@
 
 html, body {
   margin: 0;
+  height: 100%;
 }
 
 body {
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container, .header-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 3em;
 }
 
 header {
@@ -17,7 +34,7 @@ header {
   background: #ffffff;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fee140), color-stop(50%, #ef6009), to(#fa709a));
   background-image: linear-gradient(to bottom, #fee140 0%, #ef6009 50%, #fa709a 100%);
-  padding: 1em 0;
+  padding: 1em 0 1.5em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -29,10 +46,16 @@ header::after {
   display: block;
 }
 
-.container {
-  width: 95%;
-  max-width: 1000px;
-  margin: 0 auto;
+h1.logo {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  display: inline;
+}
+
+h1.logo img {
+  margin-right: 10px;
+  vertical-align: sub;
 }
 
 .site-nav {
@@ -66,7 +89,7 @@ header::after {
   display: block;
   padding: 1.5em 4em 1.5em 4em;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: .9em;
 }
 
 .site-nav a:hover, .site-nav a:focus {
@@ -74,8 +97,16 @@ header::after {
   background: #dddddd;
 }
 
+.site-nav li.active {
+  font-weight: bold;
+}
+
 .site-nav--open {
   height: auto;
+}
+
+.site-nav--close {
+  height: 0;
 }
 
 .menu-toggle {
@@ -121,29 +152,21 @@ header::after {
           transform: rotate(-90deg) translateY(-1.5px) translateX(1.5px);
 }
 
-h1.logo {
-  color: #000000;
-  font-size: 24px;
-  font-weight: 700;
-  display: inline;
+.close .hamburger {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
-h1.logo img {
-  margin-right: 10px;
+.close .hamburger::before {
+  opacity: 1;
 }
 
-footer {
-  color: #ffffff;
-  background: #000000;
-  text-align: center;
-  padding: 1em;
+.close .hamburger::after {
+  -webkit-transform: rotate(90deg) translateY(1.5px) translateX(-1.5px);
+          transform: rotate(90deg) translateY(1.5px) translateX(-1.5px);
 }
 
-footer p {
-  font-size: .75em;
-}
-
-@media (min-width: 750px) {
+@media (min-width: 900px) {
   .menu-toggle {
     display: none;
   }
@@ -164,6 +187,64 @@ footer p {
   }
   .site-nav a:hover, .site-nav a:focus {
     background: transparent;
+  }
+}
+
+section h1 {
+  color: #000000;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+#hero {
+  margin-top: 3em;
+}
+
+footer {
+  background: #000000;
+  font-size: .75em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: ". footer button";
+}
+
+footer p:first-child {
+  color: #ffffff;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: footer;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+footer p:last-child {
+  color: #000000;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: button;
+  -ms-grid-column-align: right;
+      justify-self: right;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  font-weight: bold;
+  vertical-align: sub;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fa709a), color-stop(50%, #ef6009), to(#fee140));
+  background-image: linear-gradient(to bottom, #fa709a 0%, #ef6009 50%, #fee140 100%);
+  padding: 1em 1em .5em;
+  margin-right: .5em;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  p:last-child {
+    visibility: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */
