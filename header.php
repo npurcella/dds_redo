@@ -8,13 +8,11 @@
         </h1>
         <nav id="main-header" class="site-nav">
             <ul>
-                <li class="active"><a class="scroll" href="#hero">Home</a></li>                
+                <li class="active"><a class="scroll" href="#home">Home</a></li>                
                 <li><a class="scroll" href="#about">About</a></li>
                 <li><a class="scroll" href="#agility">Agility</a></li>
                 <li><a class="scroll" href="#freestyle">Freestyle</a></li>
-                <li><a class="scroll" href="#friends">Friends</a></li>
-                <li><a class="scroll" href="#gallery">Gallery</a></li>
-                <li><a class="scroll" href="#calendar">Calendar</a></li>
+                <li><a class="scroll" href="#other">Other</a></li>
             </ul>
         </nav>
         <div class="menu-toggle">

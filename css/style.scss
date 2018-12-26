@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 
-$textColor: #666666;
-$lightTextColor: #888888;
-$darkTextColor: #444444;
+$textColor: #111111;
+$lightTextColor: #292727;
+$darkTextColor: #070707;
+$lightAccent: #eeeeee;
+
 $white: #ffffff;
 $black: #000000;
-$lightAccent: #dddddd;
-$darkAccent: #444444;
+
+$goldenrod: #e77a09;
+$mustard: #ffa50a;
+$ltOrange: #fe6b17;
+$dkOrange: #e73a09;
+$red: #ff1c0a;
+
+$pink: #fa709a;
+$orange: #ef6009;
 
 * {
     box-sizing: border-box;
@@ -20,8 +29,8 @@ body {
     flex-direction: column;
 }
 .container, .header-container {
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    //max-width: 1500px;
     margin: 0 auto;    
 }
 .container {
@@ -31,7 +40,7 @@ body {
 header {
     color: $textColor;
     background: $white;
-    background-image: linear-gradient(to bottom, #fee140 0%, #ef6009 50%, #fa709a 100%);
+    background-image: linear-gradient(to bottom, $mustard 0%, $ltOrange 50%, $red 100%);
     padding: 1em 0 1.5em;
     // box-shadow: inset 0 2px 12px .5px $accent;
     position: fixed;
@@ -79,7 +88,7 @@ h1.logo {
         display: block;
         padding: 1.5em 4em 1.5em 4em;
         text-transform: uppercase;
-        font-size: .9em;
+        font-size: 1.5m;
     }
     a:hover, a:focus {
         font-weight: bold;
@@ -126,9 +135,6 @@ h1.logo {
 .open .hamburger::after {
     transform: rotate(-90deg) translateY(-1.5px) translateX(1.5px);
 }
-
-
-//////////////////////
 .close .hamburger {
     transform: rotate(-45deg);
 }
@@ -138,8 +144,6 @@ h1.logo {
 .close .hamburger::after {
     transform: rotate(90deg) translateY(1.5px) translateX(-1.5px);
 }
-/////////////////////////////@at-root
-
 @media(min-width: 900px) {
     .menu-toggle {
         display: none;
@@ -163,17 +167,143 @@ h1.logo {
         }
     }
 }
-// ALL CONTENT
-section h1 {
-    color: $black;
-    font-size: 1.6em;
-    text-align: center;
+// for floating cards
+.card {
+    width: 90%;
+    margin: 0 auto;
+    padding: .2em;
+    border-radius: 5px;
 }
+@media(min-width: 900px) {
+    .card {
+        width: 30%;
+        max-width: 500px;
+        //margin-right: 3em;
+        //margin-top: -1em;
+        //position: relative;
+        //top: 2.8em;
+        //right: -2em;
 
+
+    }
+}
+.btn-wrapper {
+    padding: .75em 1em .75em;
+    display: inline-block;
+}
+.btn-wrapper:hover, .btn-wrapper:focus {
+    // a {
+    //     color: $white;
+    // }
+    background-color: rgba(231,122,9,.5);
+}
+@media(min-width: 900px) {
+    .btn-wrapper {
+        display: inline-block;
+    }
+}
+// ALL CONTENT
+section {
+    //margin-top: 1em;
+    padding: 1em 0 1em;
+    h1 {
+        color: $goldenrod;
+    }
+    h2 {
+        color: $mustard;
+    }
+    text-align: center;
+    color: $black;
+    .subsection-title {
+        color: $darkTextColor;
+        margin-bottom: 0;
+    }
+    .subsection-details {
+        margin-top: 0;
+    }
+    a {
+        text-decoration: none;
+        color: $dkOrange;
+        font-weight: bold;
+    }
+}
+@media(min-width: 900px) {
+    // for changing font sizes at bigger sizes
+}
 // HOME CONTENT
-#hero {
-    margin-top: 3em;
-    //flex: 1 0 auto;
+#home {
+    .member-title {
+        color: $dkOrange;
+    }
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/backgroundHome.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    .card {
+        color: $dkOrange;
+        background: rgba(255,165,10,.3);
+        outline: 1px solid $dkOrange;
+        outline-offset: -1em;
+        h2 {
+            color: $dkOrange;
+            margin-bottom: .5em;
+        }   
+        h4 {
+            margin-bottom: .5em;
+        }
+        .btn-wrapper:last-child {
+            margin-bottom: 2em;
+        }
+        .btn-wrapper {
+            outline: 1px solid $dkOrange;
+        }        
+    }
+
+}
+#about {
+    width: 90%;
+    margin: 0 auto;
+    figcaption {
+        font-style: italic;
+    }    
+    .card { 
+        outline: 2px solid $dkOrange;
+        font-style: italic;
+    }
+}
+@media(min-width: 900px) {
+    #home {
+        .card {
+            // background: rgba(191,95,24,.5);
+            // outline: 1px solid $goldenrod;
+            // outline-offset: -1em;
+            // h2, h4 {
+            //     color: $mustard;
+            // }
+            // a {
+            //     color: $goldenrod;
+            // }
+        //margin-right: 3em;
+        //margin-top: -1em;
+        position: relative;
+        top: 2.3em;
+        background: rgba(255,165,10,.5);
+        //right: -2em;            
+        }
+    }
+    #about {
+        figure {
+            float: left;
+        }
+        p {
+            text-align: left;
+        }
+        figcaption {
+            font-size: smaller;
+        }           
+    }
 }
 
 //FOOTER
