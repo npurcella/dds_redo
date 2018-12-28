@@ -37,6 +37,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 header::after {
@@ -247,6 +248,12 @@ section a {
   font-weight: bold;
 }
 
+section hr {
+  border: 0;
+  height: 2px;
+  margin: 2em auto 2em;
+}
+
 #home {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundHome.jpg);
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundHome.jpg);
@@ -266,6 +273,9 @@ section a {
   background: rgba(255, 165, 10, 0.3);
   outline: 1px solid #e73a09;
   outline-offset: -1em;
+  display: inline-block;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
 }
 
 #home .card h2 {
@@ -287,16 +297,87 @@ section a {
 
 #about {
   width: 90%;
-  margin: 0 auto;
+  padding-bottom: 0;
+  margin: 0 auto 0;
 }
 
 #about figcaption {
   font-style: italic;
 }
 
+#about hr {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(231, 122, 9, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 122, 9, 0.75), rgba(0, 0, 0, 0));
+}
+
+#about .members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 #about .card {
-  outline: 2px solid #e73a09;
-  font-style: italic;
+  text-align: center;
+  min-width: 200px;
+  max-width: 300px;
+  -webkit-box-shadow: 1px 1px 12px 0.05px #000000;
+          box-shadow: 1px 1px 12px 0.05px #000000;
+  outline: none;
+  border-radius: 0;
+  margin-bottom: 1.5em;
+}
+
+#about .card h4 {
+  margin: .5em auto 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+#about .card a {
+  color: #292727;
+  border-bottom: 0.1em solid #e73a09;
+}
+
+#about .card p {
+  margin-top: .5em;
+}
+
+#about .card img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #292727;
+}
+
+#agility {
+  width: 90%;
+  margin: 0 auto 0;
+}
+
+#agility .differences {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+#agility .differences li {
+  padding: 0 0 1em 1.5em;
+}
+
+#agility .differences li:before {
+  content: "\f1b0";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: 0em;
+  width: 1.5em;
+}
+
+#agility hr {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(231, 58, 9, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
 }
 
 @media (min-width: 900px) {
@@ -304,6 +385,23 @@ section a {
     position: relative;
     top: 2.3em;
     background: rgba(255, 165, 10, 0.5);
+    display: inline-block;
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+  #about {
+    margin-bottom: 0;
+  }
+  #about .members {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about .card {
+    margin: 1em auto;
   }
   #about figure {
     float: left;
@@ -313,6 +411,9 @@ section a {
   }
   #about figcaption {
     font-size: smaller;
+  }
+  #about .card p {
+    text-align: center;
   }
 }
 

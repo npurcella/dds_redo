@@ -46,6 +46,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 header::after {
     content: '';
@@ -226,6 +227,11 @@ section {
         color: $dkOrange;
         font-weight: bold;
     }
+    hr {
+        border: 0;
+        height: 2px;
+        margin: 2em auto 2em;
+    }    
 }
 @media(min-width: 900px) {
     // for changing font sizes at bigger sizes
@@ -259,19 +265,87 @@ section {
         .btn-wrapper {
             outline: 1px solid $dkOrange;
         }        
+        display: inline-block;
+        transform: rotate(3deg);
     }
 
 }
+// ABOUT CONTENT
 #about {
     width: 90%;
-    margin: 0 auto;
+    padding-bottom: 0;
+    margin: 0 auto 0;
     figcaption {
         font-style: italic;
     }    
-    .card { 
-        outline: 2px solid $dkOrange;
-        font-style: italic;
+    hr {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 122, 9, 0.75), rgba(0, 0, 0, 0));
     }
+    // WANT TO TRY USING GRID HERE INSTEAD!
+    .members {
+        // display: grid;
+        // grid-gap: 1.5em;
+        // grid-template-areas: 'content';
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        text-align: center;
+        min-width: 200px;
+        max-width: 300px;
+        box-shadow: 1px 1px 12px .05px $black;
+        outline: none;
+        border-radius: 0;
+
+        margin-bottom: 1.5em;
+        h4 {
+            margin: .5em auto 0;
+            //font-family: 'Berkshire Swash', cursive;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+        a {
+            color: $lightTextColor;
+            border-bottom: .1em solid $dkOrange;
+        }
+        p {
+            margin-top: .5em;
+        }
+        img {
+            width: 100%; 
+            height: auto;
+            border: 1px solid $lightTextColor;
+        }
+    }
+}
+// AGILITY CONTENT
+#agility {
+    width: 90%;
+    margin: 0 auto 0;
+    .differences {
+        list-style-type: none;
+        padding: 0;
+        text-align: left;
+    }
+    .differences li {
+        padding: 0 0 1em 1.5em;
+    }
+    .differences li:before {
+        content: "\f1b0";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left:0em;
+        width: 1.5em;
+    }
+    .scrip-rules {
+        // background-image: url(../img/scrip-bkgd.png);
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-size: contain;
+    }
+    hr {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
+    }    
 }
 @media(min-width: 900px) {
     #home {
@@ -285,15 +359,24 @@ section {
             // a {
             //     color: $goldenrod;
             // }
-        //margin-right: 3em;
-        //margin-top: -1em;
-        position: relative;
-        top: 2.3em;
-        background: rgba(255,165,10,.5);
-        //right: -2em;            
+            //margin-right: 3em;
+            //margin-top: -1em;
+            position: relative;
+            top: 2.3em;
+            background: rgba(255,165,10,.5);
+            display: inline-block;
+            transform: rotate(-3deg);
         }
     }
     #about {
+        margin-bottom: 0;
+        .members {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card {
+            margin: 1em auto;
+        }
         figure {
             float: left;
         }
@@ -302,7 +385,10 @@ section {
         }
         figcaption {
             font-size: smaller;
-        }           
+        }    
+        .card p {
+            text-align: center;
+        }  
     }
 }
 

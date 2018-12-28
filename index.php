@@ -8,6 +8,8 @@
     <title>Desert Dawg Sports</title>
     <link rel="stylesheet" href="css/normalize.css"> 
     <link rel="stylesheet" href="css/style.css"> 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 <body>
     <?php include('header.php'); ?>
@@ -56,14 +58,95 @@
             <p>DDS members enjoy a mixture of activities with their pups: <a href="https://en.wikipedia.org/wiki/Dog_agility" target="_blank">agility</a>, <a href="https://en.wikipedia.org/wiki/Musical_canine_freestyle" target="_blank">canine freestyle</a>, <a href="https://en.wikipedia.org/wiki/Rally_obedience" target="_blank">rally obedience</a>, <a href="http://www.barnhunt.com/" target="_blank">barn hunt</a>, and more. Some participate in multiple activities, while others focus on a single one. We have a sense of humor and a supportive attitude toward our dog(s) and fellow competitors. Our primary purpose is helping people have fun with their dogs, and have fun ourselves in the process. We will consider any game if members are willing to support it with their time and share it with others.</p>
             <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://rsagility.com/" target="_blank">RSA</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
             <p>Some members are involved in canine freestyle through the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization), which is global and has clubs in 17 countries.</p>
-            <p>puppy pics of members</p>
+            <hr>
+            <h2>DDS Board Members</h2>
+            <div class="members">
+                <div class="card member">
+                    <h4><a href="jlmilhorse@aol.com">Jodie Miller</a></h4>
+                    <p>President</p>
+                    <picture>
+                        <img src="../img/member/jodie/jodie.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="peggy6632az@gmail.com">Peggy Owens</a></h4>
+                    <p>Vice-President</p>
+                    <picture>
+                        <img src="../img/member/peggy/peggy1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="kaw5885@yahoo.com">Kristen Wheeler</a></h4>
+                    <p>Secretary</p>
+                    <picture>
+                        <img src="../img/member/kristen/kristen.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mbuilder@dakotacom.net">Melanie Builder</a></h4>
+                    <p>Treasurer</p>
+                    <picture>
+                        <img src="../img/member/melanie/melanie1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="cejlnich@mindspring.com">Jane Nichols</a></h4>
+                    <p>Freestyle Coordinator</p>
+                    <picture>
+                        <img src="../img/member/member.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mbuilder@dakotacom.net">Melanie Builder</a></h4>
+                    <p>RSA Coordinator</p>
+                    <picture>
+                        <img src="../img/member/melanie/melanie2.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="genicefrances@yahoo.com">Genice Froehlich</a></h4>
+                    <p>CPE Coordinator</p>
+                    <picture>
+                        <img src="../img/member/genice/genice.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="webmaster@desertdawgsports.org">Nancy Purcell</a></h4>
+                    <p>Webmaster</p>
+                    <picture>
+                        <img src="../img/member/nancy/nancy.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="peggy6632az@gmail.com">Peggy Owens</a></h4>
+                    <p>RSA Secretary</p>
+                    <picture>
+                        <img src="../img/member/peggy/peggy2.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="ddscpe@yahoo.com">Lori Vanni</a></h4>
+                    <p>CPE Secretary</p>
+                    <picture>
+                        <img src="../img/member/lori/lori.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="noanie1@yahoo.com">Joan Peters</a></h4>
+                    <p>Member-at-large</p>
+                    <picture>
+                        <img src="../img/member/member.jpg" alt="">
+                    </picture>
+                </div>                                                                                                                                                                                                                                                                                                            
+            </div>
         </section>
         <section id="agility">
             <h1>Agility</h1>
             <p>Our two agility venues are <a href="https://rsagility.com/" target="_blank">RAINE</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
             <p>All trials are held outdoors at <a href="http://webcms.pima.gov/cms/one.aspx?portalId=169&pageId=1367" target="_blank">Brandi Fenton Memorial Park</a>. Our shows are one-ring and fully fenced.</p>
+            <hr>
             <p>Some of the philosophies of Desert Dawg Sports, along with its absolutes and key differences regarding agility are:</p>
-            <ul>
+            <ul class="differences">
                 <li>One judge shows – there will never be a ring conflict, a reason not to work a class, or see your friend’s runs.</li>
                 <li>We expect and appreciate people to work the show to the extent they are able; we will provide lunch, shade and a raffle ticket.</li>
                 <li>We solicit and encourage first-time agility dogs and handlers, including junior handlers. If you have any questions or suggestions just let us know, we’re happy to help.</li>
@@ -75,7 +158,7 @@
             <p>Link to DDS calendar</p>
             <p><a href="http://azagilitycal.info/" target="_blank">Arizona Agility Calendar</a></p>
             <h4>DDS Scrip Rules</h4>
-            <ol>
+            <ol class="scrip-rules">
                 <li>Scrip is earned by volunteering at Desert Dawg Sports agility trials.
 $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
 $50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
@@ -85,6 +168,10 @@ $50 is split between people who stay to help break down the rings and continue t
                 <li>Only one Free Run coupon per dog per trial may be used.</li>
             </ol>
             <p><a href="http://desertdawgsports.org/wp-content/uploads/2018/02/DDSRulesOfScrip.docx" target="_blank">Download the rules</a></p>
+            <picture>
+                <img src="../img/scrip-bkgd.png" alt="">
+            </picture>
+            <p></p>
         </section>
         <section id="freestyle">
             <h1>Freestyle</h1>
@@ -156,7 +243,7 @@ $50 is split between people who stay to help break down the rings and continue t
                     }
                 });
             });         
-            // reset site back to top on refresh (commented out for WIP!)
+            // DO NOT DELETE! reset site back to top on refresh (commented out for WIP!)
             //window.onbeforeunload = function() {
             //    window.scrollTo(0,0);
             //}
