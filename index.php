@@ -16,7 +16,7 @@
     <div class="container">
         <section id="home">
             <h1>Upcoming Events</h1> <!--put a small icon of sponsor next to each -->
-            <h3 class="subsection-title">Fun Run</h2>
+            <h3 class="subsection-title"><img src="" alt="">Fun Run</h2>
             <p class="subsection-details">Jan 11, 2019 @ 12:00p - 3:00p</p>
             <h3 class="subsection-title">RAINE</h2>
             <p class="subsection-details">Jan 12 - 13, 2019 @ 7:00a - 5:00p</p>
@@ -49,11 +49,13 @@
         </section>
         <section id="about">
             <h1>About</h1>
-            <p>Desert Dawg Sports Club (DDS) is a not-for-profit organization in Tucson, AZ. It was formed by a group of individuals who believed in having a great time with their dogs.</p>
             <figure>
                 <img src="../img/jimStill.jpg" alt="Jim Still, founder of Desert Dawg Sports">
                 <figcaption>Jim Still, founder of DDS</figcaption>
             </figure>
+
+            <p>Desert Dawg Sports Club (DDS) is a not-for-profit organization in Tucson, AZ. It was formed by a group of individuals who believed in having a great time with their dogs.</p>
+
 
             <p>DDS members enjoy a mixture of activities with their pups: <a href="https://en.wikipedia.org/wiki/Dog_agility" target="_blank">agility</a>, <a href="https://en.wikipedia.org/wiki/Musical_canine_freestyle" target="_blank">canine freestyle</a>, <a href="https://en.wikipedia.org/wiki/Rally_obedience" target="_blank">rally obedience</a>, <a href="http://www.barnhunt.com/" target="_blank">barn hunt</a>, and more. Some participate in multiple activities, while others focus on a single one. We have a sense of humor and a supportive attitude toward our dog(s) and fellow competitors. Our primary purpose is helping people have fun with their dogs, and have fun ourselves in the process. We will consider any game if members are willing to support it with their time and share it with others.</p>
             <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://rsagility.com/" target="_blank">RSA</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
@@ -141,43 +143,56 @@
             </div>
         </section>
         <section id="agility">
-            <h1>Agility</h1>
-            <p>Our two agility venues are <a href="https://rsagility.com/" target="_blank">RAINE</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
-            <p>All trials are held outdoors at <a href="http://webcms.pima.gov/cms/one.aspx?portalId=169&pageId=1367" target="_blank">Brandi Fenton Memorial Park</a>. Our shows are one-ring and fully fenced.</p>
-            <hr>
-            <p>Some of the philosophies of Desert Dawg Sports, along with its absolutes and key differences regarding agility are:</p>
-            <ul class="differences">
-                <li>One judge shows – there will never be a ring conflict, a reason not to work a class, or see your friend’s runs.</li>
-                <li>We expect and appreciate people to work the show to the extent they are able; we will provide lunch, shade and a raffle ticket.</li>
-                <li>We solicit and encourage first-time agility dogs and handlers, including junior handlers. If you have any questions or suggestions just let us know, we’re happy to help.</li>
-                <li>Junior handlers enjoy discounted runs for any of our agility trials.</li>
-                <li>We always fence the entire ring and will close the exits if the handler asks (and the judge allows).</li>
-                <li>We use rubberized contacts.</li>
-            </ul>
-            <p><a href="http://desertdawgsports.org/wp-content/uploads/2018/08/RSAgility_Rules.pdf" target="_blank">RAINE Rules</a> / <a href="http://desertdawgsports.org/wp-content/uploads/2017/12/2016rb.pdf" target="_blank">CPE Rules</a></p>
-            <p>Link to DDS calendar</p>
-            <p><a href="http://azagilitycal.info/" target="_blank">Arizona Agility Calendar</a></p>
-            <h4>DDS Scrip Rules</h4>
-            <ol class="scrip-rules">
-                <li>Scrip is earned by volunteering at Desert Dawg Sports agility trials.
-$1 for each class worked $5 for helping with ring set-up on the day before the trial starts
-$50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
-                <li>You may use scrip for any Desert Dawg Sports event entry, such as RAINE or CPE agility trials, or for DDS-hosted Fun Runs.</li>
-                <li>You may use up to $2 per run in scrip on your entries.</li>
-                <li>A “Free Run” coupon is valued at $12, and may be used in conjunction with the $2 per run in scrip.</li>
-                <li>Only one Free Run coupon per dog per trial may be used.</li>
-            </ol>
-            <p><a href="http://desertdawgsports.org/wp-content/uploads/2018/02/DDSRulesOfScrip.docx" target="_blank">Download the rules</a></p>
-            <picture>
-                <img src="../img/scrip-bkgd.png" alt="">
-            </picture>
-            <p></p>
+            <div class="section-container">
+                <h1>Agility</h1>
+                <p>Our two agility venues are <a href="https://rsagility.com/" target="_blank">RAINE</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
+                <p>All trials are held outdoors at <a href="http://webcms.pima.gov/cms/one.aspx?portalId=169&pageId=1367" target="_blank">Brandi Fenton Memorial Park</a>. Our shows are one-ring and fully fenced.</p>
+                <hr>
+                <p>Some of the philosophies of Desert Dawg Sports, along with its absolutes and key differences regarding agility are:</p>
+                <ul class="differences">
+                    <li>One judge shows – there will never be a ring conflict, a reason not to work a class, or see your friend’s runs.</li>
+                    <li>We expect and appreciate people to work the show to the extent they are able; we will provide lunch, shade and a raffle ticket.</li>
+                    <li>We solicit and encourage first-time agility dogs and handlers, including junior handlers. If you have any questions or suggestions just let us know, we’re happy to help.</li>
+                    <li>Junior handlers enjoy discounted runs for any of our agility trials.</li>
+                    <li>We always fence the entire ring and will close the exits if the handler asks (and the judge allows).</li>
+                    <li>We use rubberized contacts.</li>
+                </ul>
+                <hr>
+                <div class="rule-and-cal-section">
+                    <p><a id="rsa-rules" href="http://desertdawgsports.org/wp-content/uploads/2018/08/RSAgility_Rules.pdf" target="_blank"><img src="../img/rsaLogo.gif" alt="RSA Logo" class="rule-logo">RAINE Rulebook</a></p>
+                    <p><a id="cpe-rules" href="http://desertdawgsports.org/wp-content/uploads/2017/12/2016rb.pdf" target="_blank"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo">CPE Rulebook</a></p>
+                    <p><a id="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
+                    <p><a id="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>Arizona Agility Calendar</a></p>
+                    <p></p>
+                </div>
+                <hr>
+                <h4>DDS Scrip Rules</h4>
+                <ol class="scrip-rules">
+                    <li>Scrip is earned by volunteering at Desert Dawg Sports agility trials.
+    $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
+    $50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
+                    <li>You may use scrip for any Desert Dawg Sports event entry, such as RAINE or CPE agility trials, or for DDS-hosted Fun Runs.</li>
+                    <li>You may use up to $2 per run in scrip on your entries.</li>
+                    <li>A “Free Run” coupon is valued at $12, and may be used in conjunction with the $2 per run in scrip.</li>
+                    <li>Only one Free Run coupon per dog per trial may be used.</li>
+                </ol>
+                <p><a href="http://desertdawgsports.org/wp-content/uploads/2018/02/DDSRulesOfScrip.docx" target="_blank">Download the rules</a></p>
+                <picture>
+                    <img src="../img/scrip-bkgd.png" alt="">
+                </picture>
+                <p></p>
+            </div>
         </section>
         <section id="freestyle">
             <h1>Freestyle</h1>
             <p>Our Canine Freestyle venue is the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization).</p>
             <p>In November 2014 Desert Dawg Sports, along with other clubs, hosted the WCFO Nationals here in Tucson, AZ for the first time.</p>
-            <p>picture of jane and cadence</p>
+            <figure>
+                <img src="../img/freestyle.jpg" alt="lady and parti-colored poodle on white background">
+                <figcaption>
+
+                </figcaption>
+            </figure>
             <h4>Forms & Resources</h4>
             <p><a href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOmembership-USA-2015.pdf" target="_blank">WCFO Membership – USA</a></p>
             <p><a href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOGuidelinesAugust2015.pdf" target="_blank">WCFO Guidelines</a></p>
@@ -198,10 +213,8 @@ $50 is split between people who stay to help break down the rings and continue t
         </section>
         <section id="calendar">
             <h1>Calendar</h1>
-            <p>hello</p>
-            <p><a href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank">Go to DDS Calendar</a></p>
-            <p>put link to AZ calendar too</p>
-            <p>hello again</p>
+            <p><a href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
+            <p><a href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</p>
             <br>
         </section>
     </div>

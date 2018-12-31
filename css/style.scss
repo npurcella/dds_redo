@@ -36,6 +36,11 @@ body {
 .container {
     margin-top: 3em;
 }
+.section-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 // NAV
 header {
     color: $textColor;
@@ -235,6 +240,9 @@ section {
 }
 @media(min-width: 900px) {
     // for changing font sizes at bigger sizes
+    hr {
+        width: 25%;
+    }
 }
 // HOME CONTENT
 #home {
@@ -274,7 +282,7 @@ section {
 #about {
     width: 90%;
     padding-bottom: 0;
-    margin: 0 auto 0;
+    margin: 0 auto;
     figcaption {
         font-style: italic;
     }    
@@ -288,6 +296,7 @@ section {
         // grid-template-areas: 'content';
         display: flex;
         flex-direction: column;
+        margin-bottom: 3em;
     }
     .card {
         text-align: center;
@@ -320,32 +329,69 @@ section {
 }
 // AGILITY CONTENT
 #agility {
-    width: 90%;
-    margin: 0 auto 0;
-    .differences {
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/backgroundAgility.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    .differences, .scrip-rules {
         list-style-type: none;
         padding: 0;
         text-align: left;
     }
-    .differences li {
+    .differences li, .scrip-rules li {
         padding: 0 0 1em 1.5em;
     }
-    .differences li:before {
+    .differences li:before, .scrip-rules li:before {
         content: "\f1b0";
         font-family: FontAwesome;
         display: inline-block;
         margin-left:0em;
         width: 1.5em;
     }
-    .scrip-rules {
-        // background-image: url(../img/scrip-bkgd.png);
-        // background-repeat: no-repeat;
-        // background-position: center;
-        // background-size: contain;
+    h4 {
+        margin-bottom: -.5em;
     }
     hr {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
+    }
+    hr:last-of-type {
+        margin-top: 0;
+    }
+    .rule-and-cal-section {
+        display: flex;
+        flex-flow: column;
+        #rsa-rules, #cpe-rules, #dds-cal, #az-cal {
+            cursor: pointer;
+        }
+        #rsa-rules {
+            color: #e77a09;;
+        }
+        #cpe-rules {
+            color: #ffa50a;;
+        }    
+        #dds-cal {
+            color: #f37b17;;
+        }
+        #az-cal {
+            color: #e73a09;;
+        }                    
+        p i {
+            margin-right: .5em;
+        }
     }    
+    .rule-logo {
+        display: block;
+        margin: .5em auto .5em;
+    }
+}
+#freestyle {
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 @media(min-width: 900px) {
     #home {
@@ -379,6 +425,7 @@ section {
         }
         figure {
             float: left;
+            margin-top: 5px;
         }
         p {
             text-align: left;
@@ -389,6 +436,16 @@ section {
         .card p {
             text-align: center;
         }  
+    }
+    #agility {
+        .differences, .scrip-rules {
+            width: 75%;
+            margin: 0 auto;
+            max-width: 1000px;
+        }
+        h4 {
+            margin-bottom: .5em;
+        }
     }
 }
 

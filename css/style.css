@@ -28,6 +28,12 @@ body {
   margin-top: 3em;
 }
 
+.section-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 header {
   color: #111111;
   background: #ffffff;
@@ -254,6 +260,12 @@ section hr {
   margin: 2em auto 2em;
 }
 
+@media (min-width: 900px) {
+  hr {
+    width: 25%;
+  }
+}
+
 #home {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundHome.jpg);
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundHome.jpg);
@@ -298,7 +310,7 @@ section hr {
 #about {
   width: 90%;
   padding-bottom: 0;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
 #about figcaption {
@@ -318,6 +330,7 @@ section hr {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 3em;
 }
 
 #about .card {
@@ -353,21 +366,27 @@ section hr {
 }
 
 #agility {
-  width: 90%;
-  margin: 0 auto 0;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundAgility.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundAgility.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-bottom: 2em;
 }
 
-#agility .differences {
+#agility .differences, #agility .scrip-rules {
   list-style-type: none;
   padding: 0;
   text-align: left;
 }
 
-#agility .differences li {
+#agility .differences li, #agility .scrip-rules li {
   padding: 0 0 1em 1.5em;
 }
 
-#agility .differences li:before {
+#agility .differences li:before, #agility .scrip-rules li:before {
   content: "\f1b0";
   font-family: FontAwesome;
   display: inline-block;
@@ -375,9 +394,61 @@ section hr {
   width: 1.5em;
 }
 
+#agility h4 {
+  margin-bottom: -.5em;
+}
+
 #agility hr {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(231, 58, 9, 0.75)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
+}
+
+#agility hr:last-of-type {
+  margin-top: 0;
+}
+
+#agility .rule-and-cal-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#agility .rule-and-cal-section #rsa-rules, #agility .rule-and-cal-section #cpe-rules, #agility .rule-and-cal-section #dds-cal, #agility .rule-and-cal-section #az-cal {
+  cursor: pointer;
+}
+
+#agility .rule-and-cal-section #rsa-rules {
+  color: #e77a09;
+}
+
+#agility .rule-and-cal-section #cpe-rules {
+  color: #ffa50a;
+}
+
+#agility .rule-and-cal-section #dds-cal {
+  color: #f37b17;
+}
+
+#agility .rule-and-cal-section #az-cal {
+  color: #e73a09;
+}
+
+#agility .rule-and-cal-section p i {
+  margin-right: .5em;
+}
+
+#agility .rule-logo {
+  display: block;
+  margin: .5em auto .5em;
+}
+
+#freestyle img {
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 900px) {
@@ -405,6 +476,7 @@ section hr {
   }
   #about figure {
     float: left;
+    margin-top: 5px;
   }
   #about p {
     text-align: left;
@@ -414,6 +486,14 @@ section hr {
   }
   #about .card p {
     text-align: center;
+  }
+  #agility .differences, #agility .scrip-rules {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  #agility h4 {
+    margin-bottom: .5em;
   }
 }
 
