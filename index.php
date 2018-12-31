@@ -36,6 +36,12 @@
             <p class="subsection-details">October 25, 2019 @ 12:00p - 3:00p</p>
             <h3 class="subsection-title">RAINE</h2>
             <p class="subsection-details">October 26 - 27, 2019 @ 7:00a - 5:00p</p>
+            <hr>
+            <div class="calendars">
+                <h1>Calendars</h1>
+                <p><a id="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
+                <p><a id="az-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
+            </div>
             <div class="card">
                 <h2>Become a Member!</h2>
                 <div class="btn-wrapper">
@@ -61,80 +67,80 @@
             <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://rsagility.com/" target="_blank">RSA</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
             <p>Some members are involved in canine freestyle through the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization), which is global and has clubs in 17 countries.</p>
             <hr>
-            <h2>DDS Board Members</h2>
+            <h1>DDS Board Members</h1>
             <div class="members">
                 <div class="card member">
-                    <h4><a href="jlmilhorse@aol.com">Jodie Miller</a></h4>
+                    <h4><a href="mailto:jlmilhorse@aol.com">Jodie Miller</a></h4>
                     <p>President</p>
                     <picture>
                         <img src="../img/member/jodie/jodie.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="peggy6632az@gmail.com">Peggy Owens</a></h4>
+                    <h4><a href="mailto:peggy6632az@gmail.com">Peggy Owens</a></h4>
                     <p>Vice-President</p>
                     <picture>
                         <img src="../img/member/peggy/peggy1.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="kaw5885@yahoo.com">Kristen Wheeler</a></h4>
+                    <h4><a href="mailto:kaw5885@yahoo.com">Kristen Wheeler</a></h4>
                     <p>Secretary</p>
                     <picture>
                         <img src="../img/member/kristen/kristen.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mbuilder@dakotacom.net">Melanie Builder</a></h4>
+                    <h4><a href="mailto:mbuilder@dakotacom.net">Melanie Builder</a></h4>
                     <p>Treasurer</p>
                     <picture>
                         <img src="../img/member/melanie/melanie1.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="cejlnich@mindspring.com">Jane Nichols</a></h4>
+                    <h4><a href="mailto:cejlnich@mindspring.com">Jane Nichols</a></h4>
                     <p>Freestyle Coordinator</p>
                     <picture>
                         <img src="../img/member/member.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mbuilder@dakotacom.net">Melanie Builder</a></h4>
+                    <h4><a href="mailto:mbuilder@dakotacom.net">Melanie Builder</a></h4>
                     <p>RSA Coordinator</p>
                     <picture>
                         <img src="../img/member/melanie/melanie2.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="genicefrances@yahoo.com">Genice Froehlich</a></h4>
+                    <h4><a href="mailto:genicefrances@yahoo.com">Genice Froehlich</a></h4>
                     <p>CPE Coordinator</p>
                     <picture>
                         <img src="../img/member/genice/genice.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="webmaster@desertdawgsports.org">Nancy Purcell</a></h4>
+                    <h4><a href="mailto:webmaster@desertdawgsports.org">Nancy Purcell</a></h4>
                     <p>Webmaster</p>
                     <picture>
                         <img src="../img/member/nancy/nancy.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="peggy6632az@gmail.com">Peggy Owens</a></h4>
+                    <h4><a href="mailto:peggy6632az@gmail.com">Peggy Owens</a></h4>
                     <p>RSA Secretary</p>
                     <picture>
                         <img src="../img/member/peggy/peggy2.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="ddscpe@yahoo.com">Lori Vanni</a></h4>
+                    <h4><a href="mailto:ddscpe@yahoo.com">Lori Vanni</a></h4>
                     <p>CPE Secretary</p>
                     <picture>
                         <img src="../img/member/lori/lori.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="noanie1@yahoo.com">Joan Peters</a></h4>
+                    <h4><a href="mailto:noanie1@yahoo.com">Joan Peters</a></h4>
                     <p>Member-at-large</p>
                     <picture>
                         <img src="../img/member/member.jpg" alt="">
@@ -163,7 +169,6 @@
                     <p><a id="cpe-rules" href="http://desertdawgsports.org/wp-content/uploads/2017/12/2016rb.pdf" target="_blank"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo">CPE Rulebook</a></p>
                     <p><a id="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
                     <p><a id="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>Arizona Agility Calendar</a></p>
-                    <p></p>
                 </div>
                 <hr>
                 <h4>DDS Scrip Rules</h4>
@@ -180,42 +185,58 @@
                 <picture>
                     <img src="../img/scrip-bkgd.png" alt="">
                 </picture>
-                <p></p>
             </div>
         </section>
         <section id="freestyle">
-            <h1>Freestyle</h1>
-            <p>Our Canine Freestyle venue is the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization).</p>
-            <p>In November 2014 Desert Dawg Sports, along with other clubs, hosted the WCFO Nationals here in Tucson, AZ for the first time.</p>
-            <figure>
-                <img src="../img/freestyle.jpg" alt="lady and parti-colored poodle on white background">
-                <figcaption>
-
-                </figcaption>
-            </figure>
-            <h4>Forms & Resources</h4>
-            <p><a href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOmembership-USA-2015.pdf" target="_blank">WCFO Membership – USA</a></p>
-            <p><a href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOGuidelinesAugust2015.pdf" target="_blank">WCFO Guidelines</a></p>
-            <p>include video (maybe there are more recent ones?)</p>
+            <div class="section-container">
+                <h1>Freestyle</h1>
+                <p>Our Canine Freestyle venue is the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization).</p>
+                <p>In November 2014 Desert Dawg Sports, along with other clubs, hosted the WCFO Nationals here in Tucson, AZ for the first time.</p>
+                <figure>
+                    <img src="../img/freestyle.jpg" alt="lady and parti-colored poodle on white background">
+                    <figcaption>
+                        DDS Member Jane Nichols and Cadence striking a pose
+                    </figcaption>
+                </figure>
+                <p><a id="first-link" href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOmembership-USA-2015.pdf" target="_blank">WCFO Membership – USA</a></p>
+                <img src="../img/wcfoLogo.png" alt="WCFO Logo" style="width: 25%; max-width:150px;">
+                <p><a id="second-link" href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOGuidelinesAugust2015.pdf" target="_blank">WCFO Guidelines</a></p>
+                <p>include video (maybe there are more recent ones)?</p>
+            </div>
         </section>
-        <section id="other">
-            <h1>Other</h1>
-            <p>Desert Dawg Sports is fortunate to enjoy some great friends in the form of folks that not only support us but we support them as well, trainers and merchants alike.</p>
-            <p>put blurb for art cake and silverado plumbing</p>
-            <p>AZ Mutt Co</p>
-            <p>Lori Vanni - trainer</p>
-            <p>Mark Owens - photographer</p>
-        </section>
-        <section id="gallery">
-            <h1>Gallery!</h1>
-            <p>maybe put a slideshow here...</p>
-            <p>hey</p>
-        </section>
-        <section id="calendar">
-            <h1>Calendar</h1>
-            <p><a href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
-            <p><a href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</p>
-            <br>
+        <section id="more">
+            <div class="section-container">
+                <h1>More</h1>
+                <p>Desert Dawg Sports is fortunate to enjoy some great friends in the form of folks that not only support us but we support them as well, trainers and merchants alike.</p>
+                <p>put blurb for art cake and silverado plumbing</p>
+                <p>AZ Mutt Co</p>
+                <div class="friends">
+                    <div class="card">
+                        <h4><a href="http://www.silveradoplumbing.com/">Silverado Plumbing</a></h4>
+                        <p>Due to the kind generosity of Art Cake and <a href="http://www.silveradoplumbing.com/">Silverado Plumbing</a>, Desert Dawgs now has a high-quality teeter that should last our club for MANY years to come. We just cannot thank Art and Silverado Plumbing enough.</p>
+                        <img src="../img/silveradoPlumbing.png" alt="Silverado Plumbing logo" style="border: none">
+                    </div>
+                    <div class="card">
+                        <h4><a href="http://arizonamuttco.etsy.com">Arizona Mutt Co.</a></h4>
+                        <p>For some wonderful items for you and your dog, check out the <a href="http://arizonamuttco.etsy.com">Arizona Mutt Company</a>.</p>
+                        <p>DDS member Kristen Wheeler is the owner, and you can visit her Etsy site by clicking on the link above.</a></p>
+                    </div>
+                    <div class="card member">
+                        <h4><a href="mailto:sheltiesquad@yahoo.com">Lori Vanni</a></h4>
+                        <p>Trainer</p>
+                        <picture>
+                            <img src="../img/member/lori/lori.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="card member">
+                        <h4><a href="mailto:peggy6632az@gmail.com">Mark Owens</a></h4>
+                        <p>Photographer</p>
+                        <picture>
+                            <img src="../img/member/peggy/mark.jpg" alt="">
+                        </picture>
+                    </div>               
+                </div>                 
+            </div>
         </section>
     </div>
     <?php include('footer.php'); ?>

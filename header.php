@@ -12,7 +12,7 @@
                 <li><a class="scroll" href="#about">About</a></li>
                 <li><a class="scroll" href="#agility">Agility</a></li>
                 <li><a class="scroll" href="#freestyle">Freestyle</a></li>
-                <li><a class="scroll" href="#other">Other</a></li>
+                <li><a class="scroll" href="#more">More</a></li>
             </ul>
         </nav>
         <div class="menu-toggle">

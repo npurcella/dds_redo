@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Diplomata');
 
 $textColor: #111111;
 $lightTextColor: #292727;
@@ -8,11 +9,13 @@ $lightAccent: #eeeeee;
 $white: #ffffff;
 $black: #000000;
 
+$ltYellow: #ded00c;
 $goldenrod: #e77a09;
 $mustard: #ffa50a;
 $ltOrange: #fe6b17;
 $dkOrange: #e73a09;
 $red: #ff1c0a;
+$trueRed: red;
 
 $pink: #fa709a;
 $orange: #ef6009;
@@ -214,6 +217,9 @@ section {
     padding: 1em 0 1em;
     h1 {
         color: $goldenrod;
+        background: -webkit-linear-gradient($ltYellow, $trueRed);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;        
     }
     h2 {
         color: $mustard;
@@ -237,6 +243,25 @@ section {
         height: 2px;
         margin: 2em auto 2em;
     }    
+    #rsa-rules, #cpe-rules, #dds-cal, #az-cal {
+        cursor: pointer;
+    }
+    #rsa-rules {
+        color: $goldenrod;
+    }
+    #cpe-rules {
+        color: $mustard;
+    }    
+    #dds-cal {
+        color: $ltOrange;
+    }
+    #az-cal {
+        color: $dkOrange;
+    }                    
+    p i {
+        margin-right: .5em;
+    }    
+    
 }
 @media(min-width: 900px) {
     // for changing font sizes at bigger sizes
@@ -253,6 +278,7 @@ section {
     background-position: right top;
     background-size: cover;
     background-repeat: no-repeat;
+    // background-attachment: fixed;
     width: 100%;
     height: auto;
     .card {
@@ -276,7 +302,13 @@ section {
         display: inline-block;
         transform: rotate(3deg);
     }
-
+    hr {
+        margin-bottom: 0;        
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
+    }
+    .calendars {
+        margin-bottom: 2.5em;
+    }
 }
 // ABOUT CONTENT
 #about {
@@ -334,6 +366,7 @@ section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0 auto;
     padding-bottom: 2em;
     .differences, .scrip-rules {
@@ -363,24 +396,6 @@ section {
     .rule-and-cal-section {
         display: flex;
         flex-flow: column;
-        #rsa-rules, #cpe-rules, #dds-cal, #az-cal {
-            cursor: pointer;
-        }
-        #rsa-rules {
-            color: #e77a09;;
-        }
-        #cpe-rules {
-            color: #ffa50a;;
-        }    
-        #dds-cal {
-            color: #f37b17;;
-        }
-        #az-cal {
-            color: #e73a09;;
-        }                    
-        p i {
-            margin-right: .5em;
-        }
     }    
     .rule-logo {
         display: block;
@@ -388,13 +403,83 @@ section {
     }
 }
 #freestyle {
-    img {
+    h1 {
+        font-family: 'Diplomata', cursive;
+    }
+    figure {
+        margin: 0;
+    }
+    figcaption {
+        font-size: smaller;
+        font-style: italic;
+    }
+    figure img {
         width: 100%;
         height: auto;
+        border: 1px solid $darkTextColor;
+    }
+    #first-link {
+        color: $goldenrod;
+    }
+    #second-link {
+        color: $red;
+
+    }
+}
+#more {
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/backgroundMore.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    .friends {
+        // display: grid;
+        // grid-gap: 1.5em;
+        // grid-template-areas: 'content';
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3em;
+    }
+
+    .card {
+        text-align: center;
+        min-width: 200px;
+        max-width: 300px;
+        box-shadow: 1px 1px 12px .05px $black;
+        outline: none;
+        border-radius: 0;
+        background-color: $white;
+        margin-bottom: 1.5em;
+        h4 {
+            margin: .5em auto 1em; 
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+        a {
+            color: $lightTextColor;
+            border-bottom: .1em solid $mustard;
+        }
+        p {
+            margin-top: .5em;
+        }
+        img {
+            width: 100%; 
+            height: auto;
+            border: 1px solid $lightTextColor;
+        }
+    }    
+    .card:first-child {
+        transform: rotate(5deg);
+    }
+    .card:nth-child(2n+2) {
+        transform: rotate(-5deg);
     }
 }
 @media(min-width: 900px) {
     #home {
+        background-position: center;
         .card {
             // background: rgba(191,95,24,.5);
             // outline: 1px solid $goldenrod;
@@ -413,8 +498,12 @@ section {
             display: inline-block;
             transform: rotate(-3deg);
         }
+        .calendars {
+            margin-bottom: 0;
+        }
     }
     #about {
+        background-position: center;
         margin-bottom: 0;
         .members {
             flex-direction: row;
@@ -447,6 +536,34 @@ section {
             margin-bottom: .5em;
         }
     }
+    #more {
+        .section-container {
+            width: 85%;
+        }        
+        .friends {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card {
+            margin: 1em auto;
+        }
+        .card:first-child, .card:nth-child(2n+2) {
+            transform: rotate(0);
+        }
+        figure {
+            float: left;
+            margin-top: 5px;
+        }
+        p {
+            text-align: left;
+        }
+        figcaption {
+            font-size: smaller;
+        }    
+        .card p {
+            text-align: center;
+        }  
+    }
 }
 
 //FOOTER
@@ -469,7 +586,10 @@ footer {
         align-self: end;
         font-weight: bold;
         vertical-align: sub;
+        
+        // NOT SURE WHAT THIS IS HERE FOR
         background-image: linear-gradient(to bottom, #fa709a 0%, #ef6009 50%, #fee140 100%);        
+
         padding: 1em 1em .5em;
         margin-right: .5em;
         border-radius: 7px;
@@ -477,7 +597,7 @@ footer {
     }
 }
 @media(min-width: 900px) {
-    p:last-child {
+    footer p:last-child {
         visibility: hidden;
     }
 }

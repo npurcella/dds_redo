@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Diplomata");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -233,6 +234,9 @@ section {
 
 section h1 {
   color: #e77a09;
+  background: -webkit-linear-gradient(#ded00c, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 section h2 {
@@ -258,6 +262,30 @@ section hr {
   border: 0;
   height: 2px;
   margin: 2em auto 2em;
+}
+
+section #rsa-rules, section #cpe-rules, section #dds-cal, section #az-cal {
+  cursor: pointer;
+}
+
+section #rsa-rules {
+  color: #e77a09;
+}
+
+section #cpe-rules {
+  color: #ffa50a;
+}
+
+section #dds-cal {
+  color: #fe6b17;
+}
+
+section #az-cal {
+  color: #e73a09;
+}
+
+section p i {
+  margin-right: .5em;
 }
 
 @media (min-width: 900px) {
@@ -305,6 +333,16 @@ section hr {
 
 #home .card .btn-wrapper {
   outline: 1px solid #e73a09;
+}
+
+#home hr {
+  margin-bottom: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(231, 58, 9, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
+}
+
+#home .calendars {
+  margin-bottom: 2.5em;
 }
 
 #about {
@@ -372,6 +410,7 @@ section hr {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0 auto;
   padding-bottom: 2em;
 }
@@ -417,41 +456,107 @@ section hr {
           flex-flow: column;
 }
 
-#agility .rule-and-cal-section #rsa-rules, #agility .rule-and-cal-section #cpe-rules, #agility .rule-and-cal-section #dds-cal, #agility .rule-and-cal-section #az-cal {
-  cursor: pointer;
-}
-
-#agility .rule-and-cal-section #rsa-rules {
-  color: #e77a09;
-}
-
-#agility .rule-and-cal-section #cpe-rules {
-  color: #ffa50a;
-}
-
-#agility .rule-and-cal-section #dds-cal {
-  color: #f37b17;
-}
-
-#agility .rule-and-cal-section #az-cal {
-  color: #e73a09;
-}
-
-#agility .rule-and-cal-section p i {
-  margin-right: .5em;
-}
-
 #agility .rule-logo {
   display: block;
   margin: .5em auto .5em;
 }
 
-#freestyle img {
+#freestyle h1 {
+  font-family: 'Diplomata', cursive;
+}
+
+#freestyle figure {
+  margin: 0;
+}
+
+#freestyle figcaption {
+  font-size: smaller;
+  font-style: italic;
+}
+
+#freestyle figure img {
   width: 100%;
   height: auto;
+  border: 1px solid #070707;
+}
+
+#freestyle #first-link {
+  color: #e77a09;
+}
+
+#freestyle #second-link {
+  color: #ff1c0a;
+}
+
+#more {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundMore.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundMore.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+#more .friends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 3em;
+}
+
+#more .card {
+  text-align: center;
+  min-width: 200px;
+  max-width: 300px;
+  -webkit-box-shadow: 1px 1px 12px 0.05px #000000;
+          box-shadow: 1px 1px 12px 0.05px #000000;
+  outline: none;
+  border-radius: 0;
+  background-color: #ffffff;
+  margin-bottom: 1.5em;
+}
+
+#more .card h4 {
+  margin: .5em auto 1em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+#more .card a {
+  color: #292727;
+  border-bottom: 0.1em solid #ffa50a;
+}
+
+#more .card p {
+  margin-top: .5em;
+}
+
+#more .card img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #292727;
+}
+
+#more .card:first-child {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+#more .card:nth-child(2n+2) {
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 @media (min-width: 900px) {
+  #home {
+    background-position: center;
+  }
   #home .card {
     position: relative;
     top: 2.3em;
@@ -460,7 +565,11 @@ section hr {
     -webkit-transform: rotate(-3deg);
             transform: rotate(-3deg);
   }
+  #home .calendars {
+    margin-bottom: 0;
+  }
   #about {
+    background-position: center;
     margin-bottom: 0;
   }
   #about .members {
@@ -494,6 +603,37 @@ section hr {
   }
   #agility h4 {
     margin-bottom: .5em;
+  }
+  #more .section-container {
+    width: 85%;
+  }
+  #more .friends {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #more .card {
+    margin: 1em auto;
+  }
+  #more .card:first-child, #more .card:nth-child(2n+2) {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  #more figure {
+    float: left;
+    margin-top: 5px;
+  }
+  #more p {
+    text-align: left;
+  }
+  #more figcaption {
+    font-size: smaller;
+  }
+  #more .card p {
+    text-align: center;
   }
 }
 
@@ -540,7 +680,7 @@ footer p:last-child {
 }
 
 @media (min-width: 900px) {
-  p:last-child {
+  footer p:last-child {
     visibility: hidden;
   }
 }
