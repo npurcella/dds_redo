@@ -1,1 +1,4 @@
-<h4>Copyright 2018</h4>
+<footer>
+    <p>Copyright &copy; 2018</p>
+    <p onclick="goToTop()">^</p>
+</footer>

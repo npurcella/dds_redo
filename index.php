@@ -4,20 +4,307 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <title>Desert Dawg Sports</title>
     <link rel="stylesheet" href="css/normalize.css"> 
     <link rel="stylesheet" href="css/style.css"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
     <?php include('header.php'); ?>
-    <h2>hello there!</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit necessitatibus eum vel consequuntur rerum, asperiores doloribus explicabo eaque error veritatis magnam esse eveniet minus ipsam assumenda, quis ad hic? Quas tenetur corrupti cum maiores soluta nihil ea ut! Magni cumque corporis tempora expedita tenetur enim dolorum possimus nostrum delectus a.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam tempora, non sed ut dicta ea, deleniti delectus ullam, optio modi corrupti? Aliquid ipsum veniam voluptate neque aliquam quas delectus possimus hic earum quidem! Minus nemo sed reiciendis fuga! Possimus modi provident, nulla, unde quia, quis pariatur laboriosam maxime molestias consequatur optio aperiam culpa similique. Omnis cupiditate laboriosam eum vitae impedit perspiciatis necessitatibus perferendis debitis? Commodi obcaecati rerum blanditiis dignissimos ducimus quam nemo eius porro perspiciatis quaerat nostrum consectetur, ad cupiditate harum culpa laboriosam, sint dolore voluptas! Ullam quidem unde aliquid omnis! Dolorem rerum eveniet sapiente et. Ducimus quidem officiis necessitatibus officia facilis minima, ullam, inventore aspernatur perspiciatis porro veritatis in perferendis cumque voluptate animi nisi velit repellendus nihil voluptatum rerum, tempora cum rem ipsam. Adipisci eum deserunt, laboriosam veritatis hic cumque eveniet commodi excepturi eligendi quae magnam velit ducimus ipsa minus possimus voluptatum? Cum ipsa quae aperiam, dignissimos explicabo unde. A culpa doloremque similique iste ullam ducimus excepturi rem minima at. Dolore, saepe deserunt. Ab animi a hic corporis est commodi dolores voluptas laudantium, voluptatibus explicabo natus ratione ipsa perspiciatis magni dolorum sit? Exercitationem fugit velit expedita praesentium delectus beatae? Esse sint placeat ipsum sequi et molestiae repudiandae, corrupti iste doloremque molestias explicabo eveniet quod commodi repellendus quibusdam? Sed vitae beatae voluptate temporibus explicabo illo error est veritatis exercitationem suscipit ea quisquam tempore similique, nemo aspernatur rem sint harum tempora, eligendi eius? Ipsam enim aspernatur nam blanditiis! Laboriosam, accusamus? Necessitatibus eligendi, fugiat est ullam reprehenderit perspiciatis doloremque mollitia aliquid voluptatum aliquam maiores, accusantium quam eum, tempora atque deserunt recusandae delectus voluptates possimus? Nobis quas earum totam omnis? Debitis possimus similique nobis hic. Ad cum, quam architecto enim laborum reiciendis ut dolorem omnis assumenda officia ullam sequi. Voluptatem dolores maxime rem debitis, sunt dolore sint cum quam modi eum repellat minima officiis vero laborum enim illum praesentium voluptatibus! Vero consectetur porro, voluptatum deleniti nihil ullam minus dolores ex sed adipisci provident cumque. Veritatis aliquid cupiditate dolorum minima officiis eaque magni! Veritatis a in amet maxime consequatur, quae ipsam, consequuntur molestias ut, veniam quaerat facilis illum quam incidunt. Repellat, incidunt nemo asperiores repellendus placeat expedita officia magni excepturi ullam exercitationem veritatis officiis tenetur odit animi culpa, vel odio pariatur quas maiores aliquam veniam! Exercitationem veritatis quasi qui ipsum aliquid, quis aut ipsa, eos, dicta tempore dolore incidunt reiciendis. Eveniet consequatur voluptatum hic modi sint! Sapiente impedit quod eligendi amet rem blanditiis reiciendis, quibusdam ipsum veritatis. Dicta quaerat vero deserunt perferendis fugit enim et veniam facilis natus ad exercitationem atque amet ipsum eveniet, aspernatur illum repudiandae eos maiores voluptatem totam odit eum nihil quam? Reprehenderit velit, sed consequatur voluptas modi quasi esse quod veniam natus ratione alias impedit ducimus animi. Voluptatum est maxime facilis sapiente dolore earum at accusamus iste voluptates illum excepturi cumque atque, autem dolor nemo repellat harum numquam voluptatem, libero sit ullam, nam assumenda distinctio? Modi a tenetur reprehenderit accusantium dolores non minima, ab, eius, deserunt atque earum voluptate eveniet aut quibusdam tempora id! Aliquid aut totam eaque, numquam itaque laborum vero! Laboriosam nisi culpa perspiciatis? Dicta, placeat culpa veniam laudantium labore ut totam doloribus atque vel repudiandae, molestias velit? Praesentium maiores numquam consequuntur consequatur dicta amet sequi illum perspiciatis soluta necessitatibus! Quidem eos aspernatur porro commodi exercitationem ut architecto iure ratione, omnis facere ea. Minus quasi enim voluptate voluptatibus explicabo beatae officia earum aliquid quas iure, illum magni modi sed adipisci, numquam voluptates pariatur molestiae itaque ad! Maiores totam blanditiis laudantium temporibus quod sint ducimus beatae veritatis. Ut velit, earum sit repudiandae adipisci aliquid ducimus eum mollitia nemo perferendis? Facilis assumenda est perferendis, qui consequatur, adipisci ut commodi dolorem quaerat mollitia officia accusamus ex id magni quam eum tempore laborum error! Architecto, autem iusto. Harum corporis illo sequi at commodi asperiores ut consequatur veritatis minima voluptatem rem incidunt itaque necessitatibus, placeat totam autem assumenda saepe magnam eum nesciunt corrupti ipsum maxime! Neque deserunt placeat earum saepe sit minima ullam voluptatibus maxime distinctio quibusdam accusamus eligendi voluptates facere perferendis quisquam repellendus eos culpa, enim commodi beatae rerum. Distinctio consequuntur eos, amet impedit eius facere eveniet dolores quo labore dicta accusantium in rerum laborum, blanditiis similique? Ipsa cum numquam tenetur natus in omnis error reiciendis nesciunt vitae inventore quam temporibus voluptatem sequi, beatae quas facilis. Ex tempore deleniti placeat perspiciatis cum, illum aut quasi similique repudiandae ut, odit, pariatur dicta tenetur debitis! Modi nihil qui dolorem eos iste illo autem officia, natus, perspiciatis fugit dolorum voluptates pariatur id rem quasi. Debitis consequatur eaque sit tenetur repellat fugiat id cum doloremque cupiditate, ipsum aspernatur, possimus, rerum architecto illum hic deleniti dicta pariatur officia? Amet laboriosam accusantium aliquid expedita? Veniam, ratione aspernatur doloremque obcaecati assumenda dignissimos error ut eius numquam. Dolore inventore minus deleniti non? Qui vero vitae veritatis quia, possimus corrupti soluta cumque neque et incidunt eum fugiat suscipit blanditiis dolores delectus quidem debitis nam cupiditate dignissimos ducimus impedit. Dolorem unde iusto ratione nesciunt voluptatum, eos aliquid quisquam officiis, ex totam deserunt ipsa illo, perferendis doloremque eveniet repudiandae recusandae eligendi temporibus delectus! Quidem labore in tempora adipisci earum id assumenda, molestias sequi ipsam minus corporis sed facere. Repellat praesentium magni quibusdam cumque consequatur qui voluptatem provident dignissimos aliquid quis ab earum vel labore dolorum corporis mollitia similique fugit optio explicabo, quaerat illo exercitationem necessitatibus quod? Eaque porro, fugiat commodi alias labore modi quas? Nulla nam deleniti officia autem mollitia odio exercitationem placeat amet perferendis optio sed, quibusdam fugit, doloribus ad veritatis veniam reiciendis nobis reprehenderit in voluptas! Blanditiis rerum at aliquam temporibus ab, id magnam iure sunt quae recusandae explicabo autem doloribus iusto unde illo, nisi magni laudantium obcaecati amet esse animi ex. Assumenda fugiat blanditiis quae magni modi natus reprehenderit labore quos consequuntur vero perspiciatis laboriosam ab corporis animi, odit voluptas nesciunt facilis porro dolorum. Harum odio ipsam amet, numquam et accusamus quas eius aspernatur corporis consequuntur laborum quasi. Rem iure ab eveniet nisi? Totam fuga mollitia iure dolorem praesentium corporis? Neque vel veritatis modi quod excepturi animi cumque? Provident maxime perferendis temporibus vel ad facere. Repudiandae, voluptatum possimus. Praesentium, magnam.</p>
+    <div class="container">
+        <section id="home">
+            <div class="section-container">
+                <h1>Upcoming Events</h1> 
+                <div class="event">
+                    <h3 class="subsection-title"><img src="" alt="">Fun Run</h2>
+                    <p class="subsection-details">Jan 11, 2019 @ 12:00p - 3:00p</p>
+                </div>
+                <div class="event">            
+                    <h3 class="subsection-title">RAINE</h2>
+                    <p class="subsection-details">Jan 12 - 13, 2019 @ 7:00a - 5:00p</p>
+                    <a class="premium-link" href="http://desertdawgsports.org/wp-content/uploads/2018/11/DDS_Jan_2019_Rockstar_Agility_Premium-1.pdf">Download Premium</a>
+                    <a class="signup-link" href="https://docs.google.com/spreadsheets/d/1f6xtYQx2kCg1Ni1VN2NgOonTxkgdaFuhE2NhzJY4H7w/edit#gid=0">Sign-up Sheet</a>
+                    <a class="run-link" href="#">Run Order (TBA)</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run @ Crystal's</h2>
+                    <p class="subsection-details">Jan 26, 2019 @ 8:00a - 11:00a</p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h2>
+                    <p class="subsection-details">Feb 2 - 3, 2019 @ 7:00a - 5:00p</p>
+                    <a class="premium-link" href="http://www.k9cpe.com/premiums/020219azdesertdawgs.pdf">Download Premium</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run @ Jodie’s</h2>
+                    <p class="subsection-details">February 23, 2019</p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h2>
+                    <p class="subsection-details">March 1 - 3, 2019 @ 7:00a - 5:00p</p>
+                    <a class="premium-link" href="http://www.k9cpe.com/premiums/030119azdesertdawgs.pdf">Download Premium</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Set-up & Fun Run</h2>
+                    <p class="subsection-details"> May 17, 2019 @ 12:00p - 4:00p</p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">RAINE</h2>
+                    <p class="subsection-details">May 18 - 19, 2019 @ 8:00a - 5:00p</p>
+                    <a href="#" class="premium-link">TBA</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h2>
+                    <p class="subsection-details">October 25, 2019 @ 12:00p - 3:00p</p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">RAINE</h2>
+                    <p class="subsection-details">October 26 - 27, 2019 @ 7:00a - 5:00p</p>
+                    <a href="#" class="premium-link">TBA</a>                    
+                </div>
+
+                <hr>
+                <div class="calendars">
+                    <h1>Calendars</h1>
+                    <p><a id="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
+                    <p><a id="az-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
+                </div>
+                <div class="card">
+                    <h2>Become a Member!</h2>
+                    <div class="btn-wrapper">
+                        <a class="btn" href="http://desertdawgsports.org/wp-content/uploads/2018/10/DDSC-membership-form.pdf">New Member</a>
+                    </div>
+                    <h3>Time to Renew?</h3>
+                    <div class="btn-wrapper">
+                        <a class="btn" href="http://desertdawgsports.org/wp-content/uploads/2018/10/DDSC-membership-renewal-form.pdf">Existing Member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h1>About</h1>
+            <figure>
+                <img src="../img/jimStill.jpg" alt="Jim Still, founder of Desert Dawg Sports">
+                <figcaption>Jim Still, founder of DDS</figcaption>
+            </figure>
+            <p>Desert Dawg Sports Club (DDS) is a not-for-profit organization in Tucson, AZ. It was formed by a group of individuals who believed in having a great time with their dogs.</p>
+            <p>DDS members enjoy a mixture of activities with their pups: <a href="https://en.wikipedia.org/wiki/Dog_agility" target="_blank">agility</a>, <a href="https://en.wikipedia.org/wiki/Musical_canine_freestyle" target="_blank">canine freestyle</a>, <a href="https://en.wikipedia.org/wiki/Rally_obedience" target="_blank">rally obedience</a>, <a href="http://www.barnhunt.com/" target="_blank">barn hunt</a>, and more. Some participate in multiple activities, while others focus on a single one. We have a sense of humor and a supportive attitude toward our dog(s) and fellow competitors. Our primary purpose is helping people have fun with their dogs, and have fun ourselves in the process. We will consider any game if members are willing to support it with their time and share it with others.</p>
+            <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://rsagility.com/" target="_blank">RSA</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
+            <p>Some members are involved in canine freestyle through the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization), which is global and has clubs in 17 countries.</p>
+            <hr>
+            <h1>DDS Board Members</h1>
+            <div class="members">
+                <div class="card member">
+                    <h4><a href="mailto:jlmilhorse@aol.com">Jodie Miller</a></h4>
+                    <p>President</p>
+                    <picture>
+                        <img src="../img/member/jodie/jodie.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:peggy6632az@gmail.com">Peggy Owens</a></h4>
+                    <p>Vice-President</p>
+                    <picture>
+                        <img src="../img/member/peggy/peggy1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:kaw5885@yahoo.com">Kristen Wheeler</a></h4>
+                    <p>Secretary</p>
+                    <picture>
+                        <img src="../img/member/kristen/kristen.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:mbuilder@dakotacom.net">Melanie Builder</a></h4>
+                    <p>Treasurer</p>
+                    <picture>
+                        <img src="../img/member/melanie/melanie1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:cejlnich@mindspring.com">Jane Nichols</a></h4>
+                    <p>Freestyle Coordinator</p>
+                    <picture>
+                        <img src="../img/member/member.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:mbuilder@dakotacom.net">Melanie Builder</a></h4>
+                    <p>RSA Coordinator</p>
+                    <picture>
+                        <img src="../img/member/melanie/melanie2.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:genicefrances@yahoo.com">Genice Froehlich</a></h4>
+                    <p>CPE Coordinator</p>
+                    <picture>
+                        <img src="../img/member/genice/genice.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:webmaster@desertdawgsports.org">Nancy Purcell</a></h4>
+                    <p>Webmaster</p>
+                    <picture>
+                        <img src="../img/member/nancy/nancy.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:peggy6632az@gmail.com">Peggy Owens</a></h4>
+                    <p>RSA Secretary</p>
+                    <picture>
+                        <img src="../img/member/peggy/peggy2.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:ddscpe@yahoo.com">Lori Vanni</a></h4>
+                    <p>CPE Secretary</p>
+                    <picture>
+                        <img src="../img/member/lori/lori.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card member">
+                    <h4><a href="mailto:noanie1@yahoo.com">Joan Peters</a></h4>
+                    <p>Member-at-large</p>
+                    <picture>
+                        <img src="../img/member/member.jpg" alt="">
+                    </picture>
+                </div>                                                                                                                                                                                                                                                                                                            
+            </div>
+        </section>
+        <section id="agility">
+            <div class="section-container">
+                <h1>Agility</h1>
+                <p>Our two agility venues are <a href="https://rsagility.com/" target="_blank">RAINE</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
+                <p>All trials are held outdoors at <a href="http://webcms.pima.gov/cms/one.aspx?portalId=169&pageId=1367" target="_blank">Brandi Fenton Memorial Park</a>. Our shows are one-ring and fully fenced.</p>
+                <hr>
+                <p>Some of the philosophies of Desert Dawg Sports, along with its absolutes and key differences regarding agility are:</p>
+                <ul class="differences">
+                    <li>One judge shows – there will never be a ring conflict, a reason not to work a class, or see your friend’s runs.</li>
+                    <li>We expect and appreciate people to work the show to the extent they are able; we will provide lunch, shade and a raffle ticket.</li>
+                    <li>We solicit and encourage first-time agility dogs and handlers, including junior handlers. If you have any questions or suggestions just let us know, we’re happy to help.</li>
+                    <li>Junior handlers enjoy discounted runs for any of our agility trials.</li>
+                    <li>We always fence the entire ring and will close the exits if the handler asks (and the judge allows).</li>
+                    <li>We use rubberized contacts.</li>
+                </ul>
+                <hr>
+                <div class="rule-and-cal-section">
+                    <p><a id="rsa-rules" href="http://desertdawgsports.org/wp-content/uploads/2018/08/RSAgility_Rules.pdf" target="_blank"><img src="../img/rsaLogo.gif" alt="RSA Logo" class="rule-logo">RAINE Rulebook</a></p>
+                    <p><a id="cpe-rules" href="http://desertdawgsports.org/wp-content/uploads/2017/12/2016rb.pdf" target="_blank"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo">CPE Rulebook</a></p>
+                    <p><a id="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
+                    <p><a id="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>Arizona Agility Calendar</a></p>
+                </div>
+                <hr>
+                <h4>DDS Scrip Rules</h4>
+                <ol class="scrip-rules">
+                    <li>Scrip is earned by volunteering at Desert Dawg Sports agility trials.
+    $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
+    $50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
+                    <li>You may use scrip for any Desert Dawg Sports event entry, such as RAINE or CPE agility trials, or for DDS-hosted Fun Runs.</li>
+                    <li>You may use up to $2 per run in scrip on your entries.</li>
+                    <li>A “Free Run” coupon is valued at $12, and may be used in conjunction with the $2 per run in scrip.</li>
+                    <li>Only one Free Run coupon per dog per trial may be used.</li>
+                </ol>
+                <p><a href="http://desertdawgsports.org/wp-content/uploads/2018/02/DDSRulesOfScrip.docx" target="_blank">Download the rules</a></p>
+                <picture>
+                    <img src="../img/scrip-bkgd.png" alt="">
+                </picture>
+            </div>
+        </section>
+        <section id="freestyle">
+            <div class="section-container">
+                <h1>Freestyle</h1>
+                <p>Our Canine Freestyle venue is the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization).</p>
+                <p>In November 2014 Desert Dawg Sports, along with other clubs, hosted the WCFO Nationals here in Tucson, AZ for the first time.</p>
+                <figure>
+                    <img src="../img/freestyle.jpg" alt="lady and parti-colored poodle on white background">
+                    <figcaption>
+                        DDS Member Jane Nichols and Cadence striking a pose
+                    </figcaption>
+                </figure>
+                <p><a id="first-link" href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOmembership-USA-2015.pdf" target="_blank">WCFO Membership – USA</a></p>
+                <img src="../img/wcfoLogo.png" alt="WCFO Logo" style="width: 25%; max-width:150px;">
+                <p><a id="second-link" href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOGuidelinesAugust2015.pdf" target="_blank">WCFO Guidelines</a></p>
+                <p>include video (maybe there are more recent ones)?</p>
+            </div>
+        </section>
+        <section id="more">
+            <div class="section-container">
+                <h1>Trainers & Friends</h1>
+                <p>Desert Dawg Sports is fortunate to enjoy some great friends in the form of folks that not only support us but we support them as well, trainers and merchants alike.</p>
+                <div class="friends">
+                    <div class="card">
+                        <h4><a href="http://www.silveradoplumbing.com/">Silverado Plumbing</a></h4>
+                        <p>Due to the kind generosity of Art Cake and <a href="http://www.silveradoplumbing.com/">Silverado Plumbing</a>, Desert Dawgs now has a high-quality teeter that should last our club for MANY years to come. We just cannot thank Art and Silverado Plumbing enough.</p>
+                        <img src="../img/silveradoPlumbing.png" alt="Silverado Plumbing logo" style="border: none">
+                    </div>
+                    <div class="card">
+                        <h4><a href="http://arizonamuttco.etsy.com">Arizona Mutt Co.</a></h4>
+                        <p>For some wonderful items for you and your dog, check out the <a href="http://arizonamuttco.etsy.com">Arizona Mutt Company</a>.</p>
+                        <p>DDS member Kristen Wheeler is the owner, and you can visit her Etsy site by clicking on the link above.</a></p>
+                    </div>
+                    <div class="card member">
+                        <h4><a href="mailto:sheltiesquad@yahoo.com">Lori Vanni</a></h4>
+                        <p>Trainer</p>
+                        <picture>
+                            <img src="../img/member/lori/lori.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="card member">
+                        <h4><a href="mailto:peggy6632az@gmail.com">Mark Owens</a></h4>
+                        <p>Photographer</p>
+                        <picture>
+                            <img src="../img/member/peggy/mark.jpg" alt="">
+                        </picture>
+                    </div>               
+                </div>                 
+            </div>
+        </section>
+    </div>
     <?php include('footer.php'); ?>
+
     <script>
+        // go to top button (mobile only)
+        function goToTop() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 1000);
+        }      
+        // hamburger menu
         $('.menu-toggle').click(function() {
             $('.site-nav').toggleClass('site-nav--open', 500);
             $(this).toggleClass('open');
+        });  
+        $('.site-nav a, .container').on('click', function() {
+            $('#main-header').removeClass('site-nav--open');
+            $('.menu-toggle').removeClass('open');
+        });    
+        $(document).ready(function() {
+            // scroll to section
+            var scrollLink = $('.scroll');
+            scrollLink.click(function(e) {
+                e.preventDefault();
+                $('body, html').animate({
+                    scrollTop: $(this.hash).offset().top - 70
+                }, 1000);
+            });
+            // hightlight active link
+            $(window).scroll(function() {
+                var scrollbarLocation = $(this).scrollTop();
+                scrollLink.each(function() {
+                    var sectionOffset = $(this.hash).offset().top - 80;
+                    if(sectionOffset <= scrollbarLocation) {
+                        $(this).parent().addClass('active');
+                        $(this).parent().siblings().removeClass('active');
+                    }
+                });
+            });         
+            // DO NOT DELETE! reset site back to top on refresh (commented out for WIP!)
+            //window.onbeforeunload = function() {
+            //    window.scrollTo(0,0);
+            //}
         });
     </script>    
 </body>
