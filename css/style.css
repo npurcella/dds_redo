@@ -20,13 +20,14 @@ body {
           flex-direction: column;
 }
 
-.container, .header-container {
+.container {
   width: 100%;
-  margin: 0 auto;
+  margin: 2.2em auto 0;
 }
 
-.container {
-  margin-top: 3em;
+.header-container {
+  margin: 0 auto;
+  width: 95%;
 }
 
 .section-container {
@@ -48,9 +49,15 @@ header {
 }
 
 header::after {
-  content: '';
-  clear: both;
+  content: "";
   display: block;
+  clear: both;
+}
+
+.menu-toggle::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 h1.logo {
@@ -258,6 +265,10 @@ section a {
   font-weight: bold;
 }
 
+section a:hover, section a:focus {
+  text-shadow: 0 0 2px yellow;
+}
+
 section hr {
   border: 0;
   height: 2px;
@@ -295,17 +306,52 @@ section p i {
 }
 
 #home {
+  padding-top: 2em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundHome.jpg);
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundHome.jpg);
-  background-position: right top;
+  background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 3em;
   width: 100%;
   height: auto;
 }
 
 #home .member-title {
   color: #e73a09;
+}
+
+#home .event {
+  border: 2px dotted #ffa50a;
+  padding: 1px 0 20px 0;
+  margin: 1em auto;
+  max-width: 35em;
+}
+
+#home .event a {
+  display: block;
+  margin-bottom: .5em;
+}
+
+#home .event a:last-of-type {
+  margin-bottom: 0;
+}
+
+#home .event p.subsection-details {
+  margin-bottom: .5em;
+}
+
+#home .event .premium-link {
+  color: #e73a09;
+}
+
+#home .event .signup-link {
+  color: #fe6b17;
+}
+
+#home .event .run-link {
+  color: #e77a09;
 }
 
 #home .card {
@@ -554,9 +600,6 @@ section p i {
 }
 
 @media (min-width: 900px) {
-  #home {
-    background-position: center;
-  }
   #home .card {
     position: relative;
     top: 2.3em;
@@ -567,6 +610,9 @@ section p i {
   }
   #home .calendars {
     margin-bottom: 0;
+  }
+  #home .event {
+    padding-bottom: 0;
   }
   #about {
     background-position: center;
@@ -614,9 +660,12 @@ section p i {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #more .card {
-    margin: 1em auto;
+    margin: 2em;
   }
   #more .card:first-child, #more .card:nth-child(2n+2) {
     -webkit-transform: rotate(0);

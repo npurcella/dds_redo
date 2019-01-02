@@ -10,6 +10,7 @@ $white: #ffffff;
 $black: #000000;
 
 $ltYellow: #ded00c;
+$yellow: yellow;
 $goldenrod: #e77a09;
 $mustard: #ffa50a;
 $ltOrange: #fe6b17;
@@ -31,13 +32,13 @@ body {
     display: flex;
     flex-direction: column;
 }
-.container, .header-container {
-    width: 100%;
-    //max-width: 1500px;
-    margin: 0 auto;    
-}
 .container {
-    margin-top: 3em;
+    width: 100%;
+    margin: 2.2em auto 0;
+}
+.header-container {
+    margin: 0 auto;
+    width: 95%;
 }
 .section-container {
     width: 90%;
@@ -57,10 +58,16 @@ header {
     z-index: 10;
 }
 header::after {
-    content: '';
-    clear: both;
+    content: "";
     display: block;
+    clear: both;    
 }
+.menu-toggle::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 h1.logo {
     color: $black;
     font-size: 24px;
@@ -213,7 +220,6 @@ h1.logo {
 }
 // ALL CONTENT
 section {
-    //margin-top: 1em;
     padding: 1em 0 1em;
     h1 {
         color: $goldenrod;
@@ -237,6 +243,9 @@ section {
         text-decoration: none;
         color: $dkOrange;
         font-weight: bold;
+    }
+    a:hover, a:focus {
+        text-shadow: 0 0 2px $yellow;
     }
     hr {
         border: 0;
@@ -271,15 +280,42 @@ section {
 }
 // HOME CONTENT
 #home {
+    padding-top: 2em;
     .member-title {
         color: $dkOrange;
     }
     background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/backgroundHome.jpg);
-    background-position: right top;
+    background-position: top right;
     background-size: cover;
     background-repeat: no-repeat;
-    // background-attachment: fixed;
+    background-attachment: fixed;
+    background-position-y: 3em;
     width: 100%;
+    .event {
+        border: 2px dotted $mustard;
+        padding: 1px 0 20px 0;
+        margin: 1em auto;
+        max-width: 35em;
+        a {
+            display: block;
+            margin-bottom: .5em;
+        }
+        a:last-of-type {
+            margin-bottom: 0;
+        }
+        p.subsection-details {
+            margin-bottom: .5em;
+        }      
+        .premium-link {
+            color: $dkOrange;
+        }
+        .signup-link {
+            color: $ltOrange;
+        }
+        .run-link {
+            color: $goldenrod;
+        }
+    }
     height: auto;
     .card {
         color: $dkOrange;
@@ -321,11 +357,7 @@ section {
     hr {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 122, 9, 0.75), rgba(0, 0, 0, 0));
     }
-    // WANT TO TRY USING GRID HERE INSTEAD!
     .members {
-        // display: grid;
-        // grid-gap: 1.5em;
-        // grid-template-areas: 'content';
         display: flex;
         flex-direction: column;
         margin-bottom: 3em;
@@ -341,7 +373,6 @@ section {
         margin-bottom: 1.5em;
         h4 {
             margin: .5em auto 0;
-            //font-family: 'Berkshire Swash', cursive;
             font-size: 1.5em;
             text-transform: uppercase;
         }
@@ -435,9 +466,6 @@ section {
     background-attachment: fixed;
     margin: 0 auto;
     .friends {
-        // display: grid;
-        // grid-gap: 1.5em;
-        // grid-template-areas: 'content';
         display: flex;
         flex-direction: column;
         margin-bottom: 3em;
@@ -479,19 +507,7 @@ section {
 }
 @media(min-width: 900px) {
     #home {
-        background-position: center;
         .card {
-            // background: rgba(191,95,24,.5);
-            // outline: 1px solid $goldenrod;
-            // outline-offset: -1em;
-            // h2, h4 {
-            //     color: $mustard;
-            // }
-            // a {
-            //     color: $goldenrod;
-            // }
-            //margin-right: 3em;
-            //margin-top: -1em;
             position: relative;
             top: 2.3em;
             background: rgba(255,165,10,.5);
@@ -500,6 +516,9 @@ section {
         }
         .calendars {
             margin-bottom: 0;
+        }
+        .event {
+            padding-bottom: 0;
         }
     }
     #about {
@@ -543,9 +562,10 @@ section {
         .friends {
             flex-direction: row;
             flex-wrap: wrap;
+            justify-content: center;
         }
         .card {
-            margin: 1em auto;
+            margin: 2em;
         }
         .card:first-child, .card:nth-child(2n+2) {
             transform: rotate(0);
@@ -565,7 +585,6 @@ section {
         }  
     }
 }
-
 //FOOTER
 footer {
     background: $black;
@@ -586,10 +605,7 @@ footer {
         align-self: end;
         font-weight: bold;
         vertical-align: sub;
-        
-        // NOT SURE WHAT THIS IS HERE FOR
         background-image: linear-gradient(to bottom, #fa709a 0%, #ef6009 50%, #fee140 100%);        
-
         padding: 1em 1em .5em;
         margin-right: .5em;
         border-radius: 7px;

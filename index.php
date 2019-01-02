@@ -8,48 +8,77 @@
     <title>Desert Dawg Sports</title>
     <link rel="stylesheet" href="css/normalize.css"> 
     <link rel="stylesheet" href="css/style.css"> 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
     <?php include('header.php'); ?>
     <div class="container">
         <section id="home">
-            <h1>Upcoming Events</h1> <!--put a small icon of sponsor next to each -->
-            <h3 class="subsection-title"><img src="" alt="">Fun Run</h2>
-            <p class="subsection-details">Jan 11, 2019 @ 12:00p - 3:00p</p>
-            <h3 class="subsection-title">RAINE</h2>
-            <p class="subsection-details">Jan 12 - 13, 2019 @ 7:00a - 5:00p</p>
-            <h3 class="subsection-title">Fun Run @ Crystal's</h2>
-            <p class="subsection-details">Jan 26, 2019 @ 8:00a - 11:00a</p>
-            <h3 class="subsection-title">CPE</h2>
-            <p class="subsection-details">Feb 2 - 3, 2019 @ 7:00a - 5:00p</p>
-            <h3 class="subsection-title">Fun Run @ Jodie’s</h2>
-            <p class="subsection-details">February 23, 2019</p>
-            <h3 class="subsection-title">CPE</h2>
-            <p class="subsection-details">March 1 - 3, 2019 @ 7:00a - 5:00p</p>
-            <h3 class="subsection-title">Set-up & Fun Run</h2>
-            <p class="subsection-details"> May 17, 2019 @ 12:00p - 4:00p</p>
-            <h3 class="subsection-title">RAINE</h2>
-            <p class="subsection-details">May 18 - 19, 2019 @ 8:00a - 5:00p</p>
-            <h3 class="subsection-title">Fun Run</h2>
-            <p class="subsection-details">October 25, 2019 @ 12:00p - 3:00p</p>
-            <h3 class="subsection-title">RAINE</h2>
-            <p class="subsection-details">October 26 - 27, 2019 @ 7:00a - 5:00p</p>
-            <hr>
-            <div class="calendars">
-                <h1>Calendars</h1>
-                <p><a id="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
-                <p><a id="az-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
-            </div>
-            <div class="card">
-                <h2>Become a Member!</h2>
-                <div class="btn-wrapper">
-                    <a class="btn" href="http://desertdawgsports.org/wp-content/uploads/2018/10/DDSC-membership-form.pdf">New Member</a>
+            <div class="section-container">
+                <h1>Upcoming Events</h1> 
+                <div class="event">
+                    <h3 class="subsection-title"><img src="" alt="">Fun Run</h2>
+                    <p class="subsection-details">Jan 11, 2019 @ 12:00p - 3:00p</p>
                 </div>
-                <h3>Time to Renew?</h3>
-                <div class="btn-wrapper">
-                    <a class="btn" href="http://desertdawgsports.org/wp-content/uploads/2018/10/DDSC-membership-renewal-form.pdf">Existing Member</a>
+                <div class="event">            
+                    <h3 class="subsection-title">RAINE</h2>
+                    <p class="subsection-details">Jan 12 - 13, 2019 @ 7:00a - 5:00p</p>
+                    <a class="premium-link" href="http://desertdawgsports.org/wp-content/uploads/2018/11/DDS_Jan_2019_Rockstar_Agility_Premium-1.pdf">Download Premium</a>
+                    <a class="signup-link" href="https://docs.google.com/spreadsheets/d/1f6xtYQx2kCg1Ni1VN2NgOonTxkgdaFuhE2NhzJY4H7w/edit#gid=0">Sign-up Sheet</a>
+                    <a class="run-link" href="#">Run Order (TBA)</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run @ Crystal's</h2>
+                    <p class="subsection-details">Jan 26, 2019 @ 8:00a - 11:00a</p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h2>
+                    <p class="subsection-details">Feb 2 - 3, 2019 @ 7:00a - 5:00p</p>
+                    <a class="premium-link" href="http://www.k9cpe.com/premiums/020219azdesertdawgs.pdf">Download Premium</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run @ Jodie’s</h2>
+                    <p class="subsection-details">February 23, 2019</p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h2>
+                    <p class="subsection-details">March 1 - 3, 2019 @ 7:00a - 5:00p</p>
+                    <a class="premium-link" href="http://www.k9cpe.com/premiums/030119azdesertdawgs.pdf">Download Premium</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Set-up & Fun Run</h2>
+                    <p class="subsection-details"> May 17, 2019 @ 12:00p - 4:00p</p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">RAINE</h2>
+                    <p class="subsection-details">May 18 - 19, 2019 @ 8:00a - 5:00p</p>
+                    <a href="#" class="premium-link">TBA</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h2>
+                    <p class="subsection-details">October 25, 2019 @ 12:00p - 3:00p</p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">RAINE</h2>
+                    <p class="subsection-details">October 26 - 27, 2019 @ 7:00a - 5:00p</p>
+                    <a href="#" class="premium-link">TBA</a>                    
+                </div>
+
+                <hr>
+                <div class="calendars">
+                    <h1>Calendars</h1>
+                    <p><a id="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
+                    <p><a id="az-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
+                </div>
+                <div class="card">
+                    <h2>Become a Member!</h2>
+                    <div class="btn-wrapper">
+                        <a class="btn" href="http://desertdawgsports.org/wp-content/uploads/2018/10/DDSC-membership-form.pdf">New Member</a>
+                    </div>
+                    <h3>Time to Renew?</h3>
+                    <div class="btn-wrapper">
+                        <a class="btn" href="http://desertdawgsports.org/wp-content/uploads/2018/10/DDSC-membership-renewal-form.pdf">Existing Member</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -59,10 +88,7 @@
                 <img src="../img/jimStill.jpg" alt="Jim Still, founder of Desert Dawg Sports">
                 <figcaption>Jim Still, founder of DDS</figcaption>
             </figure>
-
             <p>Desert Dawg Sports Club (DDS) is a not-for-profit organization in Tucson, AZ. It was formed by a group of individuals who believed in having a great time with their dogs.</p>
-
-
             <p>DDS members enjoy a mixture of activities with their pups: <a href="https://en.wikipedia.org/wiki/Dog_agility" target="_blank">agility</a>, <a href="https://en.wikipedia.org/wiki/Musical_canine_freestyle" target="_blank">canine freestyle</a>, <a href="https://en.wikipedia.org/wiki/Rally_obedience" target="_blank">rally obedience</a>, <a href="http://www.barnhunt.com/" target="_blank">barn hunt</a>, and more. Some participate in multiple activities, while others focus on a single one. We have a sense of humor and a supportive attitude toward our dog(s) and fellow competitors. Our primary purpose is helping people have fun with their dogs, and have fun ourselves in the process. We will consider any game if members are willing to support it with their time and share it with others.</p>
             <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://rsagility.com/" target="_blank">RSA</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
             <p>Some members are involved in canine freestyle through the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization), which is global and has clubs in 17 countries.</p>
@@ -206,10 +232,8 @@
         </section>
         <section id="more">
             <div class="section-container">
-                <h1>More</h1>
+                <h1>Trainers & Friends</h1>
                 <p>Desert Dawg Sports is fortunate to enjoy some great friends in the form of folks that not only support us but we support them as well, trainers and merchants alike.</p>
-                <p>put blurb for art cake and silverado plumbing</p>
-                <p>AZ Mutt Co</p>
                 <div class="friends">
                     <div class="card">
                         <h4><a href="http://www.silveradoplumbing.com/">Silverado Plumbing</a></h4>
