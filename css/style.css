@@ -8,6 +8,7 @@
 html, body {
   margin: 0;
   height: 100%;
+  background-color: #ffffff;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 
 .container {
   width: 100%;
-  margin: 2.2em auto 0;
+  margin: 0 auto 0;
 }
 
 .header-container {
@@ -124,9 +125,9 @@ h1.logo img {
 }
 
 .menu-toggle {
-  padding: 1em;
+  padding: 1.2em .5em 1em 0;
   position: absolute;
-  right: 1em;
+  right: .2em;
   top: 1em;
   cursor: pointer;
 }
@@ -211,6 +212,19 @@ h1.logo img {
   border-radius: 5px;
 }
 
+.card-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#more .card.silverado h4 a {
+  color: #ff1c0a;
+}
+
+#more .card.muttco h4 a {
+  color: #ea0e7c;
+}
+
 @media (min-width: 900px) {
   .card {
     width: 30%;
@@ -251,12 +265,17 @@ section h2 {
 }
 
 section .subsection-title {
-  color: #070707;
-  margin-bottom: 0;
+  color: #e73a09;
+  margin-bottom: .3em;
 }
 
 section .subsection-details {
   margin-top: 0;
+}
+
+section .event-location {
+  margin: 0;
+  padding: 0;
 }
 
 section a {
@@ -269,13 +288,17 @@ section a:hover, section a:focus {
   text-shadow: 0 0 2px yellow;
 }
 
+section a.disabled, section a.disabled:hover, section a.disabled:focus {
+  pointer-events: none;
+}
+
 section hr {
   border: 0;
   height: 2px;
   margin: 2em auto 2em;
 }
 
-section #rsa-rules, section #cpe-rules, section #dds-cal, section #az-cal {
+section #rsa-rules, section #cpe-rules, section .dds-cal, section .az-cal {
   cursor: pointer;
 }
 
@@ -287,11 +310,11 @@ section #cpe-rules {
   color: #ffa50a;
 }
 
-section #dds-cal {
+section .dds-cal {
   color: #fe6b17;
 }
 
-section #az-cal {
+section .az-cal {
   color: #e73a09;
 }
 
@@ -306,20 +329,53 @@ section p i {
 }
 
 #home {
-  padding-top: 2em;
+  padding-top: 3em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundHome.jpg);
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundHome.jpg);
   background-position: top right;
   background-size: cover;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: 3em;
+  background-position-y: 1.5em;
   width: 100%;
   height: auto;
 }
 
+#home h1 {
+  margin: 1em auto 0;
+}
+
+#home h2.subtitle, #home .subtitle p a {
+  color: #e77a09;
+  background: -webkit-linear-gradient(#ded00c, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#home .other h2.subtitle {
+  margin-bottom: 0;
+}
+
+#home .other p {
+  margin: .5em auto 1.5em;
+}
+
+#home .other p i {
+  color: #e77a09;
+  background: -webkit-linear-gradient(#ded00c, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #home .member-title {
   color: #e73a09;
+}
+
+#home #event-header-note {
+  margin-top: 0;
+  font-style: italic;
 }
 
 #home .event {
@@ -329,21 +385,51 @@ section p i {
   max-width: 35em;
 }
 
+#home .event .event-location a {
+  color: #292727;
+  text-decoration: none;
+}
+
 #home .event a {
   display: block;
-  margin-bottom: .5em;
+  margin-bottom: .2em;
 }
 
 #home .event a:last-of-type {
   margin-bottom: 0;
 }
 
+#home .event i.fa-map-marker-alt {
+  color: #e77a09;
+}
+
+#home .event .subsection-title.cancelled, #home .event .subsection-details.cancelled {
+  text-decoration: line-through;
+}
+
 #home .event p.subsection-details {
+  margin-bottom: .5em;
+  font-weight: 600;
+}
+
+#home .event p.subsection-details.past {
+  font-weight: normal;
+}
+
+#home .event p.event-location a {
+  font-weight: bold;
   margin-bottom: .5em;
 }
 
+#home .event p.cancelled-notice {
+  color: #ff1c0a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: .3em;
+}
+
 #home .event .premium-link {
-  color: #e73a09;
+  color: #e77a09;
 }
 
 #home .event .signup-link {
@@ -351,7 +437,39 @@ section p i {
 }
 
 #home .event .run-link {
-  color: #e77a09;
+  color: #ff1c0a;
+}
+
+#home .event .trial-results {
+  color: red;
+}
+
+#home .event .premium-link.disabled, #home .event .signup-link.disabled, #home .event .run-link.disabled {
+  color: #292727;
+  font-weight: normal;
+  font-style: italic;
+  font-size: .95em;
+}
+
+#home .event .event-info {
+  margin: 0;
+  font-style: italic;
+  margin-bottom: .2em;
+  padding: 0 .8em 0;
+}
+
+#home .event .raine-update {
+  color: #ff1c0a;
+  font-weight: bold;
+  margin: .3em auto;
+}
+
+#home .event .raine-update:first-of-type {
+  margin-top: 1.2em;
+}
+
+#home .event .raine-update:last-of-type {
+  margin-bottom: 1.2em;
 }
 
 #home .card {
@@ -367,6 +485,7 @@ section p i {
 #home .card h2 {
   color: #e73a09;
   margin-bottom: .5em;
+  font-size: 1.3em;
 }
 
 #home .card h4 {
@@ -410,10 +529,15 @@ section p i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 3em;
 }
 
@@ -451,8 +575,8 @@ section p i {
 
 #agility {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundAgility.jpg);
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundAgility.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/penny_slider.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/penny_slider.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -471,12 +595,8 @@ section p i {
   padding: 0 0 1em 1.5em;
 }
 
-#agility .differences li:before, #agility .scrip-rules li:before {
-  content: "\f1b0";
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: 0em;
-  width: 1.5em;
+#agility .differences li i, #agility .scrip-rules li i {
+  margin-right: .5em;
 }
 
 #agility h4 {
@@ -505,6 +625,20 @@ section p i {
 #agility .rule-logo {
   display: block;
   margin: .5em auto .5em;
+}
+
+#agility .raine-update {
+  color: #ff1c0a;
+  font-weight: bold;
+  margin: .3em auto;
+}
+
+#agility .raine-update:first-of-type {
+  margin-top: .2em;
+}
+
+#agility .raine-update:last-of-type {
+  margin-bottom: .5em;
 }
 
 #freestyle h1 {
@@ -600,6 +734,9 @@ section p i {
 }
 
 @media (min-width: 900px) {
+  #home .other p {
+    margin-bottom: 0;
+  }
   #home .card {
     position: relative;
     top: 2.3em;
@@ -612,19 +749,11 @@ section p i {
     margin-bottom: 0;
   }
   #home .event {
-    padding-bottom: 0;
+    padding-bottom: 2em;
   }
   #about {
     background-position: center;
     margin-bottom: 0;
-  }
-  #about .members {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   #about .card {
     margin: 1em auto;

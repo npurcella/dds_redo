@@ -27,6 +27,7 @@ $orange: #ef6009;
 html, body {
     margin: 0;
     height: 100%;
+    background-color: #ffffff;
 }
 body {
     display: flex;
@@ -34,11 +35,11 @@ body {
 }
 .container {
     width: 100%;
-    margin: 2.2em auto 0;
+    margin: 0 auto 0;
 }
 .header-container {
     margin: 0 auto;
-    width: 95%;
+    width: 95%;    
 }
 .section-container {
     width: 90%;
@@ -73,7 +74,6 @@ h1.logo {
     font-size: 24px;
     font-weight: 700;
     display: inline;
-    
     img {
         margin-right: 10px;
         vertical-align: sub;
@@ -121,9 +121,9 @@ h1.logo {
     height: 0;
 }
 .menu-toggle {
-    padding: 1em;
+    padding: 1.2em .5em 1em 0;    
     position: absolute;
-    right: 1em;
+    right: .2em;
     top: 1em;
     cursor: pointer;
 }
@@ -190,17 +190,24 @@ h1.logo {
     padding: .2em;
     border-radius: 5px;
 }
+.card-container {
+    width: 90%;
+    margin: 0 auto;
+}
+#more .card.silverado h4 {
+    a {
+        color: $red;
+    }
+}
+#more .card.muttco h4 {
+    a {
+        color: #ea0e7c;
+    }
+}
 @media(min-width: 900px) {
     .card {
         width: 30%;
         max-width: 500px;
-        //margin-right: 3em;
-        //margin-top: -1em;
-        //position: relative;
-        //top: 2.8em;
-        //right: -2em;
-
-
     }
 }
 .btn-wrapper {
@@ -208,9 +215,6 @@ h1.logo {
     display: inline-block;
 }
 .btn-wrapper:hover, .btn-wrapper:focus {
-    // a {
-    //     color: $white;
-    // }
     background-color: rgba(231,122,9,.5);
 }
 @media(min-width: 900px) {
@@ -233,11 +237,15 @@ section {
     text-align: center;
     color: $black;
     .subsection-title {
-        color: $darkTextColor;
-        margin-bottom: 0;
+        color: $dkOrange;
+        margin-bottom: .3em;
     }
     .subsection-details {
         margin-top: 0;
+    }
+    .event-location {
+        margin: 0;
+        padding: 0;
     }
     a {
         text-decoration: none;
@@ -247,12 +255,15 @@ section {
     a:hover, a:focus {
         text-shadow: 0 0 2px $yellow;
     }
+    a.disabled, a.disabled:hover, a.disabled:focus {
+        pointer-events: none;   
+    }
     hr {
         border: 0;
         height: 2px;
         margin: 2em auto 2em;
     }    
-    #rsa-rules, #cpe-rules, #dds-cal, #az-cal {
+    #rsa-rules, #cpe-rules, .dds-cal, .az-cal {
         cursor: pointer;
     }
     #rsa-rules {
@@ -261,10 +272,10 @@ section {
     #cpe-rules {
         color: $mustard;
     }    
-    #dds-cal {
+    .dds-cal {
         color: $ltOrange;
     }
-    #az-cal {
+    .az-cal {
         color: $dkOrange;
     }                    
     p i {
@@ -280,40 +291,118 @@ section {
 }
 // HOME CONTENT
 #home {
-    padding-top: 2em;
-    .member-title {
-        color: $dkOrange;
-    }
+    padding-top: 3em;
     background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/backgroundHome.jpg);
     background-position: top right;
     background-size: cover;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-y: 3em;
-    width: 100%;
+    background-position-y: 1.5em;
+    width: 100%;    
+    h1 {
+        margin: 1em auto 0;
+    }
+    h2.subtitle, .subtitle p a {
+        color: $goldenrod;
+        background: -webkit-linear-gradient($ltYellow, $trueRed);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .other h2.subtitle {
+        margin-bottom: 0;
+    }
+    .other p {
+        margin: .5em auto 1.5em;
+        i {
+            color: $goldenrod;
+            background: -webkit-linear-gradient($ltYellow, $trueRed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;        
+        }
+    }
+    // padding-top: 2em;
+    .member-title {
+        color: $dkOrange;
+    }
+    #event-header-note {
+        margin-top: 0;
+        font-style: italic;
+    }
     .event {
         border: 2px dotted $mustard;
         padding: 1px 0 20px 0;
         margin: 1em auto;
         max-width: 35em;
+        .event-location a {
+            color: $lightTextColor;
+            text-decoration: none;
+        }
         a {
             display: block;
-            margin-bottom: .5em;
+            margin-bottom: .2em;
         }
         a:last-of-type {
             margin-bottom: 0;
         }
+        i.fa-map-marker-alt {
+            color: $goldenrod;
+        }
+        .subsection-title.cancelled, .subsection-details.cancelled {
+            text-decoration: line-through;
+        }
         p.subsection-details {
             margin-bottom: .5em;
-        }      
+            font-weight: 600;
+        }    
+        p.subsection-details.past {
+            font-weight: normal;
+        }
+        p.event-location a {
+            font-weight: bold;
+            margin-bottom: .5em;
+        }
+        p.cancelled-notice {
+            color: $red;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: .3em;
+        }
         .premium-link {
-            color: $dkOrange;
+            color: $goldenrod; // goldenrod
         }
         .signup-link {
             color: $ltOrange;
         }
         .run-link {
-            color: $goldenrod;
+            color: $red;  //dkorange
+        }
+        .trial-results {
+            color: $trueRed;
+        }
+        .premium-link.disabled, .signup-link.disabled, .run-link.disabled {
+            color: $lightTextColor;
+            font-weight: normal;
+            font-style: italic;
+            font-size: .95em;
+        }
+        .event-info {
+            margin: 0;
+            font-style: italic;
+            margin-bottom: .2em;
+            padding: 0 .8em 0;
+        }       
+        .raine-update {
+            color: $red;
+            font-weight: bold;
+            margin: .3em auto;
+        } 
+        .raine-update:first-of-type {
+            margin-top: 1.2em;
+        }
+        .raine-update:last-of-type {
+            margin-bottom: 1.2em;
         }
     }
     height: auto;
@@ -325,6 +414,7 @@ section {
         h2 {
             color: $dkOrange;
             margin-bottom: .5em;
+            font-size: 1.3em;
         }   
         h4 {
             margin-bottom: .5em;
@@ -359,7 +449,9 @@ section {
     }
     .members {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
         margin-bottom: 3em;
     }
     .card {
@@ -393,7 +485,7 @@ section {
 // AGILITY CONTENT
 #agility {
     width: 100%;
-    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/backgroundAgility.jpg);
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/penny_slider.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -408,12 +500,8 @@ section {
     .differences li, .scrip-rules li {
         padding: 0 0 1em 1.5em;
     }
-    .differences li:before, .scrip-rules li:before {
-        content: "\f1b0";
-        font-family: FontAwesome;
-        display: inline-block;
-        margin-left:0em;
-        width: 1.5em;
+    .differences li i, .scrip-rules li i {
+        margin-right: .5em;
     }
     h4 {
         margin-bottom: -.5em;
@@ -432,6 +520,17 @@ section {
         display: block;
         margin: .5em auto .5em;
     }
+    .raine-update {
+        color: $red;
+        font-weight: bold;
+        margin: .3em auto;
+    } 
+    .raine-update:first-of-type {
+        margin-top: .2em;
+    }
+    .raine-update:last-of-type {
+        margin-bottom: .5em;
+    }    
 }
 #freestyle {
     h1 {
@@ -470,7 +569,6 @@ section {
         flex-direction: column;
         margin-bottom: 3em;
     }
-
     .card {
         text-align: center;
         min-width: 200px;
@@ -506,7 +604,10 @@ section {
     }
 }
 @media(min-width: 900px) {
-    #home {
+    #home {  
+        .other p {
+            margin-bottom: 0;
+        }        
         .card {
             position: relative;
             top: 2.3em;
@@ -518,16 +619,12 @@ section {
             margin-bottom: 0;
         }
         .event {
-            padding-bottom: 0;
+            padding-bottom: 2em;
         }
     }
     #about {
         background-position: center;
         margin-bottom: 0;
-        .members {
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
         .card {
             margin: 1em auto;
         }

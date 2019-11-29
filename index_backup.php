@@ -9,48 +9,110 @@
     <link rel="stylesheet" href="css/normalize.css"> 
     <link rel="stylesheet" href="css/style.css"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
+    
 </head>
 <body>
     <?php include('header.php'); ?>
     <div class="container">
         <section id="home">
             <div class="section-container">
-                <h1>Upcoming Events</h1>              
+                <h1>Upcoming Events</h1> 
+                <p id="event-header-note">(scroll down for trial results)</p>
+                <!-- <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Jan 11, 2019 @ 12:00p - 3:00p</p>                    
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div> -->
+                <!-- <div class="event">
+                    <h3 class="subsection-title cancelled">Fun Run @ Crystal's</h3>
+                    <p class="subsection-details cancelled">Jan 26, 2019 @ 8:00a - 11:00a</p>
+                    <p class="cancelled-notice"><i class="far fa-calendar-times"></i>This event has been cancelled.</p>
+                </div> -->
+                <!-- <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Feb 2 - 3, 2019 @ 7:00a - 5:00p</p>                    
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a class="premium-link" href="http://www.k9cpe.com/premiums/020219azdesertdawgs.pdf" target="_blank">Download Premium</a>
+                </div> -->
+                <!-- <div class="event">
+                    <h3 class="subsection-title">Fun Run @ Jodie’s</h3>
+                    <p class="subsection-details">Feb 23, 2019 @ 8:00a - NOON</p>
+                    <p class="event-location"><a href="https://www.google.com/maps/place/3742+N+Ave+De+Montezuma,+Tucson,+AZ+85749/@32.2760281,-110.775968,17z/data=!3m1!4b1!4m5!3m4!1s0x86d66912f669b061:0xbea513898c09240e!8m2!3d32.2760281!4d-110.7737793" target="_blank">
+                        <i class="fa fa-map-marker-alt fa-sm"></i>Directions</a></p>                    
+                    <p class="event-info">Help with setup/tear down and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div> -->
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Dec 7 - 8, 2019 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Mar 1 - 3, 2019 @ 7:00a - 5:00p</p>                    
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a class="premium-link" href="../docs/CPE_Dec2019Premium_v2.pdf" target="_blank">Download Premium</a>                    
+                    <a class="premium-link" href="http://www.k9cpe.com/premiums/030119azdesertdawgs.pdf" target="_blank">Download Premium</a>
                 </div>
                 <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Jan 11 - 12, 2020 @ 7:00a - 5:00p</p>                    
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">(premium unavailable at this time)</a>                    
+                    <h3 class="subsection-title">Fun Run @ Jodie’s</h3>
+                    <p class="subsection-details">Mar 23, 2019 @ 8:00 (or earlier)</p>                    
+                    <p class="event-location"><a href="https://www.google.com/maps/place/3742+N+Ave+De+Montezuma,+Tucson,+AZ+85749/@32.2760281,-110.775968,17z/data=!3m1!4b1!4m5!3m4!1s0x86d66912f669b061:0xbea513898c09240e!8m2!3d32.2760281!4d-110.7737793" target="_blank">
+                        <i class="fa fa-map-marker-alt fa-sm"></i>Directions</a></p>
+                    <p class="event-info">Help with setup/tear down and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div>                
+                <div class="event">
+                    <h3 class="subsection-title">Set-up & Fun Run</h3>
+                    <p class="subsection-details"> May 17, 2019 @ 12:00p - 4:00p</p>                    
+                    <p class="event-location"><a href="https://www.google.com/maps/place/Frontier+Park/@34.2560258,-110.0330945,15z/data=!4m5!3m4!1s0x0:0x591d04866215ffd6!8m2!3d34.2560258!4d-110.0330945" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Frontier Park</a></p>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                 </div>
                 <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Feb 1 - 2, 2020 @ 7:00a - 5:00p</p>                    
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">(premium unavailable at this time)</a>                    
-                </div>                
+                    <h3 class="subsection-title">RAINE</h3>
+                    <p class="subsection-details">May 18 - 19, 2019 @ 8:00a - 5:00p</p>                    
+                    <p class="event-location"><a href="https://www.google.com/maps/place/Frontier+Park/@34.2560258,-110.0330945,15z/data=!4m5!3m4!1s0x0:0x591d04866215ffd6!8m2!3d34.2560258!4d-110.0330945" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Frontier Park</a></p>
+                    <a class="premium-link" href="../docs/DDS_May_2019_Rockstar_Agility_Premium.pdf" target="_blank">Download Premium</a>
+                    <a class="signup-link disabled" href="" target="_blank">Sign-up Sheet</a>          
+                </div>
                 <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Feb 28, 29 & Mar 1, 2020 @ 7:00a - 5:00p</p>                    
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Oct 25, 2019 @ 12:00p - 3:00p</p>                    
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">(premium unavailable at this time)</a>                    
-                </div>                
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div>
                 <div class="event">
-                    <h3 class="subsection-title">UKI</h3>
-                    <p class="subsection-details">Mar 21 - 22, 2020 @ 7:00a - 5:00p</p>                    
+                    <h3 class="subsection-title">RAINE</h3>
+                    <p class="subsection-details">Oct 26 - 27, 2019 @ 7:00a - 5:00p</p>                    
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">(premium unavailable at this time)</a>                    
-                </div>                
+                    <a href="#" class="premium-link disabled">TBA</a>                    
+                </div>
+                <!-- Sample event with all fields -->
+                <!-- <div class="event">            
+                    <h3 class="subsection-title">RAINE</h3>
+                    <p class="subsection-details">Jan 12 - 13, 2019 @ 7:00a - 5:00p</p>                    
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>                    
+                    <a class="premium-link" href="../docs/DDS_Jan_2019_Rockstar_Agility_Premium-1.pdf" target="_blank">Download Premium</a>
+                    <a class="signup-link" href="https://docs.google.com/spreadsheets/d/1f6xtYQx2kCg1Ni1VN2NgOonTxkgdaFuhE2NhzJY4H7w/edit#gid=0" target="_blank">Sign-up Sheet</a>
+                    <a class="trial-results" href="docs/trialResults_Jan2019.pdf" target="_blank">Trial Results</a>
+                    <a class="run-link disabled" href="#">Run Order (TBA)</a>
+                </div> -->
+                <hr>
+                <h2 class="subtitle">Past Events</h2> 
+                <div class="event">            
+                    <h3 class="subsection-title">RAINE</h3>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="subsection-details past">Jan 12 - 13, 2019 @ 7:00a - 5:00p</p>
+                    <!-- <a class="premium-link" href="../docs/DDS_Jan_2019_Rockstar_Agility_Premium-1.pdf" target="_blank">Download Premium</a>
+                    <a class="signup-link" href="https://docs.google.com/spreadsheets/d/1f6xtYQx2kCg1Ni1VN2NgOonTxkgdaFuhE2NhzJY4H7w/edit#gid=0" target="_blank">Sign-up Sheet</a>
+                    <a class="run-link" href="docs/RunOrderforJan12-13.pdf" target="_blank">Run Order</a> -->
+                    <a class="trial-results" href="docs/trialResults_Jan2019.pdf" target="_blank">Trial Results</a>
+                </div>
                 <hr>
                 <div class="calendars">
                     <h2 class="subtitle">Calendars</h2>
-                    <p><a class="dds-cal" href="https://calendar.google.com/calendar/embed?src=s9hkl5ti2vegs1cang3fdn57q0%40group.calendar.google.com&ctz=America%2FPhoenix" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
-                    <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>                 
+                    <p><a class="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
+                    <p><a class="az-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
                 </div>
                 <hr>
                 <div class="other">
@@ -178,9 +240,6 @@
                 </ul>
                 <hr>
                 <div class="rule-and-cal-section">
-                    <h4 class="raine-update"><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank">ROCKSTAR NORTH AMERICA CHALLENGE:</a></h4>
-                    <h4 class="raine-update"><em><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank">~ 2019 Rules & Qualifying changes ~</a></em></h4>
-                    <h4 class="raine-update"><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank">Click Here!</a></h4>                    
                     <p><a id="rsa-rules" href="../docs/RSAgility_Rules.pdf" target="_blank"><img src="../img/rsaLogo.gif" alt="RSA Logo" class="rule-logo">RAINE Rulebook</a></p>
                     <p><a id="cpe-rules" href="../docs/2016rb.pdf" target="_blank"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo">CPE Rulebook</a></p>
                     <p><a class="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>

@@ -1,0 +1,18 @@
+                <div class="event">
+                    <h3 class="subsection-title">Set-up & Fun Run</h3>
+                    <p class="subsection-details"> May 17, 2019 @ 12:00p - 4:00p</p>                    
+                    <p class="event-location"><a href="https://www.google.com/maps/place/Frontier+Park/@34.2560258,-110.0330945,15z/data=!4m5!3m4!1s0x0:0x591d04866215ffd6!8m2!3d34.2560258!4d-110.0330945" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Frontier Park</a></p>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">RAINE</h3>
+                    <p class="subsection-details">May 18 - 19, 2019 @ 8:00a - 5:00p</p>                    
+                    <p class="event-location"><a href="https://www.google.com/maps/place/Frontier+Park/@34.2560258,-110.0330945,15z/data=!4m5!3m4!1s0x0:0x591d04866215ffd6!8m2!3d34.2560258!4d-110.0330945" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Frontier Park</a></p>
+                    <a class="premium-link" href="../docs/DDS_May_2019_Rockstar_Agility_Premium_updated.pdf" target="_blank">Download Premium (w/date correction)</a> 
+                    <a class="run-link" href="docs/RunningOrderMay2019.pdf" target="_blank">Run Order</a>     
+                    <hr style="margin-bottom: 2em;">
+                    <h4 class="raine-update"><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank">NORTH AMERICA CHALLENGE:</h4>
+                    <h4 class="raine-update"><em><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank" style="color: #292727;">~ 2019 Rules & Qualifying changes ~</em></h4>
+                    <h4 class="raine-update"><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank" style="color: #292727;">Click Here!</a></h4>                    
+                </div>
