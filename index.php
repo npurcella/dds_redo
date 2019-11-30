@@ -77,7 +77,7 @@
             </figure>
             <p>Desert Dawg Sports Club (DDS) is a not-for-profit organization in Tucson, AZ. It was formed by a group of individuals who believed in having a great time with their dogs.</p>
             <p>DDS members enjoy a mixture of activities with their pups: <a href="https://en.wikipedia.org/wiki/Dog_agility" target="_blank">agility</a>, <a href="https://en.wikipedia.org/wiki/Musical_canine_freestyle" target="_blank">canine freestyle</a>, <a href="https://en.wikipedia.org/wiki/Rally_obedience" target="_blank">rally obedience</a>, <a href="http://www.barnhunt.com/" target="_blank">barn hunt</a>, and more. Some participate in multiple activities, while others focus on a single one. We have a sense of humor and a supportive attitude toward our dog(s) and fellow competitors. Our primary purpose is helping people have fun with their dogs, and have fun ourselves in the process. We will consider any game if members are willing to support it with their time and share it with others.</p>
-            <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://rsagility.com/" target="_blank">RAINE</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
+            <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://ukagilityinternational.com/" target="_blank">UKI</a> and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
             <p>Some members are involved in canine freestyle through the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization), which is global and has clubs in 17 countries.</p>
             <hr>
             <h1>DDS Board Members</h1>
@@ -118,10 +118,10 @@
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:mbuilder@dakotacom.net" target="_blank">Melanie Builder</a></h4>
-                    <p>RAINE Coordinator</p>
+                    <h4><a href="mailto:ffluffy444@gmail.com" target="_blank">Alicia Nicholas</a></h4>
+                    <p>UKI Coordinator</p>
                     <picture>
-                        <img src="../img/member/melanie/melanie2.jpg" alt="photo of Melanie's dog">
+                        <img src="../img/member/alicia/alicia.jpeg" alt="photo of Alicia's dog">
                     </picture>
                 </div>
                 <div class="card member">
@@ -140,7 +140,7 @@
                 </div>
                 <div class="card member">
                     <h4><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></h4>
-                    <p>RAINE Secretary</p>
+                    <p>UKI Secretary</p>
                     <picture>
                         <img src="../img/member/peggy/peggy2.jpg" alt="photo of Peggy's dog">
                     </picture>
@@ -164,7 +164,7 @@
         <section id="agility">
             <div class="section-container">
                 <h1>Agility</h1>
-                <p>Our two agility venues are <a href="https://rsagility.com/" target="_blank">RAINE</a> (Rockstar Agility Network, formerly DOCNA) and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
+                <p>Our two agility venues are <a href="https://ukagilityinternational.com/" target="_blank">UKI</a> and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
                 <p>All trials are held outdoors at <a href="http://webcms.pima.gov/cms/one.aspx?portalId=169&pageId=1367" target="_blank">Brandi Fenton Memorial Park</a>. Our shows are one-ring and fully fenced.</p>
                 <hr>
                 <p>Some of the philosophies of Desert Dawg Sports, along with its absolutes and key differences regarding agility are:</p>
@@ -177,11 +177,8 @@
                     <li><i class="fas fa-paw"></i>We use rubberized contacts.</li>
                 </ul>
                 <hr>
-                <div class="rule-and-cal-section">
-                    <h4 class="raine-update"><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank">ROCKSTAR NORTH AMERICA CHALLENGE:</a></h4>
-                    <h4 class="raine-update"><em><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank">~ 2019 Rules & Qualifying changes ~</a></em></h4>
-                    <h4 class="raine-update"><a href="../docs/RAINE_DDS_NorthAmericaChallengeEventUpdates.pdf" target="_blank">Click Here!</a></h4>                    
-                    <p><a id="rsa-rules" href="../docs/RSAgility_Rules.pdf" target="_blank"><img src="../img/rsaLogo.gif" alt="RSA Logo" class="rule-logo">RAINE Rulebook</a></p>
+                <div class="rule-and-cal-section">                 
+                    <p><a id="rsa-rules" href="https://ukagilityinternational.com/wp-content/uploads/2019/09/UKI-5th-Edition-Rules-March-1-2019-updated-2.28.pdf" target="_blank"><img src="../img/ukiLogo.jpeg" alt="UKI Logo" class="rule-logo">UKI Rulebook</a></p>
                     <p><a id="cpe-rules" href="../docs/2016rb.pdf" target="_blank"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo">CPE Rulebook</a></p>
                     <p><a class="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
                     <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>Arizona Agility Calendar</a></p>
