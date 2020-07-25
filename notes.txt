@@ -19,6 +19,19 @@ https://www.google.com/search?ei=oMUfXJ-2EIPR0wLSqIiwBA&q=how+to+add+facebook+ic
 
 ------------------
 
+- using PHP server, PHP Server 2.4.6 extension, click on the blue icon at the top right of the UI (wanted to use PHP in order to include header and footer easily on every page).
+- using SASS extension, Live Sass Compiler 3.0.0, click on 'Watch Sass' at the bottom.
+- created repo on github, opened GitHub Desktop after creating an empty repo, then changed source directory (from c:/Nancy/Git to current one), and uploaded files. Pro-tip: empty files do not upload!
+- added normalize.scss, including it in the index
+- selected google font Raleway
+- finished responsive header and footer
+- added favicon
+- added 'jump to top' button for mobile version
+- TO DO: add FB link: https://www.facebook.com/desertdawgsports/ https://www.google.com/search?ei=oMUfXJ-2EIPR0wLSqIiwBA&q=how+to+add+facebook+icon+to+website&oq=how+to+add+facebook+icon+to+website&gs_l=psy-ab.3..0l2j0i22i30l3.11733.21514..21731...0.0..0.256.5133.0j32j3......0....1..gws-wiz.......0i71j35i39j0i131j0i67j0i20i263j0i22i10i30.TxgMH1ys-BE#kpvalbx=1
+- decided to do SPA
+- 
+
+
     <script>
         // go to top button (mobile only)
         function goToTop() {
