@@ -477,6 +477,7 @@ section p i {
   background: rgba(255, 165, 10, 0.3);
   outline: 1px solid #e73a09;
   outline-offset: -1em;
+  max-width: 300px;
   display: inline-block;
   -webkit-transform: rotate(3deg);
           transform: rotate(3deg);
