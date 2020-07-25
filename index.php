@@ -15,37 +15,51 @@
     <div class="container">
         <section id="home">
             <div class="section-container">
-                <h1>Upcoming Events</h1>              
+                <h1>Upcoming Events</h1>                                                        
                 <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Dec 7 - 8, 2019 @ 7:00a - 5:00p</p>                    
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Oct 23, 2020 @ 11:00a</p>                    
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a class="premium-link" href="../docs/CPE_Dec2019Premium_v2.pdf" target="_blank">Download Premium</a>                    
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Jan 11 - 12, 2020 @ 7:00a - 5:00p</p>                    
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">(premium unavailable at this time)</a>                    
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Feb 1 - 2, 2020 @ 7:00a - 5:00p</p>                    
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">(premium unavailable at this time)</a>                    
-                </div>                
-                <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Feb 28, 29 & Mar 1, 2020 @ 7:00a - 5:00p</p>                    
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">(premium unavailable at this time)</a>                    
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                 </div>                
                 <div class="event">
                     <h3 class="subsection-title">UKI</h3>
-                    <p class="subsection-details">Mar 21 - 22, 2020 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Oct 24 - 25, 2020 @ 7:00a - 5:00p</p>                    
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">(premium unavailable at this time)</a>                    
-                </div>                
+                    <a href="#" class="premium-link disabled">TBA</a>                     
+                </div>   
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Dec 5 - 6, 2020 @ 7:00a - 5:00p</p>                    
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="#" class="premium-link disabled">TBA</a> 
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Jan 8, 2021 @ 11:00a</p>                    
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div>                 
+                <div class="event">
+                    <h3 class="subsection-title">UKI</h3>
+                    <p class="subsection-details">Jan 9 - 10, 2021 @ 7:00a - 5:00p</p>                    
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="#" class="premium-link disabled">TBA</a>                     
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Feb 6 - 7, 2021 @ 7:00a - 5:00p</p>                    
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="#" class="premium-link disabled">TBA</a> 
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Mar 5, 6 & 7, 2021 @ 7:00a - 5:00p</p>                    
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="#" class="premium-link disabled">TBA</a> 
+                </div>                                                                                               
                 <hr>
                 <div class="calendars">
                     <h2 class="subtitle">Calendars</h2>
@@ -233,9 +247,12 @@
                         <h4><a href="http://arizonamuttco.etsy.com" target="_blank">Arizona Mutt Co.</a></h4>
                         <div class="card-container">
                             <p>For some wonderful items for you and your dog, check out the <a href="http://arizonamuttco.etsy.com" target="_blank">Arizona Mutt Company</a>.</p>
+                            <picture>
+                                <img class="small" src="../img/member/kristen/kristen.jpg">
+                            </picture>
                             <p>DDS member <strong>Kristen Wheeler</strong> is the owner, and you can visit her Etsy site by clicking on the link above.</p>
                         </div>
-                    </div>
+                    </div>             
                     <div class="card member">
                         <h4><a href="mailto:sheltiesquad@yahoo.com" target="_blank">Lori Vanni</a></h4>
                         <p>Trainer</p>
@@ -249,7 +266,18 @@
                         <picture>
                             <img src="../img/member/peggy/mark.jpg" alt="">
                         </picture>
-                    </div>               
+                    </div>                                
+                    <div class="card member">
+                        <h4><a href="mailto:ffluffy444@gmail.com" target="_blank">Alicia Nicholas</a></h4>
+                        <div class="card-container">
+                            <p class="addl-lines">CBATI, CPDT-KA</p>
+                            <p>Dog Training/Behavior/Boarding</p>
+                            <h4 class="no-caps"><a href="http://www.journeyagility.com" target="_blank">Journey Agility, LLC</a></h4>
+                        </div>
+                        <picture>
+                            <img src="../img/member/alicia/alicia2.jpeg" alt="">
+                        </picture>                        
+                    </div>                           
                 </div>                 
             </div>
         </section>

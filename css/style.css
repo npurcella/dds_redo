@@ -717,10 +717,23 @@ section p i {
   margin-top: .5em;
 }
 
+#more .card .addl-lines {
+  margin-bottom: -.2em;
+}
+
+#more .card .no-caps {
+  text-transform: none;
+  font-size: 18px;
+}
+
 #more .card img {
   width: 100%;
   height: auto;
   border: 1px solid #292727;
+}
+
+#more .card .small {
+  width: 50%;
 }
 
 #more .card:first-child {

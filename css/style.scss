@@ -590,10 +590,20 @@ section {
         p {
             margin-top: .5em;
         }
+        .addl-lines {
+            margin-bottom: -.2em;
+        }
+        .no-caps {
+            text-transform: none;
+            font-size: 18px;
+        }
         img {
             width: 100%; 
             height: auto;
             border: 1px solid $lightTextColor;
+        }
+        .small {
+            width: 50%;
         }
     }    
     .card:first-child {
