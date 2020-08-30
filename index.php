@@ -16,6 +16,7 @@
         <section id="home">
             <div class="section-container">
                 <h1>Upcoming Events</h1>                                                        
+                <a href="#covid"><p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p></a>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
                     <p class="subsection-details">Oct 23, 2020 @ 11:00a</p>                    
@@ -27,7 +28,7 @@
                     <h3 class="subsection-title">UKI</h3>
                     <p class="subsection-details">Oct 24 - 25, 2020 @ 7:00a - 5:00p</p>                    
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a>                     
+                    <a class="premium-link" href="../docs/UKI_Oct_2020_Desert_Dawgs_Premium_Final.pdf" target="_blank">Download Premium</a>
                 </div>   
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
@@ -60,6 +61,94 @@
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a href="#" class="premium-link disabled">TBA</a> 
                 </div>                                                                                               
+                <hr>
+                <section id="covid" class="covid">
+                    <p class="covid-header"><span>*</span>COVID-19 Restrictions</p>
+                    <ol>
+                        <li>
+                            <p>
+                                There will be <strong>no hospitality (food or drinks)</strong>, so please bring your own food, and enough water for you and your dogs.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Canopies must be set up a <strong>minimum of 8 feet apart</strong>. Only people who arrived together in the same car can congregate under a canopy.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                There will be hand sanitizer available, but it would be helpful if you can bring your own.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                We will <strong>require you wear a mask covering your mouth and nose</strong> when closer than 6 feet to other people. You do not need to wear a mask while you are running your course.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Walk-throughs will be divided into <strong>groups no larger than 12 handlers</strong> at a time, and each group will have 5 minutes. Please maintain social distancing or wear a mask during walk-throughs.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Briefings will be limited, please read your confirmations and trial instructions carefully so that we can avoid having to gather for a briefing.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Course maps will be posted the night before on the website, and posted at the trial where you can take photos.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>There will be no self-serve ribbons, or result books</strong>. We will have ribbons available from the trial secretary at the end of each day.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Please do not congregate in the big ramada. <strong>You will need to wear a mask when in the ramada</strong>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Results will be posted on individual sheets, taped to the picnic table in the ramada. <strong>Please don’t touch the sheets, and practice social distancing and mask wearing</strong>. Individual results will also be sent to each competitor after the trial.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Workers must sanitize their hands before and after touching club equipment</strong>, such as pens, score sheets, timer, gate sheets, or when helping in the ring with pole setting or course building. You must wear a mask when timing, scribing, gating, pole setting, leash running or course building.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                We would like to have only a few gate stewards, and if you are able to volunteer for a long stint there, it would be appreciated. Only the assigned gate steward for that class may touch the pens, gate sheets, or easel. <strong>If you need to change your running order, tell the gate steward, and he/she will write the changes</strong>. Please be respectful and either wear a mask while talking to the gate steward, or maintain a distance of 6 feet away.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Leashes:
+                                    You may either <strong>bring 2 leashes</strong>, and place one near the finish and toss your starting leash into a marked area, to be retrieved later, <strong>OR</strong> you can <strong>toss your leash as close to the finish as possible</strong>, and retrieve it when your run is over.
+                                    We will gladly allow extra time for this. Or you may choose to use a leash runner, see following:<br>
+                                    Leash Runner:<br>
+                                    Leash runner will be required to wear gloves and use a “grabber” to move the leash to the ground by the exit gate.
+                                    Between each competitor, the leash runner will spray the grabber with sanitizer before grabbing the next leash.
+                                    You may also have a trusted friend or family member carry your leash from the starting line to the finish.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                There is currently a state ordinance limiting groups to 50 people. <strong>We will limit entries to 50 handlers</strong>. You may
+bring one support person to help you set up and tear down your crating area, but please, no friends or family
+dropping by to watch.
+                            </p>
+                        </li>
+                    </ol>
+                    <p class="covid-footer">
+                        WE WILL ENFORCE THESE RULES, AND IF YOU ARE NOT WILLING TO COMPLY, PLEASE STAY
+HOME.
+                    </p>
+                </section>
                 <hr>
                 <div class="calendars">
                     <h2 class="subtitle">Calendars</h2>

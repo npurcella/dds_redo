@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
 @import url("https://fonts.googleapis.com/css?family=Diplomata");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -12,13 +11,8 @@ html, body {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .container {
@@ -37,12 +31,48 @@ body {
   margin: 0 auto;
 }
 
+.covid-header {
+  color: #ff1c0a;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: .75rem;
+  text-decoration: underline;
+}
+
+.covid .covid-header,
+.covid .covid-footer {
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ff1c0a;
+  font-weight: 700;
+}
+
+.covid .covid-header {
+  font-size: 1.5rem;
+  margin-bottom: .75rem;
+}
+
+.covid p.covid-footer {
+  margin-bottom: -1.25rem;
+}
+
+.covid span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.covid p {
+  text-align: left;
+  line-height: 1.5;
+}
+
 header {
   color: #111111;
   background: #ffffff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa50a), color-stop(50%, #fe6b17), to(#ff1c0a));
   background-image: linear-gradient(to bottom, #ffa50a 0%, #fe6b17 50%, #ff1c0a 100%);
-  padding: 1em 0 1.5em;
+  padding: 1rem 0 1.5rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -79,7 +109,6 @@ h1.logo img {
   right: 0;
   background: #ffffff;
   overflow: hidden;
-  -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
   height: 0;
 }
@@ -102,7 +131,7 @@ h1.logo img {
   text-decoration: none;
   color: #070707;
   display: block;
-  padding: 1.5em 4em 1.5em 4em;
+  padding: 1.5rem 4rem 1.5rem 4rem;
   text-transform: uppercase;
   font-size: 1.5m;
 }
@@ -125,10 +154,10 @@ h1.logo img {
 }
 
 .menu-toggle {
-  padding: 1.2em .5em 1em 0;
+  padding: 1.2rem .5rem 1rem 0;
   position: absolute;
-  right: .2em;
-  top: 1em;
+  right: .2rem;
+  top: 1rem;
   cursor: pointer;
 }
 
@@ -137,25 +166,21 @@ h1.logo img {
   display: block;
   background: #000000;
   height: 3px;
-  width: 1.75em;
+  width: 1.75rem;
   border-radius: 3px;
-  -webkit-transition: all ease-in-out 1s;
   transition: all ease-in-out 1s;
 }
 
 .hamburger::before {
-  -webkit-transform: translateY(-7px);
-          transform: translateY(-7px);
+  transform: translateY(-7px);
 }
 
 .hamburger::after {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
 }
 
 .open .hamburger {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .open .hamburger::before {
@@ -163,13 +188,11 @@ h1.logo img {
 }
 
 .open .hamburger::after {
-  -webkit-transform: rotate(-90deg) translateY(-1.5px) translateX(1.5px);
-          transform: rotate(-90deg) translateY(-1.5px) translateX(1.5px);
+  transform: rotate(-90deg) translateY(-1.5px) translateX(1.5px);
 }
 
 .close .hamburger {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .close .hamburger::before {
@@ -177,8 +200,7 @@ h1.logo img {
 }
 
 .close .hamburger::after {
-  -webkit-transform: rotate(90deg) translateY(1.5px) translateX(-1.5px);
-          transform: rotate(90deg) translateY(1.5px) translateX(-1.5px);
+  transform: rotate(90deg) translateY(1.5px) translateX(-1.5px);
 }
 
 @media (min-width: 900px) {
@@ -196,8 +218,8 @@ h1.logo img {
     border: none;
   }
   .site-nav a {
-    padding: .75em 0 0;
-    margin-left: 2em;
+    padding: .75rem 0 0;
+    margin-left: 2rem;
     color: #000000;
   }
   .site-nav a:hover, .site-nav a:focus {
@@ -208,7 +230,7 @@ h1.logo img {
 .card {
   width: 90%;
   margin: 0 auto;
-  padding: .2em;
+  padding: .2rem;
   border-radius: 5px;
 }
 
@@ -233,7 +255,7 @@ h1.logo img {
 }
 
 .btn-wrapper {
-  padding: .75em 1em .75em;
+  padding: .75rem 1rem .75rem;
   display: inline-block;
 }
 
@@ -248,7 +270,7 @@ h1.logo img {
 }
 
 section {
-  padding: 1em 0 1em;
+  padding: 1rem 0 1rem;
   text-align: center;
   color: #000000;
 }
@@ -266,7 +288,7 @@ section h2 {
 
 section .subsection-title {
   color: #e73a09;
-  margin-bottom: .3em;
+  margin-bottom: .3rem;
 }
 
 section .subsection-details {
@@ -295,7 +317,7 @@ section a.disabled, section a.disabled:hover, section a.disabled:focus {
 section hr {
   border: 0;
   height: 2px;
-  margin: 2em auto 2em;
+  margin: 2rem auto 2rem;
 }
 
 section #rsa-rules, section #cpe-rules, section .dds-cal, section .az-cal {
@@ -319,7 +341,7 @@ section .az-cal {
 }
 
 section p i {
-  margin-right: .5em;
+  margin-right: .5rem;
 }
 
 @media (min-width: 900px) {
@@ -329,8 +351,7 @@ section p i {
 }
 
 #home {
-  padding-top: 3em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundHome.jpg);
+  padding-top: 3rem;
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundHome.jpg);
   background-position: top right;
   background-size: cover;
@@ -338,13 +359,13 @@ section p i {
   -o-background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: 1.5em;
+  background-position-y: 1.5rem;
   width: 100%;
   height: auto;
 }
 
 #home h1 {
-  margin: 1em auto 0;
+  margin: 2.5rem auto 0;
 }
 
 #home h2.subtitle, #home .subtitle p a {
@@ -359,7 +380,7 @@ section p i {
 }
 
 #home .other p {
-  margin: .5em auto 1.5em;
+  margin: .5rem auto 1.5rem;
 }
 
 #home .other p i {
@@ -381,8 +402,8 @@ section p i {
 #home .event {
   border: 2px dotted #ffa50a;
   padding: 1px 0 20px 0;
-  margin: 1em auto;
-  max-width: 35em;
+  margin: 1rem auto;
+  max-width: 35rem;
 }
 
 #home .event .event-location a {
@@ -392,7 +413,7 @@ section p i {
 
 #home .event a {
   display: block;
-  margin-bottom: .2em;
+  margin-bottom: .2rem;
 }
 
 #home .event a:last-of-type {
@@ -408,7 +429,7 @@ section p i {
 }
 
 #home .event p.subsection-details {
-  margin-bottom: .5em;
+  margin-bottom: .5rem;
   font-weight: 600;
 }
 
@@ -418,14 +439,14 @@ section p i {
 
 #home .event p.event-location a {
   font-weight: bold;
-  margin-bottom: .5em;
+  margin-bottom: .5rem;
 }
 
 #home .event p.cancelled-notice {
   color: #ff1c0a;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: .3em;
+  margin-top: .3rem;
 }
 
 #home .event .premium-link {
@@ -448,53 +469,52 @@ section p i {
   color: #292727;
   font-weight: normal;
   font-style: italic;
-  font-size: .95em;
+  font-size: .95rem;
 }
 
 #home .event .event-info {
   margin: 0;
   font-style: italic;
-  margin-bottom: .2em;
-  padding: 0 .8em 0;
+  margin-bottom: .2rem;
+  padding: 0 .8rem 0;
 }
 
 #home .event .raine-update {
   color: #ff1c0a;
   font-weight: bold;
-  margin: .3em auto;
+  margin: .3rem auto;
 }
 
 #home .event .raine-update:first-of-type {
-  margin-top: 1.2em;
+  margin-top: 1.2rem;
 }
 
 #home .event .raine-update:last-of-type {
-  margin-bottom: 1.2em;
+  margin-bottom: 1.2rem;
 }
 
 #home .card {
   color: #e73a09;
   background: rgba(255, 165, 10, 0.3);
   outline: 1px solid #e73a09;
-  outline-offset: -1em;
+  outline-offset: -1rem;
   max-width: 300px;
   display: inline-block;
-  -webkit-transform: rotate(3deg);
-          transform: rotate(3deg);
+  transform: rotate(3deg);
 }
 
 #home .card h2 {
   color: #e73a09;
-  margin-bottom: .5em;
-  font-size: 1.3em;
+  margin-bottom: .5rem;
+  font-size: 1.3rem;
 }
 
 #home .card h4 {
-  margin-bottom: .5em;
+  margin-bottom: .5rem;
 }
 
 #home .card .btn-wrapper:last-child {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 #home .card .btn-wrapper {
@@ -503,12 +523,11 @@ section p i {
 
 #home hr {
   margin-bottom: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(231, 58, 9, 0.75)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
 }
 
 #home .calendars {
-  margin-bottom: 2.5em;
+  margin-bottom: 2.5rem;
 }
 
 #about {
@@ -517,55 +536,49 @@ section p i {
   margin: 0 auto;
 }
 
+#about p {
+  line-height: 1.5;
+}
+
 #about figcaption {
   font-style: italic;
 }
 
 #about hr {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(231, 122, 9, 0.75)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 122, 9, 0.75), rgba(0, 0, 0, 0));
 }
 
 #about .members {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 3em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 #about .card {
   text-align: center;
   min-width: 200px;
   max-width: 300px;
-  -webkit-box-shadow: 1px 1px 12px 0.05px #000000;
-          box-shadow: 1px 1px 12px 0.05px #000000;
+  box-shadow: 1px 1px 12px 0.05px #000000;
   outline: none;
   border-radius: 0;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 #about .card h4 {
-  margin: .5em auto 0;
-  font-size: 1.5em;
+  margin: .5rem auto 0;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 #about .card a {
   color: #292727;
-  border-bottom: 0.1em solid #e73a09;
+  border-bottom: 0.1rem solid #e73a09;
 }
 
 #about .card p {
-  margin-top: .5em;
+  margin-top: .5rem;
 }
 
 #about .card img {
@@ -576,14 +589,17 @@ section p i {
 
 #agility {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/penny_slider.jpg);
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/penny_slider.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0 auto;
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
+}
+
+#agility p {
+  line-height: 1.5;
 }
 
 #agility .differences, #agility .scrip-rules {
@@ -593,19 +609,19 @@ section p i {
 }
 
 #agility .differences li, #agility .scrip-rules li {
-  padding: 0 0 1em 1.5em;
+  padding: 0 0 1rem 1.5rem;
+  line-height: 1.5;
 }
 
 #agility .differences li i, #agility .scrip-rules li i {
-  margin-right: .5em;
+  margin-right: .5rem;
 }
 
 #agility h4 {
-  margin-bottom: -.5em;
+  margin-bottom: -.5rem;
 }
 
 #agility hr {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(231, 58, 9, 0.75)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
 }
 
@@ -614,32 +630,27 @@ section p i {
 }
 
 #agility .rule-and-cal-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  flex-flow: column;
 }
 
 #agility .rule-logo {
   display: block;
-  margin: .5em auto .5em;
+  margin: .5rem auto .5rem;
 }
 
 #agility .raine-update {
   color: #ff1c0a;
   font-weight: bold;
-  margin: .3em auto;
+  margin: .3rem auto;
 }
 
 #agility .raine-update:first-of-type {
-  margin-top: .2em;
+  margin-top: .2rem;
 }
 
 #agility .raine-update:last-of-type {
-  margin-bottom: .5em;
+  margin-bottom: .5rem;
 }
 
 #freestyle h1 {
@@ -671,7 +682,6 @@ section p i {
 
 #more {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../img/backgroundMore.jpg);
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundMore.jpg);
   background-position: center;
   background-size: cover;
@@ -680,46 +690,44 @@ section p i {
   margin: 0 auto;
 }
 
+#more p {
+  line-height: 1.5;
+}
+
 #more .friends {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: 3em;
+  flex-direction: column;
+  margin-bottom: 3rem;
 }
 
 #more .card {
   text-align: center;
   min-width: 200px;
   max-width: 300px;
-  -webkit-box-shadow: 1px 1px 12px 0.05px #000000;
-          box-shadow: 1px 1px 12px 0.05px #000000;
+  box-shadow: 1px 1px 12px 0.05px #000000;
   outline: none;
   border-radius: 0;
   background-color: #ffffff;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 #more .card h4 {
-  margin: .5em auto 1em;
-  font-size: 1.5em;
+  margin: .5rem auto 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 #more .card a {
   color: #292727;
-  border-bottom: 0.1em solid #ffa50a;
+  border-bottom: 0.1rem solid #ffa50a;
 }
 
 #more .card p {
-  margin-top: .5em;
+  margin-top: .5rem;
 }
 
 #more .card .addl-lines {
-  margin-bottom: -.2em;
+  margin-bottom: -.2rem;
 }
 
 #more .card .no-caps {
@@ -738,13 +746,11 @@ section p i {
 }
 
 #more .card:first-child {
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
+  transform: rotate(5deg);
 }
 
 #more .card:nth-child(2n+2) {
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
 
 @media (min-width: 900px) {
@@ -753,24 +759,23 @@ section p i {
   }
   #home .card {
     position: relative;
-    top: 2.3em;
+    top: 2.3rem;
     background: rgba(255, 165, 10, 0.5);
     display: inline-block;
-    -webkit-transform: rotate(-3deg);
-            transform: rotate(-3deg);
+    transform: rotate(-3deg);
   }
   #home .calendars {
     margin-bottom: 0;
   }
   #home .event {
-    padding-bottom: 2em;
+    padding-bottom: 2rem;
   }
   #about {
     background-position: center;
     margin-bottom: 0;
   }
   #about .card {
-    margin: 1em auto;
+    margin: 1rem auto;
   }
   #about figure {
     float: left;
@@ -791,28 +796,21 @@ section p i {
     max-width: 1000px;
   }
   #agility h4 {
-    margin-bottom: .5em;
+    margin-bottom: .5rem;
   }
   #more .section-container {
     width: 85%;
   }
   #more .friends {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   #more .card {
-    margin: 2em;
+    margin: 2rem;
   }
   #more .card:first-child, #more .card:nth-child(2n+2) {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
   #more figure {
     float: left;
@@ -831,42 +829,29 @@ section p i {
 
 footer {
   background: #000000;
-  font-size: .75em;
-  display: -ms-grid;
+  font-size: .75rem;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-areas: ". footer button";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ". footer button";
 }
 
 footer p:first-child {
   color: #ffffff;
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: footer;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  justify-self: center;
+  align-self: center;
 }
 
 footer p:last-child {
   color: #000000;
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
   grid-area: button;
-  -ms-grid-column-align: right;
-      justify-self: right;
-  -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+  justify-self: right;
+  align-self: end;
   font-weight: bold;
   vertical-align: sub;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fa709a), color-stop(50%, #ef6009), to(#fee140));
   background-image: linear-gradient(to bottom, #fa709a 0%, #ef6009 50%, #fee140 100%);
-  padding: 1em 1em .5em;
-  margin-right: .5em;
+  padding: 1rem 1rem .5rem;
+  margin-right: .5rem;
   border-radius: 7px;
   cursor: pointer;
 }
