@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="favicon.ico">
     <title>Desert Dawg Sports</title>
-    <link rel="stylesheet" href="css/normalize.css"> 
-    <link rel="stylesheet" href="css/style.css"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
+
 <body>
     <?php include('header.php'); ?>
     <div class="container">
         <section id="home">
             <div class="section-container">
-                <h1>Upcoming Events</h1>                                                        
-                <a href="#covid"><p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p></a>
+                <h1>Upcoming Events</h1>
+                <a href="#covid">
+                    <p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p>
+                </a>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Oct 23, 2020 @ 11:00a</p>                    
+                    <p class="subsection-details">Oct 23, 2020 @ 11:00a</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                </div>                
+                </div>
                 <div class="event">
                     <h3 class="subsection-title">UKI</h3>
-                    <p class="subsection-details">Oct 24 - 25, 2020 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Oct 24 - 25, 2020 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a class="premium-link" href="../docs/UKI_Oct_2020_Desert_Dawgs_Premium_Final.pdf" target="_blank">Download Premium</a>
-                </div>   
+                    <a href="../docs/standings/uki/oct20/standings.txt" target="_blank">Current Standings</a>
+                </div>
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Dec 5 - 6, 2020 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Dec 5 - 6, 2020 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a> 
+                    <a href="#" class="premium-link disabled">TBA</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Jan 8, 2021 @ 11:00a</p>                    
+                    <p class="subsection-details">Jan 8, 2021 @ 11:00a</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                </div>                 
+                </div>
                 <div class="event">
                     <h3 class="subsection-title">UKI</h3>
-                    <p class="subsection-details">Jan 9 - 10, 2021 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Jan 9 - 10, 2021 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a>                     
+                    <a href="#" class="premium-link disabled">TBA</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Feb 6 - 7, 2021 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Feb 6 - 7, 2021 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a> 
+                    <a href="#" class="premium-link disabled">TBA</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Mar 5, 6 & 7, 2021 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Mar 5, 6 & 7, 2021 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a> 
-                </div>                                                                                               
+                    <a href="#" class="premium-link disabled">TBA</a>
+                </div>
                 <hr>
                 <section id="covid" class="covid">
                     <p class="covid-header"><span>*</span>COVID-19 Restrictions</p>
@@ -128,32 +133,32 @@
                         <li>
                             <p>
                                 Leashes:
-                                    You may either <strong>bring 2 leashes</strong>, and place one near the finish and toss your starting leash into a marked area, to be retrieved later, <strong>OR</strong> you can <strong>toss your leash as close to the finish as possible</strong>, and retrieve it when your run is over.
-                                    We will gladly allow extra time for this. Or you may choose to use a leash runner, see following:<br>
-                                    Leash Runner:<br>
-                                    Leash runner will be required to wear gloves and use a “grabber” to move the leash to the ground by the exit gate.
-                                    Between each competitor, the leash runner will spray the grabber with sanitizer before grabbing the next leash.
-                                    You may also have a trusted friend or family member carry your leash from the starting line to the finish.
+                                You may either <strong>bring 2 leashes</strong>, and place one near the finish and toss your starting leash into a marked area, to be retrieved later, <strong>OR</strong> you can <strong>toss your leash as close to the finish as possible</strong>, and retrieve it when your run is over.
+                                We will gladly allow extra time for this. Or you may choose to use a leash runner, see following:<br>
+                                Leash Runner:<br>
+                                Leash runner will be required to wear gloves and use a “grabber” to move the leash to the ground by the exit gate.
+                                Between each competitor, the leash runner will spray the grabber with sanitizer before grabbing the next leash.
+                                You may also have a trusted friend or family member carry your leash from the starting line to the finish.
                             </p>
                         </li>
                         <li>
                             <p>
                                 There is currently a state ordinance limiting groups to 50 people. <strong>We will limit entries to 50 handlers</strong>. You may
-bring one support person to help you set up and tear down your crating area, but please, no friends or family
-dropping by to watch.
+                                bring one support person to help you set up and tear down your crating area, but please, no friends or family
+                                dropping by to watch.
                             </p>
                         </li>
                     </ol>
                     <p class="covid-footer">
                         WE WILL ENFORCE THESE RULES, AND IF YOU ARE NOT WILLING TO COMPLY, PLEASE STAY
-HOME.
+                        HOME.
                     </p>
                 </section>
                 <hr>
                 <div class="calendars">
                     <h2 class="subtitle">Calendars</h2>
                     <p><a class="dds-cal" href="https://calendar.google.com/calendar/embed?src=s9hkl5ti2vegs1cang3fdn57q0%40group.calendar.google.com&ctz=America%2FPhoenix" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
-                    <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>                 
+                    <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
                 </div>
                 <hr>
                 <div class="other">
@@ -261,7 +266,7 @@ HOME.
                     <picture>
                         <img src="../img/member/member.jpg" alt="pawprint image">
                     </picture>
-                </div>                                                                                                                                                                                                                                                                                                            
+                </div>
             </div>
         </section>
         <section id="agility">
@@ -280,7 +285,7 @@ HOME.
                     <li><i class="fas fa-paw"></i>We use rubberized contacts.</li>
                 </ul>
                 <hr>
-                <div class="rule-and-cal-section">                 
+                <div class="rule-and-cal-section">
                     <p><a id="rsa-rules" href="https://ukagilityinternational.com/wp-content/uploads/2019/09/UKI-5th-Edition-Rules-March-1-2019-updated-2.28.pdf" target="_blank"><img src="../img/ukiLogo.jpeg" alt="UKI Logo" class="rule-logo">UKI Rulebook</a></p>
                     <p><a id="cpe-rules" href="../docs/2016rb.pdf" target="_blank"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo">CPE Rulebook</a></p>
                     <p><a class="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
@@ -290,8 +295,8 @@ HOME.
                 <h4>DDS Scrip Rules</h4>
                 <ol class="scrip-rules">
                     <li><i class="fas fa-paw"></i>Scrip is earned by volunteering at Desert Dawg Sports agility trials.
-                    $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
-                    $50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
+                        $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
+                        $50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
                     <li><i class="fas fa-paw"></i>You may use scrip for any Desert Dawg Sports event entry, such as RAINE or CPE agility trials, or for DDS-hosted Fun Runs.</li>
                     <li><i class="fas fa-paw"></i>You may use up to $2 per run in scrip on your entries.</li>
                     <li><i class="fas fa-paw"></i>A “Free Run” coupon is valued at $12, and may be used in conjunction with the $2 per run in scrip.</li>
@@ -341,7 +346,7 @@ HOME.
                             </picture>
                             <p>DDS member <strong>Kristen Wheeler</strong> is the owner, and you can visit her Etsy site by clicking on the link above.</p>
                         </div>
-                    </div>             
+                    </div>
                     <div class="card member">
                         <h4><a href="mailto:sheltiesquad@yahoo.com" target="_blank">Lori Vanni</a></h4>
                         <p>Trainer</p>
@@ -355,7 +360,7 @@ HOME.
                         <picture>
                             <img src="../img/member/peggy/mark.jpg" alt="">
                         </picture>
-                    </div>                                
+                    </div>
                     <div class="card member">
                         <h4><a href="mailto:ffluffy444@gmail.com" target="_blank">Alicia Nicholas</a></h4>
                         <div class="card-container">
@@ -365,9 +370,9 @@ HOME.
                         </div>
                         <picture>
                             <img src="../img/member/alicia/alicia2.jpeg" alt="">
-                        </picture>                        
-                    </div>                           
-                </div>                 
+                        </picture>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -379,16 +384,16 @@ HOME.
             $('body,html').animate({
                 scrollTop: 0
             }, 1000);
-        }      
+        }
         // hamburger menu
         $('.menu-toggle').click(function() {
             $('.site-nav').toggleClass('site-nav--open', 500);
             $(this).toggleClass('open');
-        });  
+        });
         $('.site-nav a, .container').on('click', function() {
             $('#main-header').removeClass('site-nav--open');
             $('.menu-toggle').removeClass('open');
-        });    
+        });
         $(document).ready(function() {
             // scroll to section
             var scrollLink = $('.scroll');
@@ -403,17 +408,18 @@ HOME.
                 var scrollbarLocation = $(this).scrollTop();
                 scrollLink.each(function() {
                     var sectionOffset = $(this.hash).offset().top - 80;
-                    if(sectionOffset <= scrollbarLocation) {
+                    if (sectionOffset <= scrollbarLocation) {
                         $(this).parent().addClass('active');
                         $(this).parent().siblings().removeClass('active');
                     }
                 });
-            });         
+            });
             // DO NOT DELETE! reset site back to top on refresh (commented out for WIP!)
             //window.onbeforeunload = function() {
             //    window.scrollTo(0,0);
             //}
         });
-    </script>    
+    </script>
 </body>
+
 </html>

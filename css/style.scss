@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
-@import url('https://fonts.googleapis.com/css?family=Diplomata');
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Diplomata");
 
 $textColor: #111111;
 $lightTextColor: #292727;
@@ -24,7 +24,8 @@ $orange: #ef6009;
 * {
     box-sizing: border-box;
 }
-html, body {
+html,
+body {
     margin: 0;
     height: 100%;
     background-color: #ffffff;
@@ -39,7 +40,7 @@ body {
 }
 .header-container {
     margin: 0 auto;
-    width: 95%;    
+    width: 95%;
 }
 .section-container {
     width: 90%;
@@ -51,7 +52,7 @@ body {
     color: $red;
     font-weight: 700;
     font-size: 1.25rem;
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     text-decoration: underline;
 }
 .covid {
@@ -66,7 +67,7 @@ body {
     }
     .covid-header {
         font-size: 1.5rem;
-        margin-bottom: .75rem;
+        margin-bottom: 0.75rem;
     }
     p.covid-footer {
         margin-bottom: -1.25rem;
@@ -84,7 +85,12 @@ body {
 header {
     color: $textColor;
     background: $white;
-    background-image: linear-gradient(to bottom, $mustard 0%, $ltOrange 50%, $red 100%);
+    background-image: linear-gradient(
+        to bottom,
+        $mustard 0%,
+        $ltOrange 50%,
+        $red 100%
+    );
     padding: 1rem 0 1.5rem;
     // box-shadow: inset 0 2px 12px .5px $accent;
     position: fixed;
@@ -95,7 +101,7 @@ header {
 header::after {
     content: "";
     display: block;
-    clear: both;    
+    clear: both;
 }
 .menu-toggle::after {
     content: "";
@@ -140,7 +146,8 @@ h1.logo {
         text-transform: uppercase;
         font-size: 1.5m;
     }
-    a:hover, a:focus {
+    a:hover,
+    a:focus {
         font-weight: bold;
         background: $lightAccent;
     }
@@ -155,14 +162,16 @@ h1.logo {
     height: 0;
 }
 .menu-toggle {
-    padding: 1.2rem .5rem 1rem 0;    
+    padding: 1.2rem 0.5rem 1rem 0;
     position: absolute;
-    right: .2rem;
+    right: 0.2rem;
     top: 1rem;
     cursor: pointer;
 }
-.hamburger, .hamburger::before, .hamburger::after {
-    content: '';
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    content: "";
     display: block;
     background: $black;
     height: 3px;
@@ -194,7 +203,7 @@ h1.logo {
 .close .hamburger::after {
     transform: rotate(90deg) translateY(1.5px) translateX(-1.5px);
 }
-@media(min-width: 900px) {
+@media (min-width: 900px) {
     .menu-toggle {
         display: none;
     }
@@ -208,11 +217,12 @@ h1.logo {
             border: none;
         }
         a {
-            padding: .75rem 0 0;
+            padding: 0.75rem 0 0;
             margin-left: 2rem;
             color: $black;
         }
-        a:hover, a:focus {
+        a:hover,
+        a:focus {
             background: transparent;
         }
     }
@@ -221,7 +231,7 @@ h1.logo {
 .card {
     width: 90%;
     margin: 0 auto;
-    padding: .2rem;
+    padding: 0.2rem;
     border-radius: 5px;
 }
 .card-container {
@@ -238,20 +248,21 @@ h1.logo {
         color: #ea0e7c;
     }
 }
-@media(min-width: 900px) {
+@media (min-width: 900px) {
     .card {
         width: 30%;
         max-width: 500px;
     }
 }
 .btn-wrapper {
-    padding: .75rem 1rem .75rem;
+    padding: 0.75rem 1rem 0.75rem;
     display: inline-block;
 }
-.btn-wrapper:hover, .btn-wrapper:focus {
-    background-color: rgba(231,122,9,.5);
+.btn-wrapper:hover,
+.btn-wrapper:focus {
+    background-color: rgba(231, 122, 9, 0.5);
 }
-@media(min-width: 900px) {
+@media (min-width: 900px) {
     .btn-wrapper {
         display: inline-block;
     }
@@ -263,7 +274,8 @@ section {
         color: $goldenrod;
         background: -webkit-linear-gradient($ltYellow, $trueRed);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;        
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
     }
     h2 {
         color: $mustard;
@@ -272,7 +284,7 @@ section {
     color: $black;
     .subsection-title {
         color: $dkOrange;
-        margin-bottom: .3rem;
+        margin-bottom: 0.3rem;
     }
     .subsection-details {
         margin-top: 0;
@@ -286,18 +298,24 @@ section {
         color: $dkOrange;
         font-weight: bold;
     }
-    a:hover, a:focus {
+    a:hover,
+    a:focus {
         text-shadow: 0 0 2px $yellow;
     }
-    a.disabled, a.disabled:hover, a.disabled:focus {
-        pointer-events: none;   
+    a.disabled,
+    a.disabled:hover,
+    a.disabled:focus {
+        pointer-events: none;
     }
     hr {
         border: 0;
         height: 2px;
         margin: 2rem auto 2rem;
-    }    
-    #rsa-rules, #cpe-rules, .dds-cal, .az-cal {
+    }
+    #rsa-rules,
+    #cpe-rules,
+    .dds-cal,
+    .az-cal {
         cursor: pointer;
     }
     #rsa-rules {
@@ -305,19 +323,18 @@ section {
     }
     #cpe-rules {
         color: $mustard;
-    }    
+    }
     .dds-cal {
         color: $ltOrange;
     }
     .az-cal {
         color: $dkOrange;
-    }                    
+    }
     p i {
-        margin-right: .5rem;
-    }    
-    
+        margin-right: 0.5rem;
+    }
 }
-@media(min-width: 900px) {
+@media (min-width: 900px) {
     // for changing font sizes at bigger sizes
     hr {
         width: 25%;
@@ -326,7 +343,11 @@ section {
 // HOME CONTENT
 #home {
     padding-top: 3rem;
-    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/backgroundHome.jpg);
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.8)
+        ),
+        url(../img/backgroundHome.jpg);
     background-position: top right;
     background-size: cover;
     -moz-background-size: 100% 100%;
@@ -334,26 +355,29 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: 1.5rem;
-    width: 100%;    
+    width: 100%;
     h1 {
         margin: 2.5rem auto 0;
     }
-    h2.subtitle, .subtitle p a {
+    h2.subtitle,
+    .subtitle p a {
         color: $goldenrod;
         background: -webkit-linear-gradient($ltYellow, $trueRed);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .other h2.subtitle {
         margin-bottom: 0;
     }
     .other p {
-        margin: .5rem auto 1.5rem;
+        margin: 0.5rem auto 1.5rem;
         i {
             color: $goldenrod;
             background: -webkit-linear-gradient($ltYellow, $trueRed);
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;        
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
     .member-title {
@@ -374,7 +398,7 @@ section {
         }
         a {
             display: block;
-            margin-bottom: .2rem;
+            margin-bottom: 0.2rem;
         }
         a:last-of-type {
             margin-bottom: 0;
@@ -382,25 +406,26 @@ section {
         i.fa-map-marker-alt {
             color: $goldenrod;
         }
-        .subsection-title.cancelled, .subsection-details.cancelled {
+        .subsection-title.cancelled,
+        .subsection-details.cancelled {
             text-decoration: line-through;
         }
         p.subsection-details {
-            margin-bottom: .5rem;
+            margin-bottom: 0.5rem;
             font-weight: 600;
-        }    
+        }
         p.subsection-details.past {
             font-weight: normal;
         }
         p.event-location a {
             font-weight: bold;
-            margin-bottom: .5rem;
+            margin-bottom: 0.5rem;
         }
         p.cancelled-notice {
             color: $red;
             font-weight: bold;
             text-transform: uppercase;
-            margin-top: .3rem;
+            margin-top: 0.3rem;
         }
         .premium-link {
             color: $goldenrod; // goldenrod
@@ -409,28 +434,30 @@ section {
             color: $ltOrange;
         }
         .run-link {
-            color: $red;  //dkorange
+            color: $red; //dkorange
         }
         .trial-results {
             color: $trueRed;
         }
-        .premium-link.disabled, .signup-link.disabled, .run-link.disabled {
+        .premium-link.disabled,
+        .signup-link.disabled,
+        .run-link.disabled {
             color: $lightTextColor;
             font-weight: normal;
             font-style: italic;
-            font-size: .95rem;
+            font-size: 0.95rem;
         }
         .event-info {
             margin: 0;
             font-style: italic;
-            margin-bottom: .2rem;
-            padding: 0 .8rem 0;
-        }       
+            margin-bottom: 0.2rem;
+            padding: 0 0.8rem 0;
+        }
         .raine-update {
             color: $red;
             font-weight: bold;
-            margin: .3rem auto;
-        } 
+            margin: 0.3rem auto;
+        }
         .raine-update:first-of-type {
             margin-top: 1.2rem;
         }
@@ -441,30 +468,35 @@ section {
     height: auto;
     .card {
         color: $dkOrange;
-        background: rgba(255,165,10,.3);
+        background: rgba(255, 165, 10, 0.3);
         outline: 1px solid $dkOrange;
         outline-offset: -1rem;
         max-width: 300px;
         h2 {
             color: $dkOrange;
-            margin-bottom: .5rem;
+            margin-bottom: 0.5rem;
             font-size: 1.3rem;
-        }   
+        }
         h4 {
-            margin-bottom: .5rem;
+            margin-bottom: 0.5rem;
         }
         .btn-wrapper:last-child {
             margin-bottom: 2rem;
         }
         .btn-wrapper {
             outline: 1px solid $dkOrange;
-        }        
+        }
         display: inline-block;
         transform: rotate(3deg);
     }
     hr {
-        margin-bottom: 0;        
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
+        margin-bottom: 0;
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0),
+            rgba(231, 58, 9, 0.75),
+            rgba(0, 0, 0, 0)
+        );
     }
     .calendars {
         margin-bottom: 2.5rem;
@@ -480,9 +512,14 @@ section {
     }
     figcaption {
         font-style: italic;
-    }    
+    }
     hr {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 122, 9, 0.75), rgba(0, 0, 0, 0));
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0),
+            rgba(231, 122, 9, 0.75),
+            rgba(0, 0, 0, 0)
+        );
     }
     .members {
         display: flex;
@@ -495,25 +532,25 @@ section {
         text-align: center;
         min-width: 200px;
         max-width: 300px;
-        box-shadow: 1px 1px 12px .05px $black;
+        box-shadow: 1px 1px 12px 0.05px $black;
         outline: none;
         border-radius: 0;
 
         margin-bottom: 1.5rem;
         h4 {
-            margin: .5rem auto 0;
+            margin: 0.5rem auto 0;
             font-size: 1.5rem;
             text-transform: uppercase;
         }
         a {
             color: $lightTextColor;
-            border-bottom: .1rem solid $dkOrange;
+            border-bottom: 0.1rem solid $dkOrange;
         }
         p {
-            margin-top: .5rem;
+            margin-top: 0.5rem;
         }
         img {
-            width: 100%; 
+            width: 100%;
             height: auto;
             border: 1px solid $lightTextColor;
         }
@@ -522,7 +559,11 @@ section {
 // AGILITY CONTENT
 #agility {
     width: 100%;
-    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/penny_slider.jpg);
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.8)
+        ),
+        url(../img/penny_slider.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -532,23 +573,31 @@ section {
     p {
         line-height: 1.5;
     }
-    .differences, .scrip-rules {
+    .differences,
+    .scrip-rules {
         list-style-type: none;
         padding: 0;
         text-align: left;
     }
-    .differences li, .scrip-rules li {
+    .differences li,
+    .scrip-rules li {
         padding: 0 0 1rem 1.5rem;
         line-height: 1.5;
     }
-    .differences li i, .scrip-rules li i {
-        margin-right: .5rem;
+    .differences li i,
+    .scrip-rules li i {
+        margin-right: 0.5rem;
     }
     h4 {
-        margin-bottom: -.5rem;
+        margin-bottom: -0.5rem;
     }
     hr {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 58, 9, 0.75), rgba(0, 0, 0, 0));
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0),
+            rgba(231, 58, 9, 0.75),
+            rgba(0, 0, 0, 0)
+        );
     }
     hr:last-of-type {
         margin-top: 0;
@@ -556,26 +605,26 @@ section {
     .rule-and-cal-section {
         display: flex;
         flex-flow: column;
-    }    
+    }
     .rule-logo {
         display: block;
-        margin: .5rem auto .5rem;
+        margin: 0.5rem auto 0.5rem;
     }
     .raine-update {
         color: $red;
         font-weight: bold;
-        margin: .3rem auto;
-    } 
+        margin: 0.3rem auto;
+    }
     .raine-update:first-of-type {
-        margin-top: .2rem;
+        margin-top: 0.2rem;
     }
     .raine-update:last-of-type {
-        margin-bottom: .5rem;
-    }    
+        margin-bottom: 0.5rem;
+    }
 }
 #freestyle {
     h1 {
-        font-family: 'Diplomata', cursive;
+        font-family: "Diplomata", cursive;
     }
     figure {
         margin: 0;
@@ -594,12 +643,15 @@ section {
     }
     #second-link {
         color: $red;
-
     }
 }
 #more {
     width: 100%;
-    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/backgroundMore.jpg);
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.8)
+        ),
+        url(../img/backgroundMore.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -617,55 +669,55 @@ section {
         text-align: center;
         min-width: 200px;
         max-width: 300px;
-        box-shadow: 1px 1px 12px .05px $black;
+        box-shadow: 1px 1px 12px 0.05px $black;
         outline: none;
         border-radius: 0;
         background-color: $white;
         margin-bottom: 1.5rem;
         h4 {
-            margin: .5rem auto 1rem; 
+            margin: 0.5rem auto 1rem;
             font-size: 1.5rem;
             text-transform: uppercase;
         }
         a {
             color: $lightTextColor;
-            border-bottom: .1rem solid $mustard;
+            border-bottom: 0.1rem solid $mustard;
         }
         p {
-            margin-top: .5rem;
+            margin-top: 0.5rem;
         }
         .addl-lines {
-            margin-bottom: -.2rem;
+            margin-bottom: -0.2rem;
         }
         .no-caps {
             text-transform: none;
             font-size: 18px;
         }
         img {
-            width: 100%; 
+            width: 100%;
             height: auto;
             border: 1px solid $lightTextColor;
         }
         .small {
             width: 50%;
         }
-    }    
+    }
     .card:first-child {
         transform: rotate(5deg);
     }
-    .card:nth-child(2n+2) {
+    .card:nth-child(2n + 2) {
         transform: rotate(-5deg);
     }
 }
-@media(min-width: 900px) {
-    #home {  
+@media (min-width: 900px) {
+    #home {
         .other p {
             margin-bottom: 0;
-        }        
+        }
         .card {
             position: relative;
             top: 2.3rem;
-            background: rgba(255,165,10,.5);
+            background: rgba(255, 165, 10, 0.5);
             display: inline-block;
             transform: rotate(-3deg);
         }
@@ -691,25 +743,26 @@ section {
         }
         figcaption {
             font-size: smaller;
-        }    
+        }
         .card p {
             text-align: center;
-        }  
+        }
     }
     #agility {
-        .differences, .scrip-rules {
+        .differences,
+        .scrip-rules {
             width: 75%;
             margin: 0 auto;
             max-width: 1000px;
         }
         h4 {
-            margin-bottom: .5rem;
+            margin-bottom: 0.5rem;
         }
     }
     #more {
         .section-container {
             width: 85%;
-        }        
+        }
         .friends {
             flex-direction: row;
             flex-wrap: wrap;
@@ -718,7 +771,8 @@ section {
         .card {
             margin: 2rem;
         }
-        .card:first-child, .card:nth-child(2n+2) {
+        .card:first-child,
+        .card:nth-child(2n + 2) {
             transform: rotate(0);
         }
         figure {
@@ -730,16 +784,16 @@ section {
         }
         figcaption {
             font-size: smaller;
-        }    
+        }
         .card p {
             text-align: center;
-        }  
+        }
     }
 }
 //FOOTER
 footer {
     background: $black;
-    font-size: .75rem;
+    font-size: 0.75rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: ". footer button";
@@ -756,14 +810,19 @@ footer {
         align-self: end;
         font-weight: bold;
         vertical-align: sub;
-        background-image: linear-gradient(to bottom, #fa709a 0%, #ef6009 50%, #fee140 100%);        
-        padding: 1rem 1rem .5rem;
-        margin-right: .5rem;
+        background-image: linear-gradient(
+            to bottom,
+            #fa709a 0%,
+            #ef6009 50%,
+            #fee140 100%
+        );
+        padding: 1rem 1rem 0.5rem;
+        margin-right: 0.5rem;
         border-radius: 7px;
         cursor: pointer;
     }
 }
-@media(min-width: 900px) {
+@media (min-width: 900px) {
     footer p:last-child {
         visibility: hidden;
     }

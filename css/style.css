@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
   background-color: #ffffff;
@@ -35,7 +36,7 @@ body {
   color: #ff1c0a;
   font-weight: 700;
   font-size: 1.25rem;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   text-decoration: underline;
 }
 
@@ -51,7 +52,7 @@ body {
 
 .covid .covid-header {
   font-size: 1.5rem;
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .covid p.covid-footer {
@@ -136,7 +137,8 @@ h1.logo img {
   font-size: 1.5m;
 }
 
-.site-nav a:hover, .site-nav a:focus {
+.site-nav a:hover,
+.site-nav a:focus {
   font-weight: bold;
   background: #eeeeee;
 }
@@ -154,15 +156,17 @@ h1.logo img {
 }
 
 .menu-toggle {
-  padding: 1.2rem .5rem 1rem 0;
+  padding: 1.2rem 0.5rem 1rem 0;
   position: absolute;
-  right: .2rem;
+  right: 0.2rem;
   top: 1rem;
   cursor: pointer;
 }
 
-.hamburger, .hamburger::before, .hamburger::after {
-  content: '';
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: "";
   display: block;
   background: #000000;
   height: 3px;
@@ -218,11 +222,12 @@ h1.logo img {
     border: none;
   }
   .site-nav a {
-    padding: .75rem 0 0;
+    padding: 0.75rem 0 0;
     margin-left: 2rem;
     color: #000000;
   }
-  .site-nav a:hover, .site-nav a:focus {
+  .site-nav a:hover,
+  .site-nav a:focus {
     background: transparent;
   }
 }
@@ -230,7 +235,7 @@ h1.logo img {
 .card {
   width: 90%;
   margin: 0 auto;
-  padding: .2rem;
+  padding: 0.2rem;
   border-radius: 5px;
 }
 
@@ -255,11 +260,12 @@ h1.logo img {
 }
 
 .btn-wrapper {
-  padding: .75rem 1rem .75rem;
+  padding: 0.75rem 1rem 0.75rem;
   display: inline-block;
 }
 
-.btn-wrapper:hover, .btn-wrapper:focus {
+.btn-wrapper:hover,
+.btn-wrapper:focus {
   background-color: rgba(231, 122, 9, 0.5);
 }
 
@@ -280,6 +286,7 @@ section h1 {
   background: -webkit-linear-gradient(#ded00c, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 section h2 {
@@ -288,7 +295,7 @@ section h2 {
 
 section .subsection-title {
   color: #e73a09;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 section .subsection-details {
@@ -306,11 +313,14 @@ section a {
   font-weight: bold;
 }
 
-section a:hover, section a:focus {
+section a:hover,
+section a:focus {
   text-shadow: 0 0 2px yellow;
 }
 
-section a.disabled, section a.disabled:hover, section a.disabled:focus {
+section a.disabled,
+section a.disabled:hover,
+section a.disabled:focus {
   pointer-events: none;
 }
 
@@ -320,7 +330,10 @@ section hr {
   margin: 2rem auto 2rem;
 }
 
-section #rsa-rules, section #cpe-rules, section .dds-cal, section .az-cal {
+section #rsa-rules,
+section #cpe-rules,
+section .dds-cal,
+section .az-cal {
   cursor: pointer;
 }
 
@@ -341,7 +354,7 @@ section .az-cal {
 }
 
 section p i {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 @media (min-width: 900px) {
@@ -368,10 +381,12 @@ section p i {
   margin: 2.5rem auto 0;
 }
 
-#home h2.subtitle, #home .subtitle p a {
+#home h2.subtitle,
+#home .subtitle p a {
   color: #e77a09;
   background: -webkit-linear-gradient(#ded00c, red);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -380,13 +395,14 @@ section p i {
 }
 
 #home .other p {
-  margin: .5rem auto 1.5rem;
+  margin: 0.5rem auto 1.5rem;
 }
 
 #home .other p i {
   color: #e77a09;
   background: -webkit-linear-gradient(#ded00c, red);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -413,7 +429,7 @@ section p i {
 
 #home .event a {
   display: block;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 #home .event a:last-of-type {
@@ -424,12 +440,13 @@ section p i {
   color: #e77a09;
 }
 
-#home .event .subsection-title.cancelled, #home .event .subsection-details.cancelled {
+#home .event .subsection-title.cancelled,
+#home .event .subsection-details.cancelled {
   text-decoration: line-through;
 }
 
 #home .event p.subsection-details {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: 600;
 }
 
@@ -439,14 +456,14 @@ section p i {
 
 #home .event p.event-location a {
   font-weight: bold;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 #home .event p.cancelled-notice {
   color: #ff1c0a;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: .3rem;
+  margin-top: 0.3rem;
 }
 
 #home .event .premium-link {
@@ -465,24 +482,26 @@ section p i {
   color: red;
 }
 
-#home .event .premium-link.disabled, #home .event .signup-link.disabled, #home .event .run-link.disabled {
+#home .event .premium-link.disabled,
+#home .event .signup-link.disabled,
+#home .event .run-link.disabled {
   color: #292727;
   font-weight: normal;
   font-style: italic;
-  font-size: .95rem;
+  font-size: 0.95rem;
 }
 
 #home .event .event-info {
   margin: 0;
   font-style: italic;
-  margin-bottom: .2rem;
-  padding: 0 .8rem 0;
+  margin-bottom: 0.2rem;
+  padding: 0 0.8rem 0;
 }
 
 #home .event .raine-update {
   color: #ff1c0a;
   font-weight: bold;
-  margin: .3rem auto;
+  margin: 0.3rem auto;
 }
 
 #home .event .raine-update:first-of-type {
@@ -505,12 +524,12 @@ section p i {
 
 #home .card h2 {
   color: #e73a09;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.3rem;
 }
 
 #home .card h4 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 #home .card .btn-wrapper:last-child {
@@ -567,7 +586,7 @@ section p i {
 }
 
 #about .card h4 {
-  margin: .5rem auto 0;
+  margin: 0.5rem auto 0;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
@@ -578,7 +597,7 @@ section p i {
 }
 
 #about .card p {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #about .card img {
@@ -602,23 +621,26 @@ section p i {
   line-height: 1.5;
 }
 
-#agility .differences, #agility .scrip-rules {
+#agility .differences,
+#agility .scrip-rules {
   list-style-type: none;
   padding: 0;
   text-align: left;
 }
 
-#agility .differences li, #agility .scrip-rules li {
+#agility .differences li,
+#agility .scrip-rules li {
   padding: 0 0 1rem 1.5rem;
   line-height: 1.5;
 }
 
-#agility .differences li i, #agility .scrip-rules li i {
-  margin-right: .5rem;
+#agility .differences li i,
+#agility .scrip-rules li i {
+  margin-right: 0.5rem;
 }
 
 #agility h4 {
-  margin-bottom: -.5rem;
+  margin-bottom: -0.5rem;
 }
 
 #agility hr {
@@ -636,25 +658,25 @@ section p i {
 
 #agility .rule-logo {
   display: block;
-  margin: .5rem auto .5rem;
+  margin: 0.5rem auto 0.5rem;
 }
 
 #agility .raine-update {
   color: #ff1c0a;
   font-weight: bold;
-  margin: .3rem auto;
+  margin: 0.3rem auto;
 }
 
 #agility .raine-update:first-of-type {
-  margin-top: .2rem;
+  margin-top: 0.2rem;
 }
 
 #agility .raine-update:last-of-type {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 #freestyle h1 {
-  font-family: 'Diplomata', cursive;
+  font-family: "Diplomata", cursive;
 }
 
 #freestyle figure {
@@ -712,7 +734,7 @@ section p i {
 }
 
 #more .card h4 {
-  margin: .5rem auto 1rem;
+  margin: 0.5rem auto 1rem;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
@@ -723,11 +745,11 @@ section p i {
 }
 
 #more .card p {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #more .card .addl-lines {
-  margin-bottom: -.2rem;
+  margin-bottom: -0.2rem;
 }
 
 #more .card .no-caps {
@@ -749,7 +771,7 @@ section p i {
   transform: rotate(5deg);
 }
 
-#more .card:nth-child(2n+2) {
+#more .card:nth-child(2n + 2) {
   transform: rotate(-5deg);
 }
 
@@ -790,13 +812,14 @@ section p i {
   #about .card p {
     text-align: center;
   }
-  #agility .differences, #agility .scrip-rules {
+  #agility .differences,
+  #agility .scrip-rules {
     width: 75%;
     margin: 0 auto;
     max-width: 1000px;
   }
   #agility h4 {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
   #more .section-container {
     width: 85%;
@@ -809,7 +832,8 @@ section p i {
   #more .card {
     margin: 2rem;
   }
-  #more .card:first-child, #more .card:nth-child(2n+2) {
+  #more .card:first-child,
+  #more .card:nth-child(2n + 2) {
     transform: rotate(0);
   }
   #more figure {
@@ -829,7 +853,7 @@ section p i {
 
 footer {
   background: #000000;
-  font-size: .75rem;
+  font-size: 0.75rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: ". footer button";
@@ -850,8 +874,8 @@ footer p:last-child {
   font-weight: bold;
   vertical-align: sub;
   background-image: linear-gradient(to bottom, #fa709a 0%, #ef6009 50%, #fee140 100%);
-  padding: 1rem 1rem .5rem;
-  margin-right: .5rem;
+  padding: 1rem 1rem 0.5rem;
+  margin-right: 0.5rem;
   border-radius: 7px;
   cursor: pointer;
 }
