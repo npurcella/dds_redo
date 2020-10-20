@@ -365,7 +365,7 @@ section p i {
 
 #home {
   padding-top: 3rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundHome.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../img/backgroundHome.jpg);
   background-position: top right;
   background-size: cover;
   -moz-background-size: 100% 100%;
@@ -512,6 +512,27 @@ section p i {
   margin-bottom: 1.2rem;
 }
 
+#home .member-info {
+  color: #444;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+#home .member-info a {
+  display: inline-block;
+  color: #e77a09;
+  background: -webkit-linear-gradient(#ded00c, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#home .member-info .star {
+  font-size: 1.5rem;
+  vertical-align: middle;
+  color: #e73a09;
+}
+
 #home .card {
   color: #e73a09;
   background: rgba(255, 165, 10, 0.3);
@@ -608,7 +629,7 @@ section p i {
 
 #agility {
   width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/penny_slider.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../img/penny_slider.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -704,7 +725,7 @@ section p i {
 
 #more {
   width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/backgroundMore.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../img/backgroundMore.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

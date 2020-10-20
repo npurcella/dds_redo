@@ -48,7 +48,8 @@
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Mar 1 - 3, 2019 @ 7:00a - 5:00p</p>                    
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a class="premium-link" href="http://www.k9cpe.com/premiums/030119azdesertdawgs.pdf" target="_blank">Download Premium</a>
+                    <a class="premium-link" href="
+http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download Premium</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run @ Jodie’s</h3>

@@ -27,19 +27,21 @@
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">UKI</h3>
                     <p class="subsection-details">Oct 24 - 25, 2020 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a class="premium-link" href="../docs/UKI_Oct_2020_Desert_Dawgs_Premium_Final.pdf" target="_blank">Download Premium</a>
-                    <a href="../docs/standings/uki/oct20/standings.txt" target="_blank">Current Standings</a>
+                    <!-- <a href="../docs/standings/uki/oct20/standings.txt" target="_blank">Current Standings</a> -->
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Dec 5 - 6, 2020 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a>
+                    <a class="premium-link" href="
+http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download Premium</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
@@ -47,6 +49,7 @@
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">UKI</h3>
@@ -161,18 +164,18 @@
                     <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
                 </div>
                 <hr>
-                <div class="other">
+                <div id="member" class="other">
                     <h2 class="subtitle">Facebook</h2>
                     <p><a href="https://www.facebook.com/desertdawgsports/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></p>
                 </div>
                 <div class="card">
                     <h2>Become a Member!</h2>
                     <div class="btn-wrapper">
-                        <a class="btn" href="../docs/DDSC-membership-form.pdf" target="_blank">New Member</a>
+                        <a class="btn" href="../docs/DDS_2021_Membership_Application.pdf" target="_blank">New Member</a>
                     </div>
                     <h3>Time to Renew?</h3>
                     <div class="btn-wrapper">
-                        <a class="btn" href="../docs/DDSC-membership-renewal-form.pdf" target="_blank">Existing Member</a>
+                        <a class="btn" href="../docs/DDS_2021_renewal.pdf" target="_blank">Existing Member</a>
                     </div>
                 </div>
             </div>
