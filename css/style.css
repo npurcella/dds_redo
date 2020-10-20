@@ -518,7 +518,8 @@ section p i {
   font-style: italic;
 }
 
-#home .member-info a {
+#home .member-info a,
+#home .member-info a:visited {
   display: inline-block;
   color: #e77a09;
   background: -webkit-linear-gradient(#ded00c, red);

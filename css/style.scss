@@ -470,7 +470,8 @@ section {
         color: #444;
         margin-bottom: 0;
         font-style: italic;
-        a {
+        a,
+        a:visited {
             display: inline-block;
             color: $goldenrod;
             background: -webkit-linear-gradient($ltYellow, $trueRed);
