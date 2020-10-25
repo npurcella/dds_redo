@@ -22,19 +22,37 @@
                     <p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p>
                 </a>
                 <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Oct 23, 2020 @ 11:00a</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
-                </div>
-                <div class="event">
                     <h3 class="subsection-title">UKI</h3>
                     <p class="subsection-details">Oct 24 - 25, 2020 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a class="premium-link" href="../docs/UKI_Oct_2020_Desert_Dawgs_Premium_Final.pdf" target="_blank">Download Premium</a>
-                    <!-- <a href="../docs/standings/uki/oct20/standings.txt" target="_blank">Current Standings</a> -->
+                    <a href="../docs/UKI_run_order.pdf" target="_blank" class="recent">~ UKI Run Order ~</a>
+                    <br>
+                    <a href="#" class="recent" style="color:  #e77a09;">Saturday 10/24/2020 Course Maps</a>
+                    <a href="../docs/BeginnerNoviceAgility.pdf" target="_blank" class="recent">~ BEGINNER NOVICE AGILITY ~</a>
+                    <a href="../docs/BeginnerNoviceGamblers.pdf" target="_blank" class="recent">~ BEGINNER NOVICE GAMBLERS ~</a>
+                    <a href="../docs/BeginnerNoviceJumping.pdf" target="_blank" class="recent">~ BEGINNER NOVICE JUMPING ~</a>
+                    <a href="../docs/BeginnerNoviceSnooker.pdf" target="_blank" class="recent">~ BEGINNER NOVICE SNOOKER ~</a>
+                    <a href="../docs/BeginnerNoviceSpeedstakes.pdf" target="_blank" class="recent">~ BEGINNER NOVICE SPEEDSTAKES ~</a>
+                    <a href="../docs/ChampSeniorAgility.pdf" target="_blank" class="recent">~ CHAMP SENIOR AGILITY ~</a>
+                    <a href="../docs/ChampSeniorGamblers.pdf" target="_blank" class="recent">~ CHAMP SENIOR GAMBLERS ~</a>
+                    <a href="../docs/ChampSeniorJumping.pdf" target="_blank" class="recent">~ CHAMP SENIOR JUMPING ~</a>
+                    <a href="../docs/ChampSeniorSnooker.pdf" target="_blank" class="recent">~ CHAMP SENIOR SNOOKER ~</a>
+                    <a href="../docs/ChampSeniorSpeedstakes.pdf" target="_blank" class="recent">~ CHAMP SENIOR SPEEDSTAKES ~</a>
+                    <a href="../docs/VeteranAgility.pdf" target="_blank" class="recent">~ VETERAN AGILITY ~</a>
+                    <a href="../docs/VeteranJumping.pdf" target="_blank" class="recent">~ VETERAN JUMPING ~</a>
+                    <a href="../docs/VeteranSpeedstakes.pdf" target="_blank" class="recent">~ VETERAN SPEEDSTAKES ~</a>
+                    <br>
+                    <a href="#" class="recent" style="color:  #e77a09;">Sunday 10/25/2020 Course Maps</a>
+                    <a href="../docs/BeginnerNoviceAgility1.pdf" target="_blank" class="recent">~ BEGINNER NOVICE AGILITY ~</a>
+                    <a href="../docs/BeginnerNovicePowerSpeed.pdf" target="_blank" class="recent">~ BEGINNER NOVICE POWER & SPEED ~</a>
+                    <a href="../docs/BeginnerNoviceSnakesLadders.pdf" target="_blank" class="recent">~ BEGINNER NOVICE SNAKES & LADDERS ~</a>
+                    <a href="../docs/ChampSeniorAgility1.pdf" target="_blank" class="recent">~ CHAMP SENIOR AGILITY ~</a>
+                    <a href="../docs/ChampSeniorPowerSpeed.pdf" target="_blank" class="recent">~ CHAMP SENIOR POWER & SPEED ~</a>
+                    <a href="../docs/ChampSeniorSnakesLadders.pdf" target="_blank" class="recent">~ CHAMP SENIOR SNAKES & LADDERS ~</a>
+                    <a href="../docs/MastersAgility.pdf" target="_blank" class="recent">~ MASTERS AGILITY ~</a>
+                    <a href="../docs/MastersJumping1.pdf" target="_blank" class="recent">~ MASTERS JUMPING ~</a>
+                    <a href="../docs/VeteransAgility1.pdf" target="_blank" class="recent">~ VETERAN AGILITY ~</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
