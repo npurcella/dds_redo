@@ -55,6 +55,23 @@ body {
     margin-top: 0.75rem;
     text-decoration: underline;
 }
+.covid-link {
+    color: $red;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+.covid-rule {
+    margin: 0.75rem auto;
+}
+.covid-text {
+    margin: 0.5rem 2rem;
+    text-align: left;
+}
+#home .event a.covid-mail,
+#home .event a.covid-print {
+    display: inline;
+    color: $goldenrod;
+}
 .covid {
     .covid-header,
     .covid-footer {

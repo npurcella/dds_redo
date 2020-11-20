@@ -21,45 +21,30 @@
                 <a href="#covid">
                     <p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p>
                 </a>
+
                 <div class="event">
-                    <h3 class="subsection-title">UKI</h3>
-                    <p class="subsection-details">Oct 24 - 25, 2020 @ 7:00a - 5:00p</p>
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Dec 4, 2020 @ 11:00a</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a class="premium-link" href="../docs/UKI_Oct_2020_Desert_Dawgs_Premium_Final.pdf" target="_blank">Download Premium</a>
-                    <a href="../docs/UKI_run_order.pdf" target="_blank" class="recent">~ UKI Run Order ~</a>
-                    <br>
-                    <a href="#" class="recent" style="color:  #e77a09;">Saturday 10/24/2020 Course Maps</a>
-                    <a href="../docs/BeginnerNoviceAgility.pdf" target="_blank" class="recent">~ BEGINNER NOVICE AGILITY ~</a>
-                    <a href="../docs/BeginnerNoviceGamblers.pdf" target="_blank" class="recent">~ BEGINNER NOVICE GAMBLERS ~</a>
-                    <a href="../docs/BeginnerNoviceJumping.pdf" target="_blank" class="recent">~ BEGINNER NOVICE JUMPING ~</a>
-                    <a href="../docs/BeginnerNoviceSnooker.pdf" target="_blank" class="recent">~ BEGINNER NOVICE SNOOKER ~</a>
-                    <a href="../docs/BeginnerNoviceSpeedstakes.pdf" target="_blank" class="recent">~ BEGINNER NOVICE SPEEDSTAKES ~</a>
-                    <a href="../docs/ChampSeniorAgility.pdf" target="_blank" class="recent">~ CHAMP SENIOR AGILITY ~</a>
-                    <a href="../docs/ChampSeniorGamblers.pdf" target="_blank" class="recent">~ CHAMP SENIOR GAMBLERS ~</a>
-                    <a href="../docs/ChampSeniorJumping.pdf" target="_blank" class="recent">~ CHAMP SENIOR JUMPING ~</a>
-                    <a href="../docs/ChampSeniorSnooker.pdf" target="_blank" class="recent">~ CHAMP SENIOR SNOOKER ~</a>
-                    <a href="../docs/ChampSeniorSpeedstakes.pdf" target="_blank" class="recent">~ CHAMP SENIOR SPEEDSTAKES ~</a>
-                    <a href="../docs/VeteranAgility.pdf" target="_blank" class="recent">~ VETERAN AGILITY ~</a>
-                    <a href="../docs/VeteranJumping.pdf" target="_blank" class="recent">~ VETERAN JUMPING ~</a>
-                    <a href="../docs/VeteranSpeedstakes.pdf" target="_blank" class="recent">~ VETERAN SPEEDSTAKES ~</a>
-                    <br>
-                    <a href="#" class="recent" style="color:  #e77a09;">Sunday 10/25/2020 Course Maps</a>
-                    <a href="../docs/BeginnerNoviceAgility1.pdf" target="_blank" class="recent">~ BEGINNER NOVICE AGILITY ~</a>
-                    <a href="../docs/BeginnerNovicePowerSpeed.pdf" target="_blank" class="recent">~ BEGINNER NOVICE POWER & SPEED ~</a>
-                    <a href="../docs/BeginnerNoviceSnakesLadders.pdf" target="_blank" class="recent">~ BEGINNER NOVICE SNAKES & LADDERS ~</a>
-                    <a href="../docs/ChampSeniorAgility1.pdf" target="_blank" class="recent">~ CHAMP SENIOR AGILITY ~</a>
-                    <a href="../docs/ChampSeniorPowerSpeed.pdf" target="_blank" class="recent">~ CHAMP SENIOR POWER & SPEED ~</a>
-                    <a href="../docs/ChampSeniorSnakesLadders.pdf" target="_blank" class="recent">~ CHAMP SENIOR SNAKES & LADDERS ~</a>
-                    <a href="../docs/MastersAgility.pdf" target="_blank" class="recent">~ MASTERS AGILITY ~</a>
-                    <a href="../docs/MastersJumping1.pdf" target="_blank" class="recent">~ MASTERS JUMPING ~</a>
-                    <a href="../docs/VeteransAgility1.pdf" target="_blank" class="recent">~ VETERAN AGILITY ~</a>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p>
                 </div>
+
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Dec 5 - 6, 2020 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a class="premium-link" href="
 http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download Premium</a>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">CPE Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong><em>CPE Waiver</em></strong> and <strong><em>DDS Waiver</em></strong> are not the same, and we only need one copy of each on file for you.</p>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
@@ -68,24 +53,54 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                     <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">UKI</h3>
                     <p class="subsection-details">Jan 9 - 10, 2021 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a>
+                    <a href="../docs/DDS_UKI_Jan2021Premium.pdf" class="premium-link">Download Premium</a>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p>
                 </div>
+
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Feb 5, 2021 @ 11:00a</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p>
+                </div>
+
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Feb 6 - 7, 2021 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a href="#" class="premium-link disabled">TBA</a>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">CPE Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong><em>CPE Waiver</em></strong> and <strong><em>DDS Waiver</em></strong> are not the same, and we only need one copy of each on file for you.</p>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Mar 5, 6 & 7, 2021 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a href="#" class="premium-link disabled">TBA</a>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">CPE Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong><em>CPE Waiver</em></strong> and <strong><em>DDS Waiver</em></strong> are not the same, and we only need one copy of each on file for you.</p>
                 </div>
                 <hr>
                 <section id="covid" class="covid">
@@ -164,7 +179,7 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                         </li>
                         <li>
                             <p>
-                                There is currently a state ordinance limiting groups to 50 people. <strong>We will limit entries to 50 handlers</strong>. You may
+                                There is currently a state ordinance limiting groups to 49 people. <strong>We will limit entries to 49 handlers</strong>. You may
                                 bring one support person to help you set up and tear down your crating area, but please, no friends or family
                                 dropping by to watch.
                             </p>

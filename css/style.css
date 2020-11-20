@@ -40,6 +40,27 @@ body {
   text-decoration: underline;
 }
 
+.covid-link {
+  color: #ff1c0a;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.covid-rule {
+  margin: 0.75rem auto;
+}
+
+.covid-text {
+  margin: 0.5rem 2rem;
+  text-align: left;
+}
+
+#home .event a.covid-mail,
+#home .event a.covid-print {
+  display: inline;
+  color: #e77a09;
+}
+
 .covid .covid-header,
 .covid .covid-footer {
   text-decoration: none;
