@@ -21,35 +21,10 @@
                 <a href="#covid">
                     <p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p>
                 </a>
-
-                <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Dec 4, 2020 @ 11:00a</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
-                    <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
-                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
-                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p>
-                </div>
-
-                <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Dec 5 - 6, 2020 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a class="premium-link" href="
-http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download Premium</a>
-                    <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">CPE Covid Waiver</a>
-                    <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
-                    <p class="covid-text">The <strong><em>CPE Waiver</em></strong> and <strong><em>DDS Waiver</em></strong> are not the same, and we only need one copy of each on file for you.</p>
-                </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
                     <p class="subsection-details">Jan 8, 2021 @ 11:00a</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                     <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
@@ -61,8 +36,8 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                 <div class="event">
                     <h3 class="subsection-title">UKI</h3>
                     <p class="subsection-details">Jan 9 - 10, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="../docs/DDS_UKI_Jan2021Premium.pdf" class="premium-link">Download Premium</a>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium_RavenRanch.pdf" class="premium-link">Download Premium</a>
                     <hr class="covid-rule">
                     <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
                     <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
@@ -72,7 +47,7 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
                     <p class="subsection-details">Feb 5, 2021 @ 11:00a</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                     <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
@@ -85,7 +60,7 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Feb 6 - 7, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
                     <a href="#" class="premium-link disabled">TBA</a>
                     <hr class="covid-rule">
                     <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">CPE Covid Waiver</a>
@@ -95,7 +70,7 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Mar 5, 6 & 7, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
                     <a href="#" class="premium-link disabled">TBA</a>
                     <hr class="covid-rule">
                     <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">CPE Covid Waiver</a>
@@ -262,13 +237,6 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:ffluffy444@gmail.com" target="_blank">Alicia Nicholas</a></h4>
-                    <p>UKI Coordinator</p>
-                    <picture>
-                        <img src="../img/member/alicia/alicia.jpeg" alt="photo of Alicia's dog">
-                    </picture>
-                </div>
-                <div class="card member">
                     <h4><a href="mailto:genicefrances@yahoo.com" target="_blank">Genice Froehlich</a></h4>
                     <p>CPE Coordinator</p>
                     <picture>
@@ -290,10 +258,10 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:ddscpe@yahoo.com" target="_blank">Lori Vanni</a></h4>
+                    <h4><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></h4>
                     <p>CPE Secretary</p>
                     <picture>
-                        <img src="../img/member/lori/lori.jpg" alt="photo of Lori's dog">
+                        <img src="../img/member/peggy/zoey.jpg" alt="photo of Peggy's dog">
                     </picture>
                 </div>
                 <div class="card member">
@@ -380,15 +348,8 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                             <picture>
                                 <img class="small" src="../img/member/kristen/kristen.jpg">
                             </picture>
-                            <p>DDS member <strong>Kristen Wheeler</strong> is the owner, and you can visit her Etsy site by clicking on the link above.</p>
+                            <p>DDS member <strong>Kristen Wheeler</strong> is the owner, and you can visit her Etsy site by clicking on the link above, or by going to <a href="http://arizonamuttco.etsy.com" target="_blank">http://arizonamuttco.etsy.com</a></p>
                         </div>
-                    </div>
-                    <div class="card member">
-                        <h4><a href="mailto:sheltiesquad@yahoo.com" target="_blank">Lori Vanni</a></h4>
-                        <p>Trainer</p>
-                        <picture>
-                            <img src="../img/member/lori/lori.jpg" alt="">
-                        </picture>
                     </div>
                     <div class="card member">
                         <h4><a href="mailto:peggy6632az@gmail.com" target="_blank">Mark Owens</a></h4>

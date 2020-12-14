@@ -32,6 +32,18 @@ body {
   margin: 0 auto;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.red {
+  color: #ff1c0a;
+}
+
+.ital {
+  font-style: italic;
+}
+
 .covid-header {
   color: #ff1c0a;
   font-weight: 700;

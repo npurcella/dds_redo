@@ -47,6 +47,15 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+.strikethrough {
+    text-decoration: line-through;
+}
+.red {
+    color: $red;
+}
+.ital {
+    font-style: italic;
+}
 // COVID
 .covid-header {
     color: $red;
