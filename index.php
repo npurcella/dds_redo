@@ -7,8 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="favicon.ico">
     <title>Desert Dawg Sports</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- <link rel="preload" href="css/style.css" as="style"> -->
+    <!-- <link rel="preload" href="css/style.min.css" as="style"> -->
+
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
@@ -22,58 +28,35 @@
                     <p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p>
                 </a>
                 <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Jan 8, 2021 @ 11:00a</p>
-                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
+                    <h2 class="subsection-title">Fun Run</h2>
+                    <p class="subsection-details">Feb 5, 2021 @ 12:30p</p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                     <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
                     <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
-                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
-                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">UKI</h3>
-                    <p class="subsection-details">Jan 9 - 10, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
-                    <a href="../docs/DDS_UKI_Jan2021Premium_RavenRanch.pdf" class="premium-link">Download Premium</a>
-                    <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank" rel="noopener noreferrer nofollow">DDS Covid Waiver</a>
                     <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
                     <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p>
                 </div>
 
                 <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Feb 5, 2021 @ 11:00a</p>
-                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
-                    <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
-                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
-                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p>
-                </div>
-
-                <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
+                    <h2 class="subsection-title">CPE</h2>
                     <p class="subsection-details">Feb 6 - 7, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
+                    <a href="../docs/020621_UKIPremiumFinal.pdf" class="premium-link" target="_blank" rel="noopener noreferrer nofollow">Download Premium</a>
                     <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">CPE Covid Waiver</a>
+                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank" rel="noopener noreferrer nofollow">CPE Covid Waiver</a>
                     <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
                     <p class="covid-text">The <strong><em>CPE Waiver</em></strong> and <strong><em>DDS Waiver</em></strong> are not the same, and we only need one copy of each on file for you.</p>
                 </div>
                 <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
+                    <h2 class="subsection-title">CPE</h2>
                     <p class="subsection-details">Mar 5, 6 & 7, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/030521_CPEPremium.pdf" class="premium-link" target="_blank" rel="noopener noreferrer nofollow">Download Premium</a>
                     <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">CPE Covid Waiver</a>
+                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank" rel="noopener noreferrer nofollow">CPE Covid Waiver</a>
                     <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
                     <p class="covid-text">The <strong><em>CPE Waiver</em></strong> and <strong><em>DDS Waiver</em></strong> are not the same, and we only need one copy of each on file for you.</p>
                 </div>
@@ -168,22 +151,22 @@
                 <hr>
                 <div class="calendars">
                     <h2 class="subtitle">Calendars</h2>
-                    <p><a class="dds-cal" href="https://calendar.google.com/calendar/embed?src=s9hkl5ti2vegs1cang3fdn57q0%40group.calendar.google.com&ctz=America%2FPhoenix" target="_blank"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
-                    <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
+                    <p><a class="dds-cal" href="https://calendar.google.com/calendar/embed?src=s9hkl5ti2vegs1cang3fdn57q0%40group.calendar.google.com&ctz=America%2FPhoenix" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-calendar fa-lg"></i>Go to DDS Calendar</a></p>
+                    <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-calendar fa-lg"></i>AZ Agility Calendar</a></p>
                 </div>
                 <hr>
                 <div id="member" class="other">
                     <h2 class="subtitle">Facebook</h2>
-                    <p><a href="https://www.facebook.com/desertdawgsports/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></p>
+                    <p><a href="https://www.facebook.com/desertdawgsports/" target="_blank" rel="noopener noreferrer nofollow" alt="DDS facebook page"><i class="fab fa-facebook-square fa-3x"></i></a></p>
                 </div>
                 <div class="card">
                     <h2>Become a Member!</h2>
                     <div class="btn-wrapper">
-                        <a class="btn" href="../docs/DDS_2021_Membership_Application.pdf" target="_blank">New Member</a>
+                        <a class="btn" href="../docs/DDS_2021_Membership_Application.pdf" target="_blank" rel="noopener noreferrer nofollow">New Member</a>
                     </div>
                     <h3>Time to Renew?</h3>
                     <div class="btn-wrapper">
-                        <a class="btn" href="../docs/DDS_2021_renewal.pdf" target="_blank">Existing Member</a>
+                        <a class="btn" href="../docs/DDS_2021_renewal.pdf" target="_blank" rel="noopener noreferrer nofollow">Existing Member</a>
                     </div>
                 </div>
             </div>
@@ -191,84 +174,84 @@
         <section id="about">
             <h1>About</h1>
             <figure>
-                <img src="../img/jimStill.jpg" alt="Jim Still, founder of Desert Dawg Sports">
+                <img src="../img/jimStill.jpg" alt="Jim Still, founder of Desert Dawg Sports" width="140" height="154" alt="Picture of founder Jim Still">
                 <figcaption>Jim Still, founder of DDS</figcaption>
             </figure>
             <p>Desert Dawg Sports Club (DDS) is a not-for-profit organization in Tucson, AZ. It was formed by a group of individuals who believed in having a great time with their dogs.</p>
-            <p>DDS members enjoy a mixture of activities with their pups: <a href="https://en.wikipedia.org/wiki/Dog_agility" target="_blank">agility</a>, <a href="https://en.wikipedia.org/wiki/Musical_canine_freestyle" target="_blank">canine freestyle</a>, <a href="https://en.wikipedia.org/wiki/Rally_obedience" target="_blank">rally obedience</a>, <a href="http://www.barnhunt.com/" target="_blank">barn hunt</a>, and more. Some participate in multiple activities, while others focus on a single one. We have a sense of humor and a supportive attitude toward our dog(s) and fellow competitors. Our primary purpose is helping people have fun with their dogs, and have fun ourselves in the process. We will consider any game if members are willing to support it with their time and share it with others.</p>
-            <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://ukagilityinternational.com/" target="_blank">UKI</a> and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
-            <p>Some members are involved in canine freestyle through the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization), which is global and has clubs in 17 countries.</p>
+            <p>DDS members enjoy a mixture of activities with their pups: <a href="https://en.wikipedia.org/wiki/Dog_agility" target="_blank" rel="noopener noreferrer nofollow">agility</a>, <a href="https://en.wikipedia.org/wiki/Musical_canine_freestyle" target="_blank" rel="noopener noreferrer nofollow">canine freestyle</a>, <a href="https://en.wikipedia.org/wiki/Rally_obedience" target="_blank" rel="noopener noreferrer nofollow">rally obedience</a>, <a href="http://www.barnhunt.com/" target="_blank" rel="noopener noreferrer nofollow">barn hunt</a>, and more. Some participate in multiple activities, while others focus on a single one. We have a sense of humor and a supportive attitude toward our dog(s) and fellow competitors. Our primary purpose is helping people have fun with their dogs, and have fun ourselves in the process. We will consider any game if members are willing to support it with their time and share it with others.</p>
+            <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://ukagilityinternational.com/" target="_blank" rel="noopener noreferrer nofollow">UKI</a> and <a href="http://www.k9cpe.com/" target="_blank" rel="noopener noreferrer nofollow">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
+            <p>Some members are involved in canine freestyle through the <a href="http://www.worldcaninefreestyle.org/" target="_blank" rel="noopener noreferrer nofollow">WCFO</a> (World Canine Freestyle Organization), which is global and has clubs in 17 countries.</p>
             <hr>
             <h1>DDS Board Members</h1>
             <div class="members">
                 <div class="card member">
-                    <h4><a href="mailto:jlmilhorse@aol.com" target="_blank">Jodie Miller</a></h4>
+                    <p class="member-name"><a href="mailto:jlmilhorse@aol.com" target="_blank">Jodie Miller</a></p>
                     <p>President</p>
                     <picture>
-                        <img src="../img/member/jodie/jodie.jpg" alt="photo of Jodi's dog">
+                        <img src="../img/member/jodie/jodie.jpg" alt="Jodi's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></h4>
+                    <p class="member-name"><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></p>
                     <p>Vice-President</p>
                     <picture>
-                        <img src="../img/member/peggy/peggy1.jpg" alt="photo of Peggy's dog">
+                        <img src="../img/member/peggy/peggy1.jpg" alt="Peggy's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:kaw5885@yahoo.com" target="_blank">Kristen Wheeler</a></h4>
+                    <p class="member-name"><a href="mailto:kaw5885@yahoo.com" target="_blank">Kristen Wheeler</a></p>
                     <p>Secretary</p>
                     <picture>
-                        <img src="../img/member/kristen/kristen.jpg" alt="photo of Kristen's dog">
+                        <img src="../img/member/kristen/kristen.jpg" alt="Kristen's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:mbuilder@dakotacom.net" target="_blank">Melanie Builder</a></h4>
+                    <p class="member-name"><a href="mailto:mbuilder@dakotacom.net" target="_blank">Melanie Builder</a></p>
                     <p>Treasurer</p>
                     <picture>
-                        <img src="../img/member/melanie/melanie1.jpg" alt="photo of Melanie's dog">
+                        <img src="../img/member/melanie/melanie1.jpg" alt="Melanie's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:cejlnich@mindspring.com" target="_blank">Jane Nichols</a></h4>
+                    <p class="member-name"><a href="mailto:cejlnich@mindspring.com" target="_blank">Jane Nichols</a></p>
                     <p>Freestyle Coordinator</p>
                     <picture>
-                        <img src="../img/member/member.jpg" alt="pawprint image">
+                        <img src="../img/member/member.jpg" alt="pawprint image placeholder" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:genicefrances@yahoo.com" target="_blank">Genice Froehlich</a></h4>
+                    <p class="member-name"><a href="mailto:genicefrances@yahoo.com" target="_blank">Genice Froehlich</a></p>
                     <p>CPE Coordinator</p>
                     <picture>
-                        <img src="../img/member/genice/genice.jpg" alt=" photo of Genice's dog">
+                        <img src="../img/member/genice/genice.jpg" alt="Genice's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:webmaster@desertdawgsports.org" target="_blank">Nancy Purcell</a></h4>
+                    <p class="member-name"><a href="mailto:webmaster@desertdawgsports.org" target="_blank">Nancy Purcell</a></p>
                     <p>Webmaster</p>
                     <picture>
-                        <img src="../img/member/nancy/nancy.jpg" alt="photo of Nancy's dog">
+                        <img src="../img/member/nancy/nancy.jpg" alt="Nancy's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></h4>
+                    <p class="member-name"><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></p>
                     <p>UKI Secretary</p>
                     <picture>
-                        <img src="../img/member/peggy/peggy2.jpg" alt="photo of Peggy's dog">
+                        <img src="../img/member/peggy/peggy2.jpg" alt="Peggy's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></h4>
+                    <p class="member-name"><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></p>
                     <p>CPE Secretary</p>
                     <picture>
-                        <img src="../img/member/peggy/zoey.jpg" alt="photo of Peggy's dog">
+                        <img src="../img/member/peggy/zoey.jpg" alt="Peggy's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
-                    <h4><a href="mailto:noanie1@yahoo.com" target="_blank">Joan Peterson</a></h4>
+                    <p class="member-name"><a href="mailto:noanie1@yahoo.com" target="_blank">Joan Peterson</a></p>
                     <p>Member-at-large</p>
                     <picture>
-                        <img src="../img/member/member.jpg" alt="pawprint image">
+                        <img src="../img/member/member.jpg" alt="pawprint image placeholder" width="293" height="220">
                     </picture>
                 </div>
             </div>
@@ -276,8 +259,8 @@
         <section id="agility">
             <div class="section-container">
                 <h1>Agility</h1>
-                <p>Our two agility venues are <a href="https://ukagilityinternational.com/" target="_blank">UKI</a> and <a href="http://www.k9cpe.com/" target="_blank">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
-                <p>All trials are held outdoors at <a href="http://webcms.pima.gov/cms/one.aspx?portalId=169&pageId=1367" target="_blank">Brandi Fenton Memorial Park</a>. Our shows are one-ring and fully fenced.</p>
+                <p>Our two agility venues are <a href="https://ukagilityinternational.com/" target="_blank" rel="noopener noreferrer nofollow">UKI</a> and <a href="http://www.k9cpe.com/" target="_blank" rel="noopener noreferrer nofollow">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
+                <p>All trials are held outdoors at <a href="http://webcms.pima.gov/cms/one.aspx?portalId=169&pageId=1367" target="_blank" rel="noopener noreferrer nofollow">Brandi Fenton Memorial Park</a>. Our shows are one-ring and fully fenced.</p>
                 <hr>
                 <p>Some of the philosophies of Desert Dawg Sports, along with its absolutes and key differences regarding agility are:</p>
                 <ul class="differences">
@@ -290,13 +273,13 @@
                 </ul>
                 <hr>
                 <div class="rule-and-cal-section">
-                    <p><a id="rsa-rules" href="https://ukagilityinternational.com/wp-content/uploads/2019/09/UKI-5th-Edition-Rules-March-1-2019-updated-2.28.pdf" target="_blank"><img src="../img/ukiLogo.jpeg" alt="UKI Logo" class="rule-logo">UKI Rulebook</a></p>
-                    <p><a id="cpe-rules" href="../docs/2016rb.pdf" target="_blank"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo">CPE Rulebook</a></p>
-                    <p><a class="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
-                    <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank"><i class="fa fa-calendar fa-lg"></i>Arizona Agility Calendar</a></p>
+                    <p><a id="rsa-rules" href="https://ukagilityinternational.com/wp-content/uploads/2019/09/UKI-5th-Edition-Rules-March-1-2019-updated-2.28.pdf" target="_blank" rel="noopener noreferrer nofollow"><img src="../img/ukiLogo.jpeg" alt="UKI Logo" class="rule-logo" width="260" height="128">UKI Rulebook</a></p>
+                    <p><a id="cpe-rules" href="../docs/2016rb.pdf" target="_blank" rel="noopener noreferrer nofollow"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo" width="240" height="101">CPE Rulebook</a></p>
+                    <p><a class="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
+                    <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-calendar fa-lg"></i>Arizona Agility Calendar</a></p>
                 </div>
                 <hr>
-                <h4>DDS Scrip Rules</h4>
+                <p class="agility-label">DDS Scrip Rules</p>
                 <ol class="scrip-rules">
                     <li><i class="fas fa-paw"></i>Scrip is earned by volunteering at Desert Dawg Sports agility trials.
                         $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
@@ -306,26 +289,27 @@
                     <li><i class="fas fa-paw"></i>A “Free Run” coupon is valued at $12, and may be used in conjunction with the $2 per run in scrip.</li>
                     <li><i class="fas fa-paw"></i>Only one Free Run coupon per dog per trial may be used.</li>
                 </ol>
-                <p><a href="../docs/DDSRulesOfScrip.docx" target="_blank">Download the rules</a></p>
+                <p><a href="../docs/DDSRulesOfScrip.docx" target="_blank" rel="noopener noreferrer nofollow">Download the rules</a></p>
                 <picture>
-                    <img src="../img/scrip-bkgd.png" alt="">
+                    <img src="../img/scrip-bkgd.png" alt="scrip graphic" width="150" height="113">
                 </picture>
             </div>
         </section>
         <section id="freestyle">
             <div class="section-container">
                 <h1>Freestyle</h1>
-                <p>Our Canine Freestyle venue is the <a href="http://www.worldcaninefreestyle.org/" target="_blank">WCFO</a> (World Canine Freestyle Organization).</p>
+                <p>Our Canine Freestyle venue is the <a href="http://www.worldcaninefreestyle.org/" target="_blank" rel="noopener noreferrer nofollow">WCFO</a> (World Canine Freestyle Organization).</p>
                 <p>In November 2014 Desert Dawg Sports, along with other clubs, hosted the WCFO Nationals here in Tucson, AZ for the first time.</p>
                 <figure>
-                    <img src="../img/freestyle.jpg" alt="lady and parti-colored poodle on white background">
+                    <img src="../img/freestyle.jpg" alt="Jane and her dog doing freestyle" width="1000" height="488">
                     <figcaption>
                         DDS Member Jane Nichols and Cadence striking a pose
                     </figcaption>
                 </figure>
-                <p><a id="first-link" href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOmembership-USA-2015.pdf" target="_blank">WCFO Membership – USA</a></p>
-                <img src="../img/wcfoLogo.png" alt="WCFO Logo" style="width: 25%; max-width:150px;">
-                <p><a id="second-link" href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOGuidelinesAugust2015.pdf" target="_blank">WCFO Guidelines</a></p>
+                <p><a id="first-link" href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOmembership-USA-2015.pdf" target="_blank" rel="noopener noreferrer nofollow">WCFO Membership – USA</a></p>
+                <!-- <img src="../img/wcfoLogo.png" alt="WCFO Logo" style="width: 25%; max-width:150px;" width="150" height="148"> -->
+                <img src="../img/wcfoLogo.png" alt="WCFO Logo" width="150" height="148">
+                <p><a id="second-link" href="http://desertdawgsports.org/wp-content/uploads/2017/12/WCFOGuidelinesAugust2015.pdf" target="_blank" rel="noopener noreferrer nofollow">WCFO Guidelines</a></p>
             </div>
         </section>
         <section id="more">
@@ -334,39 +318,39 @@
                 <p>Desert Dawg Sports is fortunate to enjoy some great friends in the form of folks that not only support us but we support them as well, trainers and merchants alike.</p>
                 <div class="friends">
                     <div class="card silverado">
-                        <h4><a href="http://www.silveradoplumbing.com/" target="_blank">Silverado Plumbing</a></h4>
+                        <p class="friend-name"><a href="http://www.silveradoplumbing.com/" target="_blank" rel="noopener noreferrer nofollow">Silverado Plumbing</a></p>
                         <div class="card-container">
-                            <p>Due to the kind generosity of Art Cake and <a href="http://www.silveradoplumbing.com/" target="_blank">Silverado Plumbing</a>, Desert Dawgs now has a high-quality teeter that should last our club for MANY years to come.</p>
+                            <p>Due to the kind generosity of Art Cake and <a href="http://www.silveradoplumbing.com/" target="_blank" rel="noopener noreferrer nofollow">Silverado Plumbing</a>, Desert Dawgs now has a high-quality teeter that should last our club for MANY years to come.</p>
                             <p>We cannot thank Art and Silverado Plumbing enough.</p>
                         </div>
-                        <img src="../img/silveradoPlumbing.png" alt="Silverado Plumbing logo" style="border: none">
+                        <img src="../img/silveradoPlumbing.png" alt="Silverado Plumbing logo" style="border: none" width="276" height="100">
                     </div>
                     <div class="card muttco">
-                        <h4><a href="http://arizonamuttco.etsy.com" target="_blank">Arizona Mutt Co.</a></h4>
+                        <p class="friend-name"><a href="http://arizonamuttco.etsy.com" target="_blank" rel="noopener noreferrer nofollow">Arizona Mutt Co.</a></p>
                         <div class="card-container">
-                            <p>For some wonderful items for you and your dog, check out the <a href="http://arizonamuttco.etsy.com" target="_blank">Arizona Mutt Company</a>.</p>
+                            <p>For some wonderful items for you and your dog, check out the <a href="http://arizonamuttco.etsy.com" target="_blank" rel="noopener noreferrer nofollow">Arizona Mutt Company</a>.</p>
                             <picture>
-                                <img class="small" src="../img/member/kristen/kristen.jpg">
+                                <img class="small" src="../img/member/kristen/kristen.jpg" alt="Kristen's dog" width="124" height="94">
                             </picture>
-                            <p>DDS member <strong>Kristen Wheeler</strong> is the owner, and you can visit her Etsy site by clicking on the link above, or by going to <a href="http://arizonamuttco.etsy.com" target="_blank">http://arizonamuttco.etsy.com</a></p>
+                            <p>DDS member <strong>Kristen Wheeler</strong> is the owner, and you can visit her Etsy site by clicking on the link above, or by going to <a href="http://arizonamuttco.etsy.com" target="_blank" rel="noopener noreferrer nofollow">http://arizonamuttco.etsy.com</a></p>
                         </div>
                     </div>
                     <div class="card member">
-                        <h4><a href="mailto:peggy6632az@gmail.com" target="_blank">Mark Owens</a></h4>
+                        <p class="friend-name"><a href="mailto:peggy6632az@gmail.com" target="_blank" rel="noopener noreferrer nofollow">Mark Owens</a></p>
                         <p>Photographer</p>
                         <picture>
-                            <img src="../img/member/peggy/mark.jpg" alt="">
+                            <img src="../img/member/peggy/mark.jpg" alt="Mark's dog" width="276" height="208">
                         </picture>
                     </div>
                     <div class="card member">
-                        <h4><a href="mailto:ffluffy444@gmail.com" target="_blank">Alicia Nicholas</a></h4>
+                        <p class="friend-name"><a href="mailto:ffluffy444@gmail.com" target="_blank">Alicia Nicholas</a></p>
                         <div class="card-container">
                             <p class="addl-lines">CBATI, CPDT-KA</p>
                             <p>Dog Training/Behavior/Boarding</p>
-                            <h4 class="no-caps"><a href="http://www.journeyagility.com" target="_blank">Journey Agility, LLC</a></h4>
+                            <p class="no-caps"><a href="http://www.journeyagility.com" target="_blank" rel="noopener noreferrer nofollow">Journey Agility, LLC</a></p>
                         </div>
                         <picture>
-                            <img src="../img/member/alicia/alicia2.jpeg" alt="">
+                            <img src="../img/member/alicia/alicia2.jpeg" alt="Alicia's dog" width="276" height="208">
                         </picture>
                     </div>
                 </div>
