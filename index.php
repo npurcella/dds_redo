@@ -27,52 +27,16 @@
                 <a href="#covid">
                     <p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p>
                 </a>
-                <div class="event" style="margin-bottom: 1em;">
-                    <h2 class="subsection-title">CPE</h2>
-                    <p class="subsection-details">Feb 6 - 7, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
-                    <a href="../docs/020621_UKIPremiumFinal.pdf" class="premium-link" target="_blank" rel="noopener noreferrer nofollow">Download Premium</a>
-                    <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank" rel="noopener noreferrer nofollow">CPE Covid Waiver</a>
-                    <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
-                    <p class="covid-text">The <strong><em>CPE Waiver</em></strong> and <strong><em>DDS Waiver</em></strong> are not the same, and we only need one copy of each on file for you.</p>
-                    <p style="font-weight: bold; font-style: italic; margin-top: 2em;">PLEASE <span style="text-decoration: underline;">DO NOT</span> PARK PAST THE NW CORNER OF THE ARENA!</p>
-                    <hr class="covid-rule">
-                    <!-- <p class="premium-link" style="font-weight: bold">~ Saturday Course Maps ~</p>
-                    <p style="font-weight: bold; font-style: italic;">Note: First run is Standard, NOT Full House.</p>
-                    <a href="../docs/sat_wc_lv12.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Wildcard 1/2</a>
-                    <a href="../docs/sat_wc_lv345c.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Wildcard 3/4/5</a>
-                    <a href="../docs/sat_std_lv1.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 1</a>
-                    <a href="../docs/sat_std_lv23.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 2/3</a>
-                    <a href="../docs/sat_std_lv45c.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 4/5</a>
-                    <a href="../docs/sat_co_lv12.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Colors 1/2</a>
-                    <a href="../docs/sat_co_lv345c.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Colors 3/4/5</a>
-                    <a href="../docs/sat_fh_lv12345c.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Full House 1/2/3/4/5</a>
-                    <a href="../docs/sat_sn_lv12.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Snooker 1/2</a>
-                    <a href="../docs/sat_sn_lv345c.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Snooker 3/4/5</a> -->
-
-                    <p class="premium-link" style="font-weight: bold">~ Sunday Course Maps ~</p>
-                    <p style="font-weight: bold; font-style: italic; margin-bottom: 0;">Note: First run is Standard, NOT Full House.</p>
-                    <p style="font-weight: bold; font-style: italic; margin-top: .5em;">Run order will be Tall to Small.</p>
-                    <a href="../docs/sun_std_lv1_rd1.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 1 - Rd1</a>
-                    <a href="../docs/sun_std_lv1_rd2.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 1 - Rd2</a>
-                    <a href="../docs/sun_std_lv2_rd1.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 2 - Rd1</a>
-                    <a href="../docs/sun_std_lv2_rd2.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 2 - Rd2</a>
-                    <a href="../docs/sun_std_lv3_rd1.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 3 - Rd1</a>
-                    <a href="../docs/sun_std_lv3_rd2.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 3 - Rd2</a>
-                    <a href="../docs/sun_std_lv45c_rd1.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 4/5 - Rd1</a>
-                    <a href="../docs/sun_std_lv45c_rd2.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Standard 4/5 - Rd2</a>
-                    <a href="../docs/sun_co_lv12.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Colors 1/2</a>
-                    <a href="../docs/sun_co_lv345c.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Colors 3/4/5</a>
-                    <a href="../docs/sun_jp_lv2345c.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Jackpot All Levels</a>
-                    <a href="../docs/sun_ju_lv12.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Jumpers 1/2</a>
-                    <a href="../docs/sun_ju_lv345c.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Jumpers 3/4/5</a>
-                </div>
                 <div class="event">
                     <h2 class="subsection-title">CPE</h2>
                     <p class="subsection-details">Mar 5, 6 & 7, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
                     <a href="../docs/030521_CPEPremium.pdf" class="premium-link" target="_blank" rel="noopener noreferrer nofollow">Download Premium</a>
+                    <a class="run-link" href="docs/CPECatalog_final_final.pdf" target="_blank">Run Order</a>
+                    <hr class="covid-rule">
+                    <!-- <a href="../docs/Fri_All_Exhibitor.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Download Friday Course Maps</a> -->
+                    <!-- <a href="../docs/Sat_All_Exhibitor.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Download Saturday Course Maps</a> -->
+                    <a href="../docs/Sun_All_Exhibitor.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Download Sunday Course Maps</a>
                     <hr class="covid-rule">
                     <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank" rel="noopener noreferrer nofollow">CPE Covid Waiver</a>
                     <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
@@ -99,7 +63,7 @@
                         </li>
                         <li>
                             <p>
-                                We will <strong>require you wear a mask covering your mouth and nose</strong> when closer than 6 feet to other people. You do not need to wear a mask while you are running your course.
+                                CPE and Desert Dawgs require you to wear a mask when closer than 6 feet to other people. In addition, masks are required at all times when in the Ring, including working, walk throughs, and while running your dog.
                             </p>
                         </li>
                         <li>
