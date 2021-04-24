@@ -28,19 +28,139 @@
                     <p class="covid-header">IMPORTANT: Please read COVID-19 Restrictions below!*</p>
                 </a>
                 <div class="event">
-                    <h2 class="subsection-title">CPE</h2>
-                    <p class="subsection-details">Mar 5, 6 & 7, 2021 @ 7:00a - 5:00p</p>
-                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
-                    <a href="../docs/030521_CPEPremium.pdf" class="premium-link" target="_blank" rel="noopener noreferrer nofollow">Download Premium</a>
-                    <a class="run-link" href="docs/CPECatalog_final_final.pdf" target="_blank">Run Order</a>
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Oct 29, 2021 - Setup @ noon</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p> -->
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
+                    <!-- <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">UKI</h3>
+                    <p class="subsection-details">Oct 30 - 31, 2021</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium.pdf" class="premium-link">Download Premium</a>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium_RavenRanch.pdf" class="premium-link">Download Premium</a>
                     <hr class="covid-rule">
-                    <!-- <a href="../docs/Fri_All_Exhibitor.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Download Friday Course Maps</a> -->
-                    <!-- <a href="../docs/Sat_All_Exhibitor.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Download Saturday Course Maps</a> -->
-                    <a href="../docs/Sun_All_Exhibitor.pdf" class="covid-link" target="_blank" rel="noopener noreferrer nofollow">Download Sunday Course Maps</a>
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Dec 3, 2021 - Setup @ noon</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p> -->
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
+                    <!-- <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Dec 4 - 5, 2021</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium.pdf" class="premium-link">Download Premium</a>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium_RavenRanch.pdf" class="premium-link">Download Premium</a>
                     <hr class="covid-rule">
-                    <a class="covid-link" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank" rel="noopener noreferrer nofollow">CPE Covid Waiver</a>
-                    <p class="covid-text">Please <a class="covid-print" href="../docs/COVID_CPEWaiver2020_2021.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
-                    <p class="covid-text">The <strong><em>CPE Waiver</em></strong> and <strong><em>DDS Waiver</em></strong> are not the same, and we only need one copy of each on file for you.</p>
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Jan 7, 2022 - Setup @ noon</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p> -->
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
+                    <!-- <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Jan 8 - 9, 2022</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium.pdf" class="premium-link">Download Premium</a>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium_RavenRanch.pdf" class="premium-link">Download Premium</a>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Feb 4, 2022 - Setup @ noon</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p> -->
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
+                    <!-- <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Feb 5 - 6, 2022</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium.pdf" class="premium-link">Download Premium</a>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium_RavenRanch.pdf" class="premium-link">Download Premium</a>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Mar 4, 2022 - Setup @ noon</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p> -->
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
+                    <!-- <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Mar 5 - 6, 2022</p>
+                    <p class="event-location"><a href="#"><i class="fa fa-map-marker-alt fa-sm"></i>TBD</a></p>
+                    <!-- <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium.pdf" class="premium-link">Download Premium</a>
+                    <p class="event-location"><a href="https://www.mapquest.com/us/arizona/business-tucson/raven-ranch-10505375" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Raven Ranch</a></p>
+                    <a href="../docs/DDS_UKI_Jan2021Premium_RavenRanch.pdf" class="premium-link">Download Premium</a>
+                    <hr class="covid-rule">
+                    <a class="covid-link" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">DDS Covid Waiver</a>
+                    <p class="covid-text">Please <a class="covid-print" href="../docs/DDS_COVID-19_Waiver.pdf" target="_blank">print</a>, sign, and bring with you to the trial <strong>OR</strong> scan signed copy and <a class="covid-mail" href="mailto:ddscpe@yahoo.com" target="_blank">send to the Trial Secretary</a> if you haven't already done so.</p>
+                    <p class="covid-text">The <strong>DDS Waiver</strong> and <strong>CPE Waiver</strong> are <strong>not the same</strong>, and we only need one copy of each on file for you.</p> -->
                 </div>
                 <hr>
                 <section id="covid" class="covid">
