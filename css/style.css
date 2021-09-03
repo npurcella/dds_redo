@@ -44,6 +44,17 @@ body {
   font-style: italic;
 }
 
+#covid {
+  border: 2px dotted #ff1c0a;
+  padding: 1px 0 20px 0;
+  margin: 1rem auto;
+  max-width: 35rem;
+}
+
+#covid .italic {
+  font-style: italic;
+}
+
 .covid-header {
   color: #ff1c0a;
   font-weight: 700;
@@ -502,6 +513,7 @@ section p i {
 
 #home .event .premium-link {
   color: #e77a09;
+  margin-top: 1rem;
 }
 
 #home .event .signup-link {
