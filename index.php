@@ -78,6 +78,7 @@
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Jan 8 - 9, 2022</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/Jan_22_Final.pdf" class="premium-link">Download Premium Now!</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
