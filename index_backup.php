@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="favicon.ico">
     <title>Desert Dawg Sports</title>
-    <link rel="stylesheet" href="css/normalize.css"> 
-    <link rel="stylesheet" href="css/style.css"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
-    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 </head>
+
 <body>
     <?php include('header.php'); ?>
     <div class="container">
         <section id="home">
             <div class="section-container">
-                <h1>Upcoming Events</h1> 
+                <h1>Upcoming Events</h1>
                 <p id="event-header-note">(scroll down for trial results)</p>
                 <!-- <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
@@ -46,45 +48,50 @@
                 </div> -->
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Mar 1 - 3, 2019 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Mar 1 - 3, 2019 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a class="premium-link" href="
 http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download Premium</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1Yn-Xn2Cp_FmZ4c8sunhneamZEqnhdJb1aNz3qS_K0OY/edit?usp=sharing" class="signup-link">Volunteer Sign-up Sheet 📝</a>
+
+                    <a href="https://docs.google.com/spreadsheets/d/1Yn-Xn2Cp_FmZ4c8sunhneamZEqnhdJb1aNz3qS_K0OY/edit?usp=sharing" target="_blank" class="signup-link">Volunteer Sign-up Sheet 📝</a>
+                    <a href="../docs/Jan_22_Final.pdf" target="_blank" class="signup-link">🏁 Saturday Course Maps</a>
+
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run @ Jodie’s</h3>
-                    <p class="subsection-details">Mar 23, 2019 @ 8:00 (or earlier)</p>                    
+                    <p class="subsection-details">Mar 23, 2019 @ 8:00 (or earlier)</p>
                     <p class="event-location"><a href="https://www.google.com/maps/place/3742+N+Ave+De+Montezuma,+Tucson,+AZ+85749/@32.2760281,-110.775968,17z/data=!3m1!4b1!4m5!3m4!1s0x86d66912f669b061:0xbea513898c09240e!8m2!3d32.2760281!4d-110.7737793" target="_blank">
-                        <i class="fa fa-map-marker-alt fa-sm"></i>Directions</a></p>
+                            <i class="fa fa-map-marker-alt fa-sm"></i>Directions</a></p>
                     <p class="event-info">Help with setup/tear down and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                </div>                
+                </div>
                 <div class="event">
                     <h3 class="subsection-title">Set-up & Fun Run</h3>
-                    <p class="subsection-details"> May 17, 2019 @ 12:00p - 4:00p</p>                    
+                    <p class="subsection-details"> May 17, 2019 @ 12:00p - 4:00p</p>
                     <p class="event-location"><a href="https://www.google.com/maps/place/Frontier+Park/@34.2560258,-110.0330945,15z/data=!4m5!3m4!1s0x0:0x591d04866215ffd6!8m2!3d34.2560258!4d-110.0330945" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Frontier Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">RAINE</h3>
-                    <p class="subsection-details">May 18 - 19, 2019 @ 8:00a - 5:00p</p>                    
+                    <p class="subsection-details">May 18 - 19, 2019 @ 8:00a - 5:00p</p>
                     <p class="event-location"><a href="https://www.google.com/maps/place/Frontier+Park/@34.2560258,-110.0330945,15z/data=!4m5!3m4!1s0x0:0x591d04866215ffd6!8m2!3d34.2560258!4d-110.0330945" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Frontier Park</a></p>
                     <a class="premium-link" href="../docs/DDS_May_2019_Rockstar_Agility_Premium.pdf" target="_blank">Download Premium</a>
-                    <a class="signup-link disabled" href="" target="_blank">Sign-up Sheet</a>          
+                    <a class="signup-link disabled" href="" target="_blank">Sign-up Sheet</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Oct 25, 2019 @ 12:00p - 3:00p</p>                    
+                    <p class="subsection-details">Oct 25, 2019 @ 12:00p - 3:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">RAINE</h3>
-                    <p class="subsection-details">Oct 26 - 27, 2019 @ 7:00a - 5:00p</p>                    
+                    <p class="subsection-details">Oct 26 - 27, 2019 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="#" class="premium-link disabled">TBA</a>                    
+                    <a href="#" class="premium-link disabled">TBA</a>
                 </div>
                 <!-- Sample event with all fields -->
                 <!-- <div class="event">            
@@ -99,8 +106,8 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                     <a class="run-link disabled" href="#">Run Order (TBA)</a>
                 </div> -->
                 <hr>
-                <h2 class="subtitle">Past Events</h2> 
-                <div class="event">            
+                <h2 class="subtitle">Past Events</h2>
+                <div class="event">
                     <h3 class="subsection-title">RAINE</h3>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="subsection-details past">Jan 12 - 13, 2019 @ 7:00a - 5:00p</p>
@@ -221,7 +228,7 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                     <picture>
                         <img src="../img/member/member.jpg" alt="pawprint image">
                     </picture>
-                </div>                                                                                                                                                                                                                                                                                                            
+                </div>
             </div>
         </section>
         <section id="agility">
@@ -250,8 +257,8 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                 <h4>DDS Scrip Rules</h4>
                 <ol class="scrip-rules">
                     <li><i class="fas fa-paw"></i>Scrip is earned by volunteering at Desert Dawg Sports agility trials.
-                    $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
-                    $50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
+                        $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
+                        $50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
                     <li><i class="fas fa-paw"></i>You may use scrip for any Desert Dawg Sports event entry, such as RAINE or CPE agility trials, or for DDS-hosted Fun Runs.</li>
                     <li><i class="fas fa-paw"></i>You may use up to $2 per run in scrip on your entries.</li>
                     <li><i class="fas fa-paw"></i>A “Free Run” coupon is valued at $12, and may be used in conjunction with the $2 per run in scrip.</li>
@@ -312,8 +319,8 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                         <picture>
                             <img src="../img/member/peggy/mark.jpg" alt="">
                         </picture>
-                    </div>               
-                </div>                 
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -325,16 +332,16 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
             $('body,html').animate({
                 scrollTop: 0
             }, 1000);
-        }      
+        }
         // hamburger menu
         $('.menu-toggle').click(function() {
             $('.site-nav').toggleClass('site-nav--open', 500);
             $(this).toggleClass('open');
-        });  
+        });
         $('.site-nav a, .container').on('click', function() {
             $('#main-header').removeClass('site-nav--open');
             $('.menu-toggle').removeClass('open');
-        });    
+        });
         $(document).ready(function() {
             // scroll to section
             var scrollLink = $('.scroll');
@@ -349,17 +356,18 @@ http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download 
                 var scrollbarLocation = $(this).scrollTop();
                 scrollLink.each(function() {
                     var sectionOffset = $(this.hash).offset().top - 80;
-                    if(sectionOffset <= scrollbarLocation) {
+                    if (sectionOffset <= scrollbarLocation) {
                         $(this).parent().addClass('active');
                         $(this).parent().siblings().removeClass('active');
                     }
                 });
-            });         
+            });
             // DO NOT DELETE! reset site back to top on refresh (commented out for WIP!)
             //window.onbeforeunload = function() {
             //    window.scrollTo(0,0);
             //}
         });
-    </script>    
+    </script>
 </body>
+
 </html>

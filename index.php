@@ -40,34 +40,6 @@
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Oct 29, 2021 - Setup @ noon</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)</a></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">UKI</h3>
-                    <p class="subsection-details">Oct 30 - 31, 2021</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="../docs/DesertDawgUKIOct2021Final.pdf" class="premium-link">Download Premium Now!</a>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Dec 3, 2021 - Setup @ noon</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Dec 4 - 5, 2021</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="../docs/Dec_21_CPE.pdf" class="premium-link">Download Premium Now!</a>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
                     <p class="subsection-details">Jan 7, 2022 - Setup @ noon</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
@@ -78,7 +50,11 @@
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Jan 8 - 9, 2022</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="../docs/Jan_22_Final.pdf" class="premium-link">Download Premium Now!</a>
+                    <a href="../docs/Jan_22_Final.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1Yn-Xn2Cp_FmZ4c8sunhneamZEqnhdJb1aNz3qS_K0OY/edit?usp=sharing" target="_blank" class="signup-link">Volunteer Sign-up Sheet 📝</a>
+                    <a href="../docs/Saturday_Courses.pdf" target="_blank" class="signup-link">🏁 Saturday Course Maps</a>
+                    <a href="../docs/Sunday_Courses.pdf" target="_blank" class="signup-link">Sunday Course Maps 🏁</a>
+                    <a href="../docs/CPE_Judges_Briefing.docx" style="margin-top: 1rem; color: #5f5dc9;" target="_blank">Judges's Briefing - Please Read</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
@@ -92,6 +68,7 @@
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Feb 5 - 6, 2022</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/Feb2022_CPE_Premium_DesertDawgs.pdf" class="premium-link" target=" _blank">Download Premium Now!</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
@@ -112,11 +89,11 @@
                 <div class="card">
                     <h2>Become a Member!</h2>
                     <div class="btn-wrapper">
-                        <a class="btn" href="../docs/DDS_2021_Membership_Application.pdf" target="_blank" rel="noopener noreferrer nofollow">New Member</a>
+                        <a class="btn" href="../docs/2022_DDSC_Membership_Application.pdf" target="_blank" rel="noopener noreferrer nofollow">New Member</a>
                     </div>
                     <h3>Time to Renew?</h3>
                     <div class="btn-wrapper">
-                        <a class="btn" href="../docs/DDS_2021_renewal.pdf" target="_blank" rel="noopener noreferrer nofollow">Existing Member</a>
+                        <a class="btn" href="../docs/2022_DDSC_Membership_Renewal.pdf" target="_blank" rel="noopener noreferrer nofollow">Existing Member</a>
                     </div>
                 </div>
             </div>
@@ -222,27 +199,33 @@
                     <li><i class="fas fa-paw"></i>We use rubberized contacts.</li>
                 </ul>
                 <hr>
-                <div class="rule-and-cal-section">
+                <div id="calendars" class="rule-and-cal-section">
                     <p><a id="rsa-rules" href="https://ukagilityinternational.com/wp-content/uploads/2019/09/UKI-5th-Edition-Rules-March-1-2019-updated-2.28.pdf" target="_blank" rel="noopener noreferrer nofollow"><img src="../img/ukiLogo.jpeg" alt="UKI Logo" class="rule-logo" width="260" height="128">UKI Rulebook</a></p>
                     <p><a id="cpe-rules" href="../docs/2016rb.pdf" target="_blank" rel="noopener noreferrer nofollow"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo" width="240" height="101">CPE Rulebook</a></p>
                     <p><a class="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
                     <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-calendar fa-lg"></i>Arizona Agility Calendar</a></p>
                 </div>
                 <hr>
-                <p class="agility-label">DDS Scrip Rules</p>
-                <ol class="scrip-rules">
-                    <li><i class="fas fa-paw"></i>Scrip is earned by volunteering at Desert Dawg Sports agility trials.
-                        $1 for each class worked $5 for helping with ring set-up on the day before the trial starts
-                        $50 is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
-                    <li><i class="fas fa-paw"></i>You may use scrip for any Desert Dawg Sports event entry, such as RAINE or CPE agility trials, or for DDS-hosted Fun Runs.</li>
-                    <li><i class="fas fa-paw"></i>You may use up to $2 per run in scrip on your entries.</li>
-                    <li><i class="fas fa-paw"></i>A “Free Run” coupon is valued at $12, and may be used in conjunction with the $2 per run in scrip.</li>
-                    <li><i class="fas fa-paw"></i>Only one Free Run coupon per dog per trial may be used.</li>
-                </ol>
-                <p><a href="../docs/DDSRulesOfScrip.docx" target="_blank" rel="noopener noreferrer nofollow">Download the rules</a></p>
-                <picture>
-                    <img src="../img/scrip-bkgd.png" alt="scrip graphic" width="150" height="113">
-                </picture>
+                <div id="scrip">
+                    <p class="agility-label">DDS eScrip Rules</p>
+                    <ol class="scrip-rules">
+                        <li><i class="fas fa-paw"></i>eScrip is earned by volunteering at Desert Dawg Sports agility trials.
+                            <ul class="scrip-amounts">
+                                <li><i class="fa fa-paw first-paw" aria-hidden="true"></i><strong>$1</strong> for each class worked</li>
+                                <li><i class="fa fa-paw second-paw" aria-hidden="true"></i><strong>$5</strong> for helping with ring set-up on the day before the trial starts</li>
+                                <li><i class="fa fa-paw third-paw" aria-hidden="true"></i><strong>$50</strong> is split between people who stay to help break down the rings and continue to help until the equipment trailer doors are closed</li>
+                            </ul>
+                        </li>
+                        <li><i class="fas fa-paw"></i>You may use eScrip for any Desert Dawg Sports event entry, such as UKI or CPE agility trials, or for DDS-hosted Fun Runs.</li>
+                        <li><i class="fas fa-paw"></i>You may use up to $2 per run in eScrip on your entries.</li>
+                        <li><i class="fas fa-paw"></i>A “Free Run” coupon is valued at $12, and may be used in conjunction with the $2 per run in eScrip.</li>
+                        <li><i class="fas fa-paw"></i>Only one Free Run coupon per dog per trial may be used.</li>
+                    </ol>
+                    <picture>
+                        <img id="escrip" src="../img/scrip-bkgd.png" alt="scrip graphic" width="150" height="113">
+                    </picture>
+                    <p><a href="https://docs.google.com/spreadsheets/d/17qg0zIpDyE4np5WGR66LMubgWlBFJiNQMth_tMSQvMs/edit?usp=sharing" class="scrip" target="_blank">💰&nbsp;CHECK MY eSCRIP!&nbsp;💰</a></p>
+                </div>
             </div>
         </section>
         <section id="freestyle">

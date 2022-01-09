@@ -11,6 +11,8 @@
                 <li class="active"><a class="scroll" href="#home">Home</a></li>
                 <li><a class="scroll" href="#about">About</a></li>
                 <li><a class="scroll" href="#agility">Agility</a></li>
+                <li><a class="scroll" href="#calendars">Calendars</a></li>
+                <li><a class="scroll" href="#scrip">Scrip</a></li>
                 <li><a class="scroll" href="#freestyle">Freestyle</a></li>
                 <li><a class="scroll" href="#more">More</a></li>
             </ul>
