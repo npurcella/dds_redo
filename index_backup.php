@@ -50,13 +50,11 @@
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Mar 1 - 3, 2019 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a class="premium-link" href="
-http://www.k9cpe.com/premiums/120520azdesertdawgs.pdf" target="_blank">Download Premium</a>
-                    <a href="https://docs.google.com/spreadsheets/d/1Yn-Xn2Cp_FmZ4c8sunhneamZEqnhdJb1aNz3qS_K0OY/edit?usp=sharing" class="signup-link">Volunteer Sign-up Sheet 📝</a>
-
+                    <a href="../docs/Jan_22_Final.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
                     <a href="https://docs.google.com/spreadsheets/d/1Yn-Xn2Cp_FmZ4c8sunhneamZEqnhdJb1aNz3qS_K0OY/edit?usp=sharing" target="_blank" class="signup-link">Volunteer Sign-up Sheet 📝</a>
-                    <a href="../docs/Jan_22_Final.pdf" target="_blank" class="signup-link">🏁 Saturday Course Maps</a>
-
+                    <a href="../docs/Saturday_Courses.pdf" target="_blank" class="signup-link">🏁 Saturday Course Maps</a>
+                    <a href="../docs/Sunday_Courses.pdf" target="_blank" class="signup-link">Sunday Course Maps 🏁</a>
+                    <a href="../docs/CPE_Judges_Briefing.docx" style="margin-top: 1rem; color: #5f5dc9;" target="_blank">Judges's Briefing - Please Read</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run @ Jodie’s</h3>

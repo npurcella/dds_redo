@@ -40,24 +40,6 @@
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Jan 7, 2022 - Setup @ noon</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Jan 8 - 9, 2022</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="../docs/Jan_22_Final.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
-                    <a href="https://docs.google.com/spreadsheets/d/1Yn-Xn2Cp_FmZ4c8sunhneamZEqnhdJb1aNz3qS_K0OY/edit?usp=sharing" target="_blank" class="signup-link">Volunteer Sign-up Sheet 📝</a>
-                    <a href="../docs/Saturday_Courses.pdf" target="_blank" class="signup-link">🏁 Saturday Course Maps</a>
-                    <a href="../docs/Sunday_Courses.pdf" target="_blank" class="signup-link">Sunday Course Maps 🏁</a>
-                    <a href="../docs/CPE_Judges_Briefing.docx" style="margin-top: 1rem; color: #5f5dc9;" target="_blank">Judges's Briefing - Please Read</a>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
                     <p class="subsection-details">Feb 4, 2022 - Setup @ noon</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
@@ -69,11 +51,13 @@
                     <p class="subsection-details">Feb 5 - 6, 2022</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a href="../docs/Feb2022_CPE_Premium_DesertDawgs.pdf" class="premium-link" target=" _blank">Download Premium Now!</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1D7i1404qZuLVt40_lgFiGTT2OfXnqZ_sWQCJmixnpP8/edit?usp=sharing" target="_blank" class="signup-link">Volunteer Sign-up Sheet 📝</a>
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">CPE</h3>
                     <p class="subsection-details">Mar 4 - 6, 2022</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/CPE_Mar_2022.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
                 </div>
                 <hr>
                 <div class="calendars">
