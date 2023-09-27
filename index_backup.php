@@ -85,11 +85,74 @@
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
                 </div>
+                <div class="event" style="background-color: #000000;">
+                    <h3 class="subsection-title">Agility - UKI</h3>
+                    <p class="subsection-details" style="color: #ffffff;">Oct 29 & 30, 2022</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank" style="color: #ffffff;"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a class="premium-link" href="../docs/Desert_Dawg_UKI_Oct_2022_FINAL3.pdf" target="_blank">Download Premium</a>
+                    <a class="signup-link" href="../docs/OVERNIGHT_RV_PARKING.pdf" target="_blank">Overnight RV Parking Form</a>🏕️
+                    <div class="halloween">
+                        <p>Annual Halloween</p>
+                        <p>Costume Parade & Contest</p>
+                        <p>on Sunday!</p>
+                        <p style="font-size: 1rem; margin-bottom: 1rem;">🦴</p>
+                    </div>
+                </div>
                 <div class="event">
                     <h3 class="subsection-title">RAINE</h3>
                     <p class="subsection-details">Oct 26 - 27, 2019 @ 7:00a - 5:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <a href="#" class="premium-link disabled">TBA</a>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">CPE</h3>
+                    <p class="subsection-details">Mar 4 - 6, 2022</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/CPE_Mar_2022.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1Yn-Xn2Cp_FmZ4c8sunhneamZEqnhdJb1aNz3qS_K0OY/edit?usp=sharing" target="_blank" class="signup-link">Volunteer Sign-up Sheet 📝</a>
+                    <a href="#" target="_blank" class="signup-link">🏁 Friday Course Maps 🏁</a>
+                    <a href="../docs/Standard45C_Mar22.pdf" target="_blank" class="signup-link">Standard 45C</a>
+                    <a href="../docs/Standard23_Mar22.pdf" target="_blank" class="signup-link">Standard 23</a>
+                    <a href="../docs/Standard1_Mar22.pdf" target="_blank" class="signup-link">Standard 1</a>
+                    <a href="../docs/Jumpers345C_Mar22.pdf" target="_blank" class="signup-link">Jumpers 345C</a>
+                    <a href="../docs/Jumpers12_Mar22.pdf" target="_blank" class="signup-link">Jumpers 12</a>
+                    <a href="../docs/Saturday_Exhibitors_maps.pdf" target="_blank" class="signup-link">🏁 Saturday Course Maps 🏁</a>
+                    <a href="../docs/Sunday_exhibitor_maps.pdf" target="_blank" class="signup-link">🏁 Sunday Course Maps 🏁</a>
+                </div>
+                <div class="event" style="background-color: #000000;">
+                    <h3 class="subsection-title">Agility - UKI</h3>
+                    <p class="subsection-details" style="color: #ffffff;">Oct 29 & 30, 2022</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank" style="color: #ffffff;"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a class="premium-link" href="../docs/Desert_Dawg_UKI_Oct_2022_FINAL3.pdf" target="_blank">Download Premium</a>
+                    <a class="signup-link" href="../docs/OVERNIGHT_RV_PARKING.pdf" target="_blank">Overnight RV Parking Form</a>🏕️
+                    <a class="run-link" href="../docs/Oct2022UKIrunningorder.pdf" target="_blank" style="margin-top: 0.5rem;">Run Order</a>
+                    <hr style="margin-top: 1rem;">
+                    <a href="#" target="_blank" class="signup-link">🏁 Saturday Course Maps 🏁</a>
+                    <a href="../docs/BNagilityOne.pdf" target="_blank" class="signup-link">BN Agility 1</a>
+                    <a href="../docs/BNagilityTwo.pdf" target="_blank" class="signup-link">BN Agility 2</a>
+                    <a href="../docs/BNgamblers.pdf" target="_blank" class="signup-link">BN Gamblers</a>
+                    <a href="../docs/BNpowerAndSpeed.pdf" target="_blank" class="signup-link">BN Power & Speed</a>
+                    <a href="../docs/SCagilityOne.pdf" target="_blank" class="signup-link">SC Agility 1</a>
+                    <a href="../docs/SCagilityTwo.pdf" target="_blank" class="signup-link">SC Agility 2</a>
+                    <a href="../docs/SCgamblers.pdf" target="_blank" class="signup-link">SC Gamblers</a>
+                    <a href="../docs/SCpowerAndSpeed.pdf" target="_blank" class="signup-link">SC Power & Speed</a>
+                    <a href="../docs/SCjumping.pdf" target="_blank" class="signup-link">SC Jumping</a>
+
+                    <a href="#" target="_blank" class="signup-link">🏁 Sunday Course Maps 🏁</a>
+                    <a href="../docs/SundayBNAgility.pdf" target="_blank" class="signup-link">BN Agility</a>
+                    <a href="../docs/SUndayBNSnooker.pdf" target="_blank" class="signup-link">BN Snooker</a>
+                    <a href="../docs/SundayBNSpeedstakes.pdf" target="_blank" class="signup-link">BN Speedstakes</a>
+                    <a href="../docs/SundaySCAgility.pdf" target="_blank" class="signup-link">SC Agility</a>
+                    <a href="../docs/SundaySCSnooker.pdf" target="_blank" class="signup-link">SC Snooker</a>
+                    <a href="../docs/SundaySCspeedstakes.pdf" target="_blank" class="signup-link">SC Speedstakes</a>
+                    <a href="../docs/SundayMastersAgility.pdf" target="_blank" class="signup-link">Masters Agility</a>
+                    <a href="../docs/SundayMastersJumping.pdf" target="_blank" class="signup-link" style="margin-bottom: 2rem;">Masters Jumping</a>
+                    <div class="halloween">
+                        <p>Annual Halloween</p>
+                        <p>Costume Parade & Contest</p>
+                        <p>on Sunday!</p>
+                        <p style="font-size: 1rem; margin-bottom: 1rem;">🦴</p>
+                    </div>
                 </div>
                 <!-- Sample event with all fields -->
                 <!-- <div class="event">            

@@ -40,24 +40,66 @@
                 </div>
                 <div class="event">
                     <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Feb 4, 2022 - Setup @ noon</p>
+                    <p class="subsection-details">Oct 27, 2023 @ 12:00p - 3:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                     <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
                     <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                    <p class="member-info"><span class="star">*</span>Not a DDS member yet? <a href="#member">Become one (or renew)&nbsp;</a></p>
                 </div>
                 <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Feb 5 - 6, 2022</p>
+                    <h3 class="subsection-title">Agility - CPE</h3>
+                    <p class="subsection-details">Oct 28 & 29 2023</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="../docs/Feb2022_CPE_Premium_DesertDawgs.pdf" class="premium-link" target=" _blank">Download Premium Now!</a>
-                    <a href="https://docs.google.com/spreadsheets/d/1D7i1404qZuLVt40_lgFiGTT2OfXnqZ_sWQCJmixnpP8/edit?usp=sharing" target="_blank" class="signup-link">Volunteer Sign-up Sheet 📝</a>
+                    <a href="../docs/Oct_2023_Premium.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
+                </div>
+                <div class="event special">
+                    <h3 class="subsection-title">NEW! Stand-Alone Fun Run</h3>
+                    <p class="subsection-details">Sat, Nov 11, 2023 @ 8:00a - 12:00p</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p>Run on the field with your pup - <span style="color: red;font-weight: bold;">5-minute time slots for $5!</span></p>
+                    <p>Jumps, tunnels & weaves (no contacts)</p>
+                    <p><strong>This is a great opportunity for beginners to practice in a trial setting!</strong></p>
+                    <p class="event-info">There will be some free slots given to volunteers who help set up, break down & load the trailer.</p>
                 </div>
                 <div class="event">
-                    <h3 class="subsection-title">CPE</h3>
-                    <p class="subsection-details">Mar 4 - 6, 2022</p>
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Dec 1, 2023 @ 12:00p - 3:00p</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="../docs/CPE_Mar_2022.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Agility - CPE</h3>
+                    <p class="subsection-details">Dec 2 & 3 2023</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Jan 12, 2024 @ 12:00p - 3:00p</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Agility - CPE</h3>
+                    <p class="subsection-details">Jan 13 & 14 2024</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Fun Run</h3>
+                    <p class="subsection-details">Feb 2, 2024 @ 12:00p - 3:00p</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
+                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Agility - CPE</h3>
+                    <p class="subsection-details">Feb 3 & 4 2024</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                </div>
+                <div class="event">
+                    <h3 class="subsection-title">Agility - CPE</h3>
+                    <p class="subsection-details">Mar 1, 2 & 3 2024</p>
+                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
                 </div>
                 <hr>
                 <div class="calendars">
@@ -73,11 +115,11 @@
                 <div class="card">
                     <h2>Become a Member!</h2>
                     <div class="btn-wrapper">
-                        <a class="btn" href="../docs/2022_DDSC_Membership_Application.pdf" target="_blank" rel="noopener noreferrer nofollow">New Member</a>
+                        <a class="btn" href="../docs/DDSC_membership_app_2023.pdf" target="_blank" rel="noopener noreferrer nofollow">New Member</a>
                     </div>
                     <h3>Time to Renew?</h3>
                     <div class="btn-wrapper">
-                        <a class="btn" href="../docs/2022_DDSC_Membership_Renewal.pdf" target="_blank" rel="noopener noreferrer nofollow">Existing Member</a>
+                        <a class="btn" href="../docs/DDSC_membership_renewal_2023.pdf" target="_blank" rel="noopener noreferrer nofollow">Existing Member</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +132,7 @@
             </figure>
             <p>Desert Dawg Sports Club (DDS) is a not-for-profit organization in Tucson, AZ. It was formed by a group of individuals who believed in having a great time with their dogs.</p>
             <p>DDS members enjoy a mixture of activities with their pups: <a href="https://en.wikipedia.org/wiki/Dog_agility" target="_blank" rel="noopener noreferrer nofollow">agility</a>, <a href="https://en.wikipedia.org/wiki/Musical_canine_freestyle" target="_blank" rel="noopener noreferrer nofollow">canine freestyle</a>, <a href="https://en.wikipedia.org/wiki/Rally_obedience" target="_blank" rel="noopener noreferrer nofollow">rally obedience</a>, <a href="http://www.barnhunt.com/" target="_blank" rel="noopener noreferrer nofollow">barn hunt</a>, and more. Some participate in multiple activities, while others focus on a single one. We have a sense of humor and a supportive attitude toward our dog(s) and fellow competitors. Our primary purpose is helping people have fun with their dogs, and have fun ourselves in the process. We will consider any game if members are willing to support it with their time and share it with others.</p>
-            <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://ukagilityinternational.com/" target="_blank" rel="noopener noreferrer nofollow">UKI</a> and <a href="http://www.k9cpe.com/" target="_blank" rel="noopener noreferrer nofollow">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
+            <p>Agility has been around a long time and is our strongest interest - we currently offer shows in <a href="https://ukagilityinternational.com/" target="_blank" rel="noopener noreferrer nofollow">UKI</a> and <a href="https://cpe.dog/" target="_blank" rel="noopener noreferrer nofollow">CPE</a> (Canine Performance Events, Inc) both of which have well-deserved reputations for being excellent for first-time handlers or new canine athletes.</p>
             <p>Some members are involved in canine freestyle through the <a href="http://www.worldcaninefreestyle.org/" target="_blank" rel="noopener noreferrer nofollow">WCFO</a> (World Canine Freestyle Organization), which is global and has clubs in 17 countries.</p>
             <hr>
             <h1>DDS Board Members</h1>
@@ -99,7 +141,7 @@
                     <p class="member-name"><a href="mailto:jlmilhorse@aol.com" target="_blank">Jodie Miller</a></p>
                     <p>President</p>
                     <picture>
-                        <img src="../img/member/jodie/jodie.jpg" alt="Jodi's dog" width="293" height="220">
+                        <img src="../img/member/jodie/brisbane1.jpg" alt="Jodi's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
@@ -117,7 +159,7 @@
                     </picture>
                 </div>
                 <div class="card member">
-                    <p class="member-name"><a href="mailto:mbuilder@dakotacom.net" target="_blank">Melanie Builder</a></p>
+                    <p class="member-name"><a href="mailto:buildermelanie@gmail.com" target="_blank">Melanie Builder</a></p>
                     <p>Treasurer</p>
                     <picture>
                         <img src="../img/member/melanie/melanie1.jpg" alt="Melanie's dog" width="293" height="220">
@@ -134,7 +176,7 @@
                     <p class="member-name"><a href="mailto:genicefrances@yahoo.com" target="_blank">Genice Froehlich</a></p>
                     <p>CPE Coordinator</p>
                     <picture>
-                        <img src="../img/member/genice/genice.jpg" alt="Genice's dog" width="293" height="220">
+                        <img src="../img/member/genice/rangerGrownUp.jpg" alt="Genice's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">
@@ -162,7 +204,7 @@
                     <p class="member-name"><a href="mailto:noanie1@yahoo.com" target="_blank">Joan Peterson</a></p>
                     <p>Member-at-large</p>
                     <picture>
-                        <img src="../img/member/member.jpg" alt="pawprint image placeholder" width="293" height="220">
+                        <img src="../img/member/joan/foxie.jpg" alt="pawprint image placeholder" width="293" height="220">
                     </picture>
                 </div>
             </div>
@@ -170,7 +212,8 @@
         <section id="agility">
             <div class="section-container">
                 <h1>Agility</h1>
-                <p>Our two agility venues are <a href="https://ukagilityinternational.com/" target="_blank" rel="noopener noreferrer nofollow">UKI</a> and <a href="http://www.k9cpe.com/" target="_blank" rel="noopener noreferrer nofollow">CPE</a> (Canine Performance Events, Inc). Both venues stress the importance of having fun with your dog, and have designed their programs to do just that.</p>
+                <p style="margin-bottom: 1.5rem;font-style: italic;"><i class="fas fa-dog fa-lg"></i>&nbsp;Want to do agility with YOUR dog? Download information on some awesome local trainers <a href="../docs/DDS_agility_handout.pdf" target="_blank" rel="noopener noreferrer nofollow">here!</a></i></p>
+                <p>Our agility venue is <a href="https://cpe.dog/" target="_blank" rel="noopener noreferrer nofollow">CPE</a> (Canine Performance Events, Inc). CPE stresses the importance of having fun with your dog, and has designed its programs to do just that.</p>
                 <p>All trials are held outdoors at <a href="http://webcms.pima.gov/cms/one.aspx?portalId=169&pageId=1367" target="_blank" rel="noopener noreferrer nofollow">Brandi Fenton Memorial Park</a>. Our shows are one-ring and fully fenced.</p>
                 <hr>
                 <p>Some of the philosophies of Desert Dawg Sports, along with its absolutes and key differences regarding agility are:</p>
@@ -184,8 +227,7 @@
                 </ul>
                 <hr>
                 <div id="calendars" class="rule-and-cal-section">
-                    <p><a id="rsa-rules" href="https://ukagilityinternational.com/wp-content/uploads/2019/09/UKI-5th-Edition-Rules-March-1-2019-updated-2.28.pdf" target="_blank" rel="noopener noreferrer nofollow"><img src="../img/ukiLogo.jpeg" alt="UKI Logo" class="rule-logo" width="260" height="128">UKI Rulebook</a></p>
-                    <p><a id="cpe-rules" href="../docs/2016rb.pdf" target="_blank" rel="noopener noreferrer nofollow"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo" width="240" height="101">CPE Rulebook</a></p>
+                    <p><a id="cpe-rules" href="https://cpe.dog/wp-content/uploads/2023/08/2023GeneralAndAgilityRulebook.pdf" target="_blank" rel="noopener noreferrer nofollow"><img src="../img/cpeLogo.gif" alt="CPE Logo" class="rule-logo" width="240" height="101">CPE Rulebook</a></p>
                     <p><a class="dds-cal" href="https://calendar.google.com/calendar?cid=czloa2w1dGkydmVnczFjYW5nM2ZkbjU3cTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-calendar fa-lg"></i>Desert Dawg Sports Agility Calendar</a></p>
                     <p><a class="az-cal" href="http://azagilitycal.info/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-calendar fa-lg"></i>Arizona Agility Calendar</a></p>
                 </div>
@@ -216,7 +258,8 @@
             <div class="section-container">
                 <h1>Freestyle</h1>
                 <p>Our Canine Freestyle venue is the <a href="http://www.worldcaninefreestyle.org/" target="_blank" rel="noopener noreferrer nofollow">WCFO</a> (World Canine Freestyle Organization).</p>
-                <p>In November 2014 Desert Dawg Sports, along with other clubs, hosted the WCFO Nationals here in Tucson, AZ for the first time.</p>
+                <p>There will be a <strong>Rally Free and Musical Freestyle competition</strong> for the <em>first</em> time in Tucson at the <strong>Tucson City Center Hotel on October 29 & 30, 2022</strong>!. Everyone is welcome to come and learn both these sports on a weekly basis.</p>
+                <p> For more information, please contact <a href="mailto:cejlnich@mindspring.com" target="_blank">Jane Nichols</a>.</p>
                 <figure>
                     <img src="../img/freestyle.jpg" alt="Jane and her dog doing freestyle" width="1000" height="488">
                     <figcaption>
@@ -249,7 +292,7 @@
                             <picture>
                                 <img class="small" src="../img/member/kristen/kristen.jpg" alt="Kristen's dog" width="124" height="94">
                             </picture>
-                            <p>DDS member <strong>Kristen Wheeler</strong> is the owner, and you can visit her Etsy site by clicking on the link above, or by going to <a href="http://arizonamuttco.etsy.com" target="_blank" rel="noopener noreferrer nofollow">http://arizonamuttco.etsy.com</a></p>
+                            <p>DDS member <strong>Kristen Wheeler</strong> is the owner, and you can visit her Etsy site by clicking on the link above!</p>
                         </div>
                     </div>
                     <div class="card member">
@@ -263,7 +306,7 @@
                         <p class="friend-name"><a href="mailto:ffluffy444@gmail.com" target="_blank">Alicia Nicholas</a></p>
                         <div class="card-container">
                             <p class="addl-lines">CBATI, CPDT-KA</p>
-                            <p>Dog Training/Behavior/Boarding</p>
+                            <p>Dog Training / Behavior<br>Boarding</p>
                             <p class="no-caps"><a href="http://www.journeyagility.com" target="_blank" rel="noopener noreferrer nofollow">Journey Agility, LLC</a></p>
                         </div>
                         <picture>
