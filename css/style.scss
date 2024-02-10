@@ -573,8 +573,17 @@ section {
         }
 
         .premium-link {
-            color: $goldenrod; // goldenrod
+            color: $trueRed; 
             margin-top: 1rem;
+            text-transform: uppercase;
+        }
+
+        .button-link {
+            color: $red; 
+            margin-top: 1rem;
+            padding: 10px;
+            border: 1px solid $red;
+            width: max-content;
         }
 
         .signup-link {

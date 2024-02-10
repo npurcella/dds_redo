@@ -39,67 +39,10 @@
                     <p class="covid-text italic">Note: this may change, depending on the Pima County Health Department guidelines at the time of the trial</p>
                 </div>
                 <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Oct 27, 2023 @ 12:00p - 3:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Agility - CPE</h3>
-                    <p class="subsection-details">Oct 28 & 29 2023</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <a href="../docs/Oct_2023_Premium.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
-                </div>
-                <div class="event special">
-                    <h3 class="subsection-title">NEW! Stand-Alone Fun Run</h3>
-                    <p class="subsection-details">Sat, Nov 11, 2023 @ 8:00a - 12:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p>Run on the field with your pup - <span style="color: red;font-weight: bold;">5-minute time slots for $5!</span></p>
-                    <p>Jumps, tunnels & weaves (no contacts)</p>
-                    <p><strong>This is a great opportunity for beginners to practice in a trial setting!</strong></p>
-                    <p class="event-info">There will be some free slots given to volunteers who help set up, break down & load the trailer.</p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Dec 1, 2023 @ 12:00p - 3:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Agility - CPE</h3>
-                    <p class="subsection-details">Dec 2 & 3 2023</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Jan 12, 2024 @ 12:00p - 3:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Agility - CPE</h3>
-                    <p class="subsection-details">Jan 13 & 14 2024</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Fun Run</h3>
-                    <p class="subsection-details">Feb 2, 2024 @ 12:00p - 3:00p</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                    <p class="event-info">Help set up for the trial this weekend and let your pup run for just <strong>$5/run!</strong></p>
-                    <p class="event-info"><strong>DDS members get 2 FREE runs!</strong></p>
-                </div>
-                <div class="event">
-                    <h3 class="subsection-title">Agility - CPE</h3>
-                    <p class="subsection-details">Feb 3 & 4 2024</p>
-                    <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
-                </div>
-                <div class="event">
                     <h3 class="subsection-title">Agility - CPE</h3>
                     <p class="subsection-details">Mar 1, 2 & 3 2024</p>
                     <p class="event-location"><a href="http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <a href="../docs/March_2024_DDS_CPE_premium.pdf" class="premium-link" target="_blank">Download Premium Now!</a>
                 </div>
                 <hr>
                 <div class="calendars">
@@ -184,13 +127,6 @@
                     <p>Webmaster</p>
                     <picture>
                         <img src="../img/member/nancy/nancy.jpg" alt="Nancy's dog" width="293" height="220">
-                    </picture>
-                </div>
-                <div class="card member">
-                    <p class="member-name"><a href="mailto:peggy6632az@gmail.com" target="_blank">Peggy Owens</a></p>
-                    <p>UKI Secretary</p>
-                    <picture>
-                        <img src="../img/member/peggy/peggy2.jpg" alt="Peggy's dog" width="293" height="220">
                     </picture>
                 </div>
                 <div class="card member">

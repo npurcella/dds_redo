@@ -475,8 +475,16 @@ section p i {
   margin-top: 0.3rem;
 }
 #home .event .premium-link {
-  color: #e77a09;
+  color: red;
   margin-top: 1rem;
+  text-transform: uppercase;
+}
+#home .event .button-link {
+  color: #ff1c0a;
+  margin-top: 1rem;
+  padding: 10px;
+  border: 1px solid #ff1c0a;
+  width: max-content;
 }
 #home .event .signup-link {
   color: red;
