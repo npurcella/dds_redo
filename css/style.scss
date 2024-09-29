@@ -28,6 +28,10 @@ $slimeGreen: rgb(35, 199, 35);
     box-sizing: border-box;
 }
 
+html {
+    overflow: auto;
+}
+
 html,
 body {
     margin: 0;
@@ -40,14 +44,29 @@ body {
     flex-direction: column;
 }
 
+p {
+     font-size: 1.25rem;
+}
 .container {
     width: 100%;
     margin: 0 auto 0;
+    /* added for new logo below  */
+    //top: 10%;
+
+    /* position: absolute; */
+
+    height: 100%;
+    overflow: auto;
 }
 
 .header-container {
     margin: 0 auto;
     width: 95%;
+    /* added these below for new logo */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .section-container {
@@ -151,7 +170,8 @@ body {
         margin: .2rem;
 
         &:first-of-type {
-            margin-top: 1.25rem;
+            /* margin-top: 1.25rem; */
+            margin-top: 1.75rem;
         }
     }
 }
@@ -164,12 +184,20 @@ header {
             $mustard 0%,
             $ltOrange 50%,
             $red 100%);
-    padding: 1rem 0 1.5rem;
-    // box-shadow: inset 0 2px 12px .5px $accent;
-    position: fixed;
+    /* padding: 1rem 0 1.5rem; */
+    padding: .5rem 0 .75rem;
+    //box-shadow: inset 0 2px 12px .5px $lightAccent;
+
+
+position: fixed;
+
+
     top: 0;
     width: 100%;
     z-index: 10;
+    /* added these below for new logo */
+    display: flex;
+    align-items: center;
 }
 
 header::after {
@@ -177,6 +205,68 @@ header::after {
     display: block;
     clear: both;
 }
+
+
+
+button {
+	cursor: pointer;
+	position: relative;
+	padding: 1rem 1rem;
+	border-radius: 1rem;
+	border: 1px solid $red;
+	background-image: linear-gradient(-180deg, $red 0%, $yellow 100%);
+	box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem $orange inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+							0 0.25rem 0.5rem 0 $mustard inset;
+    a {
+        color: $lightTextColor !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+button span {
+    color: transparent;
+	background-image: linear-gradient(0deg, $red 0%, #FEFAFD 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	filter: drop-shadow(0 2px 2px hsla(290, 100%, 20%, 1));  
+}
+
+button::before {
+	content: "";
+	display: block;
+	height: 0.25rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc(100% - 7.5rem);
+	background: #fff;
+	border-radius: 100%;
+	
+	opacity: 0.7;
+	background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
+}
+
+button::after {
+	content: "";
+	display: block;
+	height: 0.25rem;
+	position: absolute;
+	bottom: 0.75rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc(100% - 7.5rem);
+	background: #fff;
+	border-radius: 100%;
+	
+	filter: blur(1px);
+	opacity: 0.05;
+	background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
+}
+
+
 
 .menu-toggle::after {
     content: "";
@@ -198,17 +288,23 @@ h1.logo {
 
 .site-nav {
     position: absolute;
-    top: 100%;
-    right: 0;
-    background: $white;
+     top: 100%;
+    right: -75%;
+    background-image: linear-gradient(to bottom,
+    $mustard 0%,
+    $ltOrange 50%,
+    $red 100%);
+
     overflow: hidden;
     transition: all 500ms ease-in-out;
-    height: 0;
-
+    height: auto;
     ul {
         margin: 0;
         padding: 0;
         list-style-type: none;
+        /* added these below for new logo */
+        font-size: 1.5rem;
+        transition: all .5s ease-out;
     }
 
     li {
@@ -225,7 +321,7 @@ h1.logo {
         display: block;
         padding: 1.5rem 4rem 1.5rem 4rem;
         text-transform: uppercase;
-        font-size: 1.5m;
+        font-size: 1.5rem;
     }
 
     a:hover,
@@ -239,12 +335,8 @@ h1.logo {
     }
 }
 
-.site-nav--open {
-    height: auto;
-}
-
-.site-nav--close {
-    height: 0;
+.site-nav.open {
+    transform: translateX(-120%);
 }
 
 .menu-toggle {
@@ -255,9 +347,9 @@ h1.logo {
     cursor: pointer;
 }
 
-.hamburger,
-.hamburger::before,
-.hamburger::after {
+#hamburger,
+#hamburger::before,
+#hamburger::after {
     content: "";
     display: block;
     background: $black;
@@ -267,39 +359,39 @@ h1.logo {
     transition: all ease-in-out 1s;
 }
 
-.hamburger::before {
+#hamburger::before {
     transform: translateY(-7px);
 }
 
-.hamburger::after {
+#hamburger::after {
     transform: translateY(4px);
 }
 
-.open .hamburger {
+.open #hamburger {
     transform: rotate(45deg);
 }
 
-.open .hamburger::before {
+.open #hamburger::before {
     opacity: 0;
 }
 
-.open .hamburger::after {
+.open #hamburger::after {
     transform: rotate(-90deg) translateY(-1.5px) translateX(1.5px);
 }
 
-.close .hamburger {
+.close #hamburger {
     transform: rotate(-45deg);
 }
 
-.close .hamburger::before {
+.close #hamburger::before {
     opacity: 1;
 }
 
-.close .hamburger::after {
+.close #hamburger::after {
     transform: rotate(90deg) translateY(1.5px) translateX(-1.5px);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 500px) {
     .menu-toggle {
         display: none;
     }
@@ -309,12 +401,18 @@ h1.logo {
         position: relative;
         background: transparent;
         float: right;
+        right: 0;
 
         li {
             display: inline-block;
             border: none;
         }
 
+        ul {
+            font-size: 1.25rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
         a {
             padding: 0.75rem 0 0;
             margin-left: 2rem;
@@ -325,6 +423,13 @@ h1.logo {
         a:focus {
             background: transparent;
         }
+    }
+}
+
+/* Header for mobile - needed after adding new logo  */
+@media (max-width: 499px) {
+    h1.logo img {
+        max-width: 350px;
     }
 }
 
@@ -398,7 +503,7 @@ section {
     .subsection-title {
         color: $dkOrange;
         margin-bottom: 0.3rem;
-        font-size: 1.17em;
+        font-size: 1.5em;
     }
 
     .subsection-details {
@@ -471,7 +576,8 @@ section {
 
 // HOME CONTENT
 #home {
-    padding-top: 3rem;
+    /* padding-top: 3rem; */ /* increased this amount to below for new logo addition */
+    padding-top: 13rem;
     background: linear-gradient(rgba(255, 255, 255, 0.85),
             rgba(255, 255, 255, 0.85)),
         url(../img/backgroundHome.jpg);
@@ -481,7 +587,7 @@ section {
     -o-background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-y: 1.5rem;
+    //background-position-y: 1.5rem;
     width: 100%;
 
     h1 {
@@ -527,9 +633,10 @@ section {
         padding: 1px 0 20px 0;
         margin: 1rem auto;
         max-width: 35rem;
+        white-space: normal;
 
         .event-location a {
-            color: $lightTextColor;
+            color: $ltOrange;
             text-decoration: none;
         }
 
@@ -629,6 +736,10 @@ section {
             margin-bottom: 1.2rem;
         }
     }
+    
+    .regular-rule {
+        margin: 0 auto .5rem;
+    }
 
     .special {
         border: 3px dotted $red;
@@ -670,7 +781,12 @@ section {
         background: rgba(255, 165, 10, 0.3);
         outline: 1px solid $dkOrange;
         outline-offset: -1rem;
-        max-width: 300px;
+        max-width: 375px; 
+        white-space: normal;
+
+        #member-card {
+            padding: 1rem 1.5rem 1rem 1.5rem;
+        }
 
         h2 {
             color: $dkOrange;
@@ -712,9 +828,11 @@ section {
     width: 90%;
     padding-bottom: 0;
     margin: 0 auto;
+    white-space: normal;
 
     p {
         line-height: 1.5;
+        font-size: 1.25rem;
     }
 
     figcaption {
@@ -781,9 +899,11 @@ section {
     background-attachment: fixed;
     margin: 0 auto;
     padding-bottom: 2rem;
+    white-space: normal;
 
     p {
         line-height: 1.5;
+        font-size: 1.25rem;
     }
 
     .differences {
@@ -802,6 +922,7 @@ section {
     .scrip-rules li {
         padding: 0 0 1rem 1.5rem;
         line-height: 1.5;
+        font-size: 1.25rem;
     }
 
     .differences li i,
@@ -923,6 +1044,8 @@ section {
     #second-link {
         color: $red;
     }
+
+    white-space: normal;
 }
 
 #more {
@@ -935,6 +1058,7 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0 auto;
+    white-space: normal;
 
     p {
         line-height: 1.5;
@@ -1002,6 +1126,7 @@ section {
 
 @media (min-width: 900px) {
     #home {
+        padding-top: 10rem;
         .other p {
             margin-bottom: 0;
         }
@@ -1105,38 +1230,40 @@ section {
 //FOOTER
 footer {
     background: $black;
-    font-size: 0.75rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: ". footer button";
-
-    p:first-child {
-        color: $white;
-        grid-area: footer;
-        justify-self: center;
-        align-self: center;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    .lastrow {
+        display: flex;
+        justify-content: space-between;
     }
-
-    p:last-child {
-        color: $black;
-        grid-area: button;
-        justify-self: right;
-        align-self: end;
-        font-weight: bold;
-        vertical-align: sub;
-        background-image: linear-gradient(to bottom,
-                #fa709a 0%,
-                #ef6009 50%,
-                #fee140 100%);
-        padding: 1rem 1rem 0.5rem;
-        margin-right: 0.5rem;
-        border-radius: 7px;
-        cursor: pointer;
+    .copyright {
+        display: flex;
+        align-self: center;
+        color: white; 
+        margin: 0 auto;
+        p {
+            font-size: 1rem; 
+        }
+    }
+    .gotop {
+        font-weight: bold; 
+        padding: .5rem; 
+        cursor: pointer; 
+        color: red; 
+        p {
+            font-size: .75rem;
+        }
     }
 }
 
-@media (min-width: 900px) {
-    footer p:last-child {
-        visibility: hidden;
+@media (min-width: 500px) {
+    footer {
+        .gotop { 
+            padding-right: .5rem; 
+            p {
+                font-size: 1rem;
+            }
+        }
     }
 }

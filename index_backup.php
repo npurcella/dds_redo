@@ -18,6 +18,26 @@
     <div class="container">
         <section id="home">
             <div class="section-container">
+                <div id="covid">
+                    <p class="covid-header">COVID GUIDELINES FOR DDS TRIALS</p>
+                    <p class="covid-text">1. There will be no lunch provided. Only pre-packaged snacks, water,
+                        and sodas will be available.</p>
+                    <p class="covid-text">2. Please set your canopies/crating areas at least 6-8 feet apart.</p>
+                    <p class="covid-text">3. Masks are not mandatory, but strongly advised if you’re within 6
+                        feet of other people.</p>
+                    <p class="covid-text">4. Please don’t congregate in the big ramada. Printed course maps and
+                        the result books will be on the table, but please don’t crowd around
+                        them. Ribbons will be self-service, but please sanitize your hands
+                        before touching any of the above listed items.</p>
+                    <p class="covid-text">5. Hand sanitizer will be available, but please bring your own if
+                        possible.</p>
+                    <p class="covid-text">6. Workers will be required to use hand sanitizer before touching any
+                        of the club’s equipment: leash grabber, timer, scribe pens, gate
+                        pens, jump poles, etc. Course builders must sanitize their hands
+                        before touching and/or moving equipment.</p>
+                    <hr class="covid-rule">
+                    <p class="covid-text italic">Note: this may change, depending on the Pima County Health Department guidelines at the time of the trial</p>
+                </div>
                 <h1>Upcoming Events</h1>
                 <p id="event-header-note">(scroll down for trial results)</p>
                 <!-- <div class="event">
@@ -56,6 +76,18 @@
                     <a href="../docs/Sunday_Courses.pdf" target="_blank" class="signup-link">Sunday Course Maps 🏁</a>
                     <a href="../docs/CPE_Judges_Briefing.docx" style="margin-top: 1rem; color: #5f5dc9;" target="_blank">Judges's Briefing - Please Read</a>
                 </div>
+                <!-- <div class="event" style="background-color: #000000;">
+                    <h3 class="subsection-title">Agility - CPE</h3>
+                    <p class="subsection-details" style="color: #ffffff;">Oct 26 & 27, 2024</p>
+                    <p class=" event-location" style="color: #ffffff;><a href=" http://webcms.pima.gov/cms/one.aspx?pageId=1367" target="_blank"><i class="fa fa-map-marker-alt fa-sm"></i>Brandi Fenton Memorial Park</a></p>
+                    <br>
+                    <div class="halloween">
+                        <p>Annual Halloween</p>
+                        <p>Costume Parade & Contest</p>
+                        <p>on Sunday!</p>
+                        <p style="font-size: 1rem; margin-bottom: 1rem;">🦴</p>
+                    </div>
+                </div> -->
                 <div class="event">
                     <h3 class="subsection-title">Fun Run @ Jodie’s</h3>
                     <p class="subsection-details">Mar 23, 2019 @ 8:00 (or earlier)</p>

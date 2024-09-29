@@ -4,7 +4,7 @@
 <header>
     <div class="header-container">
         <h1 class="logo">
-            <img src="img/tinyprints.png" srcset="img/tinyprints.png 2x" alt="pawprints" width="35" height="32">Desert Dawg Sports
+            <a href="https://desertdawgsports.org"><img src="img/newLogo.png" style="width: 500px; height: auto;" /></a>
         </h1>
         <nav id="main-header" class="site-nav">
             <ul>
@@ -18,7 +18,7 @@
             </ul>
         </nav>
         <div class="menu-toggle">
-            <div class="hamburger"></div>
+            <div id="hamburger"></div>
         </div>
     </div>
 </header>
